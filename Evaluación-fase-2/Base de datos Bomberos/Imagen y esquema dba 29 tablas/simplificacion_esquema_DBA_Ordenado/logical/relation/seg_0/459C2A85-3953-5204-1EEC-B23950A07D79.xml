@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_lectura_unidad_reemplaza_lectura_id" directorySegmentName="seg_0" id="459C2A85-3953-5204-1EEC-B23950A07D79">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>9993FA3B-E9B3-A5B7-9F07-305D75C2D59D</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<targetPk>3E712946-1C98-754B-BAB9-DA1300A2B5EE</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>29CE2461-1456-5290-6B93-5BDBB1B3B596</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>29CE2461-1456-5290-6B93-5BDBB1B3B596</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

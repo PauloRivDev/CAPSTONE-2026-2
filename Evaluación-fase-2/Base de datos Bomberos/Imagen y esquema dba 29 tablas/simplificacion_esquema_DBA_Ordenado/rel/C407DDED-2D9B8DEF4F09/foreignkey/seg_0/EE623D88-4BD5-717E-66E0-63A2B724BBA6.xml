@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE623D88-4BD5-717E-66E0-63A2B724BBA6" containerWithKeyObject="3B52D06D-83C1-F5D3-A4F9-92A2F9C0FAC7" localFKIndex="555001A0-F9E7-8338-B503-1D3C70EE4A7B" name="FK_alerta_control_regla_control_id">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<importedID>BB8009F6-1F4B-98F7-A28B-E0E19DFC4C59</importedID>
+<referredTableLongName>regla_control</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5BC01DA3-706A-B775-C541-B65E3D5AB044</referredTableID>
+<keyObject>1FC3F882-500F-1E5F-8E8A-E952B3955B8C</keyObject>
+<referredKeyID>1FC3F882-500F-1E5F-8E8A-E952B3955B8C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

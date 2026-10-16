@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_auditoria_evento_usuario_id" directorySegmentName="seg_0" id="4E2B719F-BECA-FB80-4725-09831644A097">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>EDE0E2EF-184A-D34D-AF05-1C238FB989A5</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>B5B61194-35A5-8F90-1A4E-FA6DC54453B0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>15812F42-144A-6944-2E5F-CB93A45692BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3BA9A550-B060-F42A-55D1-64CC63E671EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

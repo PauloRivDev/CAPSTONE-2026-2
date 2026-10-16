@@ -1,0 +1,143 @@
+<mxfile host="app.diagrams.net" type="google"><diagram name="BSB-33 Realizar registro diario de una unidad" id="cbsb-actividad-33">
+    <mxGraphModel dx="1380" dy="920" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1540" pageHeight="2072" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="BSB-33 Realizar registro diario de una unidad" style="text;html=0;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=Arial;fontStyle=0;fontSize=26;fontColor=#151515;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="74" y="37" width="1392" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="VISTA DE PROCESOS  CBSB    RF-015    RNF-008  RNF-009  RNF-013  RNF-014" style="text;html=0;align=left;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=15;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="74" y="84" width="1392" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_actor" value="Usuario operativo de compañia" style="text;html=0;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=18;fontColor=#171717;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="79" y="138" width="396" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_system" value="Sistema CBSB" style="text;html=0;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=18;fontColor=#171717;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="485" y="138" width="570" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="header_data" value="Base de datos / registros" style="text;html=0;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=Arial;fontSize=18;fontColor=#171717;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1065" y="138" width="396" height="37" as="geometry"/>
+        </mxCell>
+        <mxCell id="divider_0" value="" style="shape=line;direction=south;strokeColor=#555555;strokeWidth=1.4;dashed=1;dashPattern=1 6;" vertex="1" parent="1">
+          <mxGeometry x="479" y="133" width="2" height="1892.0" as="geometry"/>
+        </mxCell>
+        <mxCell id="divider_1" value="" style="shape=line;direction=south;strokeColor=#555555;strokeWidth=1.4;dashed=1;dashPattern=1 6;" vertex="1" parent="1">
+          <mxGeometry x="1059" y="133" width="2" height="1892.0" as="geometry"/>
+        </mxCell>
+        <mxCell id="start" value="" style="ellipse;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="263.0" y="222.0" width="28" height="28" as="geometry"/>
+        </mxCell>
+        <mxCell id="task_1" value="Seleccionar unidad de la compañia" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="324" width="315" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="task_2" value="Mostrar la compañia y la ficha de revision diaria" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" vertex="1" parent="1">
+          <mxGeometry x="600.0" y="449" width="340" height="84" as="geometry"/>
+        </mxCell>
+        <mxCell id="task_3" value="Registrar responsable, fecha, hora y kilometraje" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="583" width="315" height="84" as="geometry"/>
+        </mxCell>
+        <mxCell id="task_4" value="Indicar horas de componentes, estado, fallas y observaciones" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="717" width="315" height="84" as="geometry"/>
+        </mxCell>
+        <mxCell id="task_5" value="Validar datos y coherencia de lecturas, cuando aplique" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" vertex="1" parent="1">
+          <mxGeometry x="600.0" y="851" width="340" height="84" as="geometry"/>
+        </mxCell>
+        <mxCell id="task_6" value="¿Datos consistentes?" style="rhombus;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.7;fillColor=#FFFFFF;fontFamily=Arial;fontSize=16;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="660.0" y="985" width="220" height="142" as="geometry"/>
+        </mxCell>
+        <mxCell id="error_6" value="Solicitar corregir el registro diario; no confirmar registro" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="1115" width="315" height="84" as="geometry"/>
+        </mxCell>
+        <mxCell id="task_7" value="Guardar revision diaria vinculada a la unidad" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" vertex="1" parent="1">
+          <mxGeometry x="1105.5" y="1295" width="315" height="84" as="geometry"/>
+        </mxCell>
+        <mxCell id="task_8" value="Conservar lecturas, observaciones y responsable" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" vertex="1" parent="1">
+          <mxGeometry x="1105.5" y="1429" width="315" height="84" as="geometry"/>
+        </mxCell>
+        <mxCell id="task_9" value="Dejar revision disponible para consulta de Comandancia" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" vertex="1" parent="1">
+          <mxGeometry x="600.0" y="1563" width="340" height="84" as="geometry"/>
+        </mxCell>
+        <mxCell id="task_10" value="Visualizar confirmacion de registro diario" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" vertex="1" parent="1">
+          <mxGeometry x="119.5" y="1697" width="315" height="84" as="geometry"/>
+        </mxCell>
+        <mxCell id="end" value="" style="ellipse;html=0;strokeColor=#202020;strokeWidth=3.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="258.0" y="1958.0" width="38" height="38" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_1" parent="1" source="start" target="task_1" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_2" parent="1" source="task_1" target="task_2" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277.0" y="425.5"/>
+              <mxPoint x="770.0" y="425.5"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_3" parent="1" source="task_2" target="task_3" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770.0" y="559.5"/>
+              <mxPoint x="277.0" y="559.5"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4" parent="1" source="task_3" target="task_4" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_5" parent="1" source="task_4" target="task_5" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277.0" y="827.5"/>
+              <mxPoint x="770.0" y="827.5"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_6" parent="1" source="task_5" target="task_6" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_7" parent="1" source="task_6" target="error_6" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="524" y="1056.0"/>
+              <mxPoint x="524" y="1157.0"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_9" parent="1" source="task_6" target="task_7" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770.0" y="1216.0"/>
+              <mxPoint x="1263.0" y="1216.0"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_10" parent="1" source="task_7" target="task_8" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="edge_11" parent="1" source="task_8" target="task_9" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1263.0" y="1539.5"/>
+              <mxPoint x="770.0" y="1539.5"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_12" parent="1" source="task_9" target="task_10" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#1C1C1C;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770.0" y="1673.5"/>
+              <mxPoint x="277.0" y="1673.5"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_si_task_6" value="Si" style="text;html=0;strokeColor=none;fillColor=#FFFFFF;fontFamily=Arial;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="788.0" y="1139" width="52" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="label_no_task_6" value="No" style="text;html=0;strokeColor=none;fillColor=#FFFFFF;fontFamily=Arial;fontSize=15;align=center;" vertex="1" parent="1">
+          <mxGeometry x="575.0" y="1022.0" width="62" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="label_inicio" value="Inicio" style="text;html=0;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=Arial;fontStyle=0;fontSize=17;fontColor=#202020;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="302.0" y="220.0" width="90" height="32" as="geometry"/></mxCell><mxCell id="merge_final" value="" style="rhombus;html=0;strokeColor=#202020;strokeWidth=1.7;fillColor=#FFFFFF;fontStyle=0;" vertex="1" parent="1"><mxGeometry x="259.0" y="1873.0" width="36" height="36" as="geometry"/></mxCell><mxCell id="success_to_merge" parent="1" source="task_10" target="merge_final" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#202020;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="alternative_to_merge" parent="1" source="error_6" target="merge_final" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#202020;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=1;entryPerimeter=1;"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="70" y="1157.0"/><mxPoint x="70" y="1891.0"/></Array></mxGeometry></mxCell><mxCell id="label_fin" value="Fin" style="text;html=0;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;fontFamily=Arial;fontStyle=0;fontSize=17;fontColor=#202020;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="306.0" y="1961.0" width="70" height="32" as="geometry"/></mxCell><mxCell id="merge_to_final" parent="1" source="merge_final" target="end" edge="1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#202020;strokeWidth=1.65;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;exitPerimeter=1;entryPerimeter=1;"><mxGeometry relative="1" as="geometry"/></mxCell></root>
+    </mxGraphModel>
+  </diagram>
+  </mxfile>

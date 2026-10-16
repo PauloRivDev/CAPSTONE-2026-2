@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E288D8F-33B6-3DEA-B343-1128C0D4CB23" containerWithKeyObject="DF2C9DF5-273C-13C6-4365-9CC46B860DF8" localFKIndex="88A47FB7-ACB4-610F-D148-5531FDEDAB84" name="FK_falla_unidad_checkin_id">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<importedID>A4B34A78-EA12-5554-BB83-FECB23CA54FD</importedID>
+<referredTableLongName>checkin</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CA40193-DA28-EBD2-09C5-28F4BFB8C2A1</referredTableID>
+<keyObject>3CD381A0-F555-9450-35C5-5C25082ECB67</keyObject>
+<referredKeyID>3CD381A0-F555-9450-35C5-5C25082ECB67</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

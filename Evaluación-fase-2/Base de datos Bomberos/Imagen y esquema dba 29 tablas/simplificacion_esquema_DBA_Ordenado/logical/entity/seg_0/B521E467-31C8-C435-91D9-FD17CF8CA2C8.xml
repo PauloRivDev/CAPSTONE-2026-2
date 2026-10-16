@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B521E467-31C8-C435-91D9-FD17CF8CA2C8" name="atributo opcion">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>8F9E6DFE-0D81-B5B9-8CAB-E9BDF47BC917</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="EF5DAF08-61BE-C3F0-AB15-C2818FFF54DF">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>62D5597D-886C-3DA7-56E1-1706C5A07799</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atributo id" id="08706D55-84F1-D784-9173-0A31DBC85028">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>7A5A597C-D9E9-222F-F0F6-F30CE225E7B9</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<referedAttribute>81A10B12-1219-9393-7DAB-E7808CBC9F5A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="3B8BC9E9-BC3F-5225-3FB2-B76018ECCEC6">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>8EB233C4-DC1C-A2DF-A84A-2E0C634E57B9</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>951768AA-BD90-BB1F-7BB7-36E86B6E4010</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor normalizado" id="0622A942-108A-29B4-3196-B0B36983EE3C">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>41376FAC-570E-8D9E-D3CB-D2886C1796BF</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>951768AA-BD90-BB1F-7BB7-36E86B6E4010</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activo" id="20839453-577F-2136-30A3-75EA40EC2D16">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>2F8AAE22-802D-8E12-18FB-9430DC35D2DF</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B3048878-A987-503C-2BBC-6038190D32D0</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C92F4435-3633-0E6E-7FB6-09979FA6209C" name="PK atributo opcion id">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>CD849FD7-D385-AA82-30FF-8D616ADD1D6C</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF5DAF08-61BE-C3F0-AB15-C2818FFF54DF</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D1B38A8E-6121-A3A9-FDA3-6A017026A284" name="UQ atributo opcion atributo id valor normalizado">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>1AFA95DB-D159-3C28-7C39-CCD6CB6D5202</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>08706D55-84F1-D784-9173-0A31DBC85028</attributeRef>
+<attributeRef>0622A942-108A-29B4-3196-B0B36983EE3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

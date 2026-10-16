@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_stock_posicion_compania_propietaria_id" directorySegmentName="seg_0" id="E7C52693-15FE-D808-DEED-EA70F6DF7408">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>5E3F6FD5-2908-2670-FE06-A6FB136EBEAD</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>58ACEAF2-73B9-95E9-7775-BE1F33257ADF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6FA4FE9B-EA8F-963B-F256-9CD87E627030</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A895D8B-3E24-9C66-8FDE-90759D7B76F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

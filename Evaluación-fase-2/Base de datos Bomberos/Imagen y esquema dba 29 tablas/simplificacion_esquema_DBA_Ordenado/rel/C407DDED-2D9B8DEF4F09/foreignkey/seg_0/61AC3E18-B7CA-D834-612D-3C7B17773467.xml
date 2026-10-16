@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="61AC3E18-B7CA-D834-612D-3C7B17773467" containerWithKeyObject="B9BC8982-9727-6C6C-7064-F9616DBF8583" localFKIndex="65C0F8E4-F6D8-0721-1557-E05516414A2C" name="FK_articulo_categoria_id">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<importedID>9DF72E36-5D01-351C-4ED1-B4D6A58BAE66</importedID>
+<referredTableLongName>catalogo_valor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4CC8EDEF-6442-EF47-2AC1-3ECD0174FBD8</referredTableID>
+<keyObject>3CE96FBB-9364-5493-B24F-D4E95ED61BE7</keyObject>
+<referredKeyID>3CE96FBB-9364-5493-B24F-D4E95ED61BE7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

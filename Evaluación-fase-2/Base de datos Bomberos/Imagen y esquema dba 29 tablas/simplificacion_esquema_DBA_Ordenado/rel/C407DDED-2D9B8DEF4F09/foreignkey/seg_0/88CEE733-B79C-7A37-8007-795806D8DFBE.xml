@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88CEE733-B79C-7A37-8007-795806D8DFBE" containerWithKeyObject="91641474-D580-287E-2C46-FD344EE11856" localFKIndex="950473FD-11F0-DB07-1798-27AFE1FA6F74" name="FK_equipo_seriado_bombero_actual_id">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<importedID>2F32C00A-7B74-DE53-A560-925D93DCE46E</importedID>
+<referredTableLongName>bombero</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DAB44B5B-D919-0130-102C-07CAC0126058</referredTableID>
+<keyObject>70CCE14E-6CE4-A652-8C9C-824A710D9B67</keyObject>
+<referredKeyID>70CCE14E-6CE4-A652-8C9C-824A710D9B67</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

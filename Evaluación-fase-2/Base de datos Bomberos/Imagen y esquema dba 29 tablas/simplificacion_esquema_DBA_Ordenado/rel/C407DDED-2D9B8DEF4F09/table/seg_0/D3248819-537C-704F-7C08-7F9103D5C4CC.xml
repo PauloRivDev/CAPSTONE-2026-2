@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3248819-537C-704F-7C08-7F9103D5C4CC" name="plan_control">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>44D21CE4-DE70-D7A7-5187-FDAE803DB2F7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="80A7B270-01C5-222E-E702-8C8557CB5A23">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>17027161-F713-C17E-4290-22D63C13FDD0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidad_id" id="510867FE-26AB-EBEF-5FC6-CE5AFF594682">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>BEAC2407-896C-D768-BFD8-5F82F0DCFCF2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DAB6F3D-95CF-EB3D-2E3E-19F4805B4084" referredColumn="3359DD6B-626F-273F-CB14-FC7CB4471268"/>
+</associations>
+</Column>
+<Column name="componente_id" id="CB00C5FC-D283-128B-FAC8-ECB829FEEC43">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>32A81B69-6AED-A094-517A-C7E90441A083</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65D42777-A896-0EDA-387A-0E54C034BCCC" referredColumn="289EA1D7-0EC8-A7C4-6FC7-CEA2D26BF4CD"/>
+</associations>
+</Column>
+<Column name="clase" id="51C4E566-0A4C-8030-D31B-69AACDE7EFF1">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>3EE6E092-0D0C-016F-292D-56DACEE2C71C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8903E615-9A9A-F417-3363-33B474E108B3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A26EAE9A-355B-E8A2-9C12-DD858C1EBB39">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>FB7A8A8A-DDE5-C714-95B4-5A852137D631</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A7006116-2D4B-D37A-39CA-69F430480500</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="5C5C205E-4BAB-E030-735D-B53318C0E216">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>BE3CF818-C8CA-F405-D17C-7CE295B0DE55</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>57EC8072-19E4-4520-0CE1-950A7A9ABF5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="9D761790-BC6A-7C9E-C7B6-C2582E5DB607">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>C20B14B8-F8D0-8A55-38B3-89C93E98547B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B3048878-A987-503C-2BBC-6038190D32D0</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DA1A226-A518-3184-1B46-B84D5CAF3222" name="PK_plan_control_id">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>708BBA55-D441-17A2-0FDA-17772600C249</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80A7B270-01C5-222E-E702-8C8557CB5A23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FB572ED-D6D6-73AD-B0CA-F24C9AAB4B54" name="FK_plan_control_componente_id">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB00C5FC-D283-128B-FAC8-ECB829FEEC43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FC7EE45-417A-5D5D-C52D-8135BE228D4B" name="FK_plan_control_unidad_id">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="510867FE-26AB-EBEF-5FC6-CE5AFF594682"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_plan_control_1" directorySegmentName="seg_0" id="E7E5C1C6-12DF-E97A-A953-8A191335C656">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>31B5ECE5-3FE6-1573-CC6C-8D6873DC88C3</importedID>
+<rule><![CDATA["clase" IN ('PREVENTIVO','REVISION_TECNICA','OTRO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_plan_control_2" directorySegmentName="seg_0" id="0886943E-191E-2791-8113-4C98D22EB57E">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>280A9333-18C2-65A7-3C7F-FFFE0EF75345</importedID>
+<rule><![CDATA["activo" IN (0,1)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

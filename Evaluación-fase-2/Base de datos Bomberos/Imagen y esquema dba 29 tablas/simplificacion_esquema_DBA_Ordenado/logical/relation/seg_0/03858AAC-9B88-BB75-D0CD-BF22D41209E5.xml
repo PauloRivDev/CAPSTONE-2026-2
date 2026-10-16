@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_equipo_seriado_variante_id" directorySegmentName="seg_0" id="03858AAC-9B88-BB75-D0CD-BF22D41209E5">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>AF198424-356C-FEF3-57E3-605C1CB9C62A</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>247D8417-7647-54E0-616A-564662F914DA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7C8CF18-3108-803D-BA12-1D75E8EE380E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6909BAA6-6DFB-BE08-830C-E38708A5DB81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

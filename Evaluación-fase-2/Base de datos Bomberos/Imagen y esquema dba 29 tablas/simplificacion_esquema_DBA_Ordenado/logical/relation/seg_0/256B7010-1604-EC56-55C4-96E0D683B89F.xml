@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_estado_unidad_hist_unidad_id" directorySegmentName="seg_0" id="256B7010-1604-EC56-55C4-96E0D683B89F">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>AA9B045D-B21D-93B6-BE1D-F60A00802022</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>045D8CE9-6CAB-66D3-C6DC-22A91260EF32</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1CCA76C4-608B-06B5-B4CF-A8141A61ECE4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>090A7DD7-C14D-2728-0F8B-3FAA463E65AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

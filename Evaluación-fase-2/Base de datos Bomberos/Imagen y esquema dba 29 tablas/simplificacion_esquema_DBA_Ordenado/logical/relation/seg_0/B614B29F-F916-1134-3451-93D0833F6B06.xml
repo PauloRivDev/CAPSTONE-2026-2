@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_movimiento_detalle_asignacion_id" directorySegmentName="seg_0" id="B614B29F-F916-1134-3451-93D0833F6B06">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>64064F1C-AC8D-1498-0DBD-2BD5BFF90D3E</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>63F1DA23-4966-A7D2-C539-BF244D92A917</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FCA90D20-10D5-D685-04F7-4F02E45322EB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D01F3989-1665-9F05-13F7-525E052EFFE7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

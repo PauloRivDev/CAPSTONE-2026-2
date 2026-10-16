@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="A75FD5EB-E332-4EBA-9803-EF440E05EAA8" name="Relational_1" visible="true"/>
+   <object objectType="sub_view" objectID="311F4AB6-1230-EFF8-CBEA-B65E4A9A9659" name="01 Acceso y organización" visible="false"/>
+   <object objectType="sub_view" objectID="BB17A369-E64C-72CA-6656-C9C09558EB37" name="02 Catálogo y atributos" visible="false"/>
+   <object objectType="sub_view" objectID="AA25F4AF-33F1-FEA5-AAB2-E60859B538BA" name="03 Ubicaciones" visible="false"/>
+   <object objectType="sub_view" objectID="5C1529E7-0179-161C-F177-D9B56A0CE03C" name="04 Existencias y equipo" visible="false"/>
+   <object objectType="sub_view" objectID="F31F4E57-0EB4-4A31-A111-2D3F563AEF21" name="05 Entregas de equipamiento" visible="false"/>
+   <object objectType="sub_view" objectID="89DA8969-3511-0A0E-ED0A-9854D19AED8C" name="06 Préstamos" visible="false"/>
+   <object objectType="sub_view" objectID="F09A1B9B-CFA6-1F12-9535-BA4A4E57465B" name="07 Movimientos de inventario" visible="false"/>
+   <object objectType="sub_view" objectID="FA6BA046-2FDC-775C-F227-86D08B8CFFDD" name="08 Trazabilidad de movimientos" visible="false"/>
+   <object objectType="sub_view" objectID="F7AC4A0C-A5D1-CF0B-29C0-A8659B692F73" name="09 Unidades y check in" visible="false"/>
+   <object objectType="sub_view" objectID="A7573967-997E-8139-EC53-BAF53EE599F1" name="10 Estado y fallas" visible="false"/>
+   <object objectType="sub_view" objectID="E6F76874-2F9A-850D-C63D-20F89C87B406" name="11 Mantenimiento" visible="false"/>
+   <object objectType="sub_view" objectID="8B44D9C4-2B33-BAAA-4072-5FEBA71355FB" name="12 Planes y alertas" visible="false"/>
+   <object objectType="sub_view" objectID="31DC9178-5AB6-3475-70E3-88159EC0840D" name="13 Auditoría" visible="false"/>
+   <object objectType="sub_view" objectID="3DB9197B-1F57-4B3A-B111-433851DE2B6B" name="Vista 1 - Simplificado - Acceso e inventario" visible="true"/>
+   <object objectType="sub_view" objectID="D416275E-83F5-4F82-A0C6-1370DF82FEB1" name="Vista 2 - Simplificado - Unidades y mantenimiento" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

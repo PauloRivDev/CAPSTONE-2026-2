@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_asignacion_equipo_estado_salida_id" directorySegmentName="seg_0" id="4345DC0E-A75D-FBDB-C3A4-8E87970856A1">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>9CEFECA7-2428-A085-8D75-34B4D64C37E3</generatorID>
+<ownerDesignName>simplificacion_esquema_DBA_Ordenado</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>5C4E2EBD-3F43-6D48-F5E3-2C0928A310D4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>50C93DB5-04B8-9020-D892-266CFC966AC7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FCA90D20-10D5-D685-04F7-4F02E45322EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

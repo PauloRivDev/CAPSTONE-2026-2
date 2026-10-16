@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="BSB-7 Iniciar sesion en el sistema" id="iGeRbrqmgN1dV8XNscsb">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_ryuOrI8-W4WWFLq6ZlZ-1" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=default;fontSize=30;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="DIAGRAMA DE COMUNICACION 01&#xa;BSB-7  Iniciar sesion en el sistema" vertex="1">
+          <mxGeometry height="95" width="2250" x="300" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_ryuOrI8-W4WWFLq6ZlZ-2" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=default;fontSize=22;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="Caso de uso: BSB-7       Referencias: RF-002     RNF-011, RNF-012" vertex="1">
+          <mxGeometry height="45" width="2250" x="300" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="_ryuOrI8-W4WWFLq6ZlZ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=default;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(actor)&#xa;Usuario de compañia&#xa;o Comandancia" vertex="1">
+          <mxGeometry height="120" width="340" x="300" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="_ryuOrI8-W4WWFLq6ZlZ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=default;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(interfaz)&#xa;Pantalla de acceso" vertex="1">
+          <mxGeometry height="120" width="340" x="900" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="_ryuOrI8-W4WWFLq6ZlZ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=default;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(control)&#xa;Validacion de acceso" vertex="1">
+          <mxGeometry height="120" width="340" x="1500" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="_ryuOrI8-W4WWFLq6ZlZ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=default;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;usuario" vertex="1">
+          <mxGeometry height="120" width="340" x="2150" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="_ryuOrI8-W4WWFLq6ZlZ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=default;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;rol" vertex="1">
+          <mxGeometry height="120" width="340" x="2250" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="_ryuOrI8-W4WWFLq6ZlZ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=default;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;compania" vertex="1">
+          <mxGeometry height="120" width="340" x="2150" y="1115" as="geometry" />
+        </mxCell>
+        <object label="1: Ingresa credenciales" descripcion="La persona introduce usuario y contraseña" numero_mensaje="1" id="_ryuOrI8-W4WWFLq6ZlZ-9">
+          <mxCell edge="1" parent="1" source="_ryuOrI8-W4WWFLq6ZlZ-3" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=default;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=1;exitY=0.28;entryX=0;entryY=0.28;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="_ryuOrI8-W4WWFLq6ZlZ-4">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-44" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="2: Solicita acceso" descripcion="La pantalla solicita autenticar las credenciales" numero_mensaje="2" id="_ryuOrI8-W4WWFLq6ZlZ-10">
+          <mxCell edge="1" parent="1" source="_ryuOrI8-W4WWFLq6ZlZ-4" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=default;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=1;exitY=0.28;entryX=0;entryY=0.28;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="_ryuOrI8-W4WWFLq6ZlZ-5">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-44" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="3: Verifica cuenta y clave" descripcion="Se verifica la cuenta activa y las credenciales protegidas" numero_mensaje="3" id="_ryuOrI8-W4WWFLq6ZlZ-11">
+          <mxCell edge="1" parent="1" source="_ryuOrI8-W4WWFLq6ZlZ-5" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=default;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.882;exitY=0.0;entryX=0.118;entryY=1.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="_ryuOrI8-W4WWFLq6ZlZ-6">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-28" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="4: Consulta rol" descripcion="Se obtiene el rol asociado a la cuenta" numero_mensaje="4" id="_ryuOrI8-W4WWFLq6ZlZ-12">
+          <mxCell edge="1" parent="1" source="_ryuOrI8-W4WWFLq6ZlZ-5" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=default;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=1.0;exitY=0.5;entryX=0.0;entryY=0.5;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="_ryuOrI8-W4WWFLq6ZlZ-7">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-28" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="5: Resuelve compañia" descripcion="Se determina el ambito de informacion por compañia o Comandancia" numero_mensaje="5" id="_ryuOrI8-W4WWFLq6ZlZ-13">
+          <mxCell edge="1" parent="1" source="_ryuOrI8-W4WWFLq6ZlZ-5" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=default;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.882;exitY=1.0;entryX=0.118;entryY=0.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="_ryuOrI8-W4WWFLq6ZlZ-8">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-28" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="6: Acceso o error" descripcion="Se devuelve autorizacion o motivo de rechazo" numero_mensaje="6" id="_ryuOrI8-W4WWFLq6ZlZ-14">
+          <mxCell edge="1" parent="1" source="_ryuOrI8-W4WWFLq6ZlZ-5" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=default;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0;exitY=0.8;entryX=1;entryY=0.8;dashed=1;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="_ryuOrI8-W4WWFLq6ZlZ-4">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="44" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="7: Presenta resultado" descripcion="La pantalla muestra solamente las funciones autorizadas o el error" numero_mensaje="7" id="_ryuOrI8-W4WWFLq6ZlZ-15">
+          <mxCell edge="1" parent="1" source="_ryuOrI8-W4WWFLq6ZlZ-4" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=default;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0;exitY=0.8;entryX=1;entryY=0.8;dashed=1;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="_ryuOrI8-W4WWFLq6ZlZ-3">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="44" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

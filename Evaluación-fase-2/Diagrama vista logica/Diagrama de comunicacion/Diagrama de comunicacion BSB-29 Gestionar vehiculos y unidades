@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" compressed="false">
+  <diagram id="cbsb-comunicacion-06-bsb-29" name="BSB-29 Gestionar vehiculos y unidades">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1900" pageHeight="1730" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style="fontStyle=0;html=0;" />
+        <mxCell id="1" parent="0" style="fontStyle=0;html=0;" />
+        <mxCell id="DC06_title" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=30;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="DIAGRAMA DE COMUNICACION 06&#xa;BSB-29  Gestionar vehiculos y unidades" vertex="1">
+          <mxGeometry height="95" width="1700" x="100" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="DC06_sub" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=22;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="Caso de uso: BSB-29       Referencias: RF-013" vertex="1">
+          <mxGeometry height="45" width="1700" x="100" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DC06_A" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(actor)&#xa;Encargado de unidades" vertex="1">
+          <mxGeometry height="120" width="340" x="780" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="DC06_B" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(interfaz)&#xa;Ficha de vehiculo" vertex="1">
+          <mxGeometry height="120" width="340" x="780" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="DC06_C" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(control)&#xa;Gestion de unidades" vertex="1">
+          <mxGeometry height="120" width="340" x="780" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="DC06_d1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;compania" vertex="1">
+          <mxGeometry height="120" width="340" x="120" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="DC06_d2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;catalogo_valor" vertex="1">
+          <mxGeometry height="120" width="340" x="1450" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="DC06_d3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;unidad" vertex="1">
+          <mxGeometry height="120" width="340" x="1150" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="DC06_d4" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;estado_unidad_hist" vertex="1">
+          <mxGeometry height="120" width="340" x="470" y="1490" as="geometry" />
+        </mxCell>
+        <object label="1: Completa ficha de unidad" descripcion="Se indican codigo, tipo, estado, marca, modelo, año y otros datos que correspondan" numero_mensaje="1" id="DC06_msg_1">
+          <mxCell edge="1" parent="1" source="DC06_A" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.24;exitY=1;entryX=0.24;entryY=0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=250;" target="DC06_B">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-155" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="2: Solicita guardar" descripcion="Se envian la ficha y la compañia responsable" numero_mensaje="2" id="DC06_msg_2">
+          <mxCell edge="1" parent="1" source="DC06_B" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.24;exitY=1;entryX=0.24;entryY=0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=250;" target="DC06_C">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="-155" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="3: Valida compañia" descripcion="Se comprueba la compañia responsable de la unidad" numero_mensaje="3" id="DC06_msg_3">
+          <mxCell edge="1" parent="1" source="DC06_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.098;exitY=1.0;entryX=0.902;entryY=0.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC06_d1">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-28" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="4: Consulta tipo y estado" descripcion="Se consultan clasificaciones configuradas para la unidad" numero_mensaje="4" id="DC06_msg_4">
+          <mxCell edge="1" parent="1" source="DC06_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.908;exitY=1.0;entryX=0.092;entryY=0.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC06_d2">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-28" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="5: Guarda unidad" descripcion="Se registra o actualiza unidad sin duplicar su identificacion" numero_mensaje="5" id="DC06_msg_5">
+          <mxCell edge="1" parent="1" source="DC06_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.623;exitY=1.0;entryX=0.377;entryY=0.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC06_d3">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-28" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="6: Conserva cambio de estado" descripcion="Si cambia el estado, se conserva la transicion en historial" numero_mensaje="6" id="DC06_msg_6">
+          <mxCell edge="1" parent="1" source="DC06_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.397;exitY=1.0;entryX=0.603;entryY=0.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC06_d4">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint y="-28" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="7: Entrega resultado" descripcion="Se indica si la ficha fue registrada o rechazada" numero_mensaje="7" id="DC06_msg_7">
+          <mxCell edge="1" parent="1" source="DC06_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.76;exitY=0;entryX=0.76;entryY=1;dashed=1;fontStyle=0;whiteSpace=wrap;labelWidth=250;" target="DC06_B">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="155" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="8: Muestra ficha" descripcion="Se presenta la unidad y su estado actual" numero_mensaje="8" id="DC06_msg_8">
+          <mxCell edge="1" parent="1" source="DC06_B" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.76;exitY=0;entryX=0.76;entryY=1;dashed=1;fontStyle=0;whiteSpace=wrap;labelWidth=250;" target="DC06_A">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="155" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

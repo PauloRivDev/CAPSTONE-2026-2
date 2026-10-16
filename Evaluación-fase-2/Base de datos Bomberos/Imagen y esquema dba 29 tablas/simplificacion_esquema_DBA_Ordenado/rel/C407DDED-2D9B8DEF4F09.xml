@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" mainViewID="A75FD5EB-E332-4EBA-9803-EF440E05EAA8">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 01:56:29 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>CBSB_V2_DataModeler_import_Oracle.sql</fileName>
+<pathName>C:\Users\mauri\Downloads</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>
