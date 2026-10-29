@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="main_view" objectID="3B8CE72D-2873-9595-36F4-803C376C52B5" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="7D18BC5F-2574-EB45-9C16-9FA25C71DA9C" name="01 Acceso y organización" visible="false"/>
+   <object objectType="sub_view" objectID="22F3D4A3-7DD3-84B3-66BF-31E1E8F097BF" name="02 Catálogo y atributos" visible="false"/>
+   <object objectType="sub_view" objectID="5E73041E-A3B7-7E06-7ADD-366EB3154FE4" name="03 Ubicaciones" visible="false"/>
+   <object objectType="sub_view" objectID="4D7BDD72-3708-50A8-C636-3211D0C89109" name="04 Existencias y equipo" visible="false"/>
+   <object objectType="sub_view" objectID="CB4A85EF-F770-4FD8-9747-A25585B5A156" name="05 Entregas de equipamiento" visible="false"/>
+   <object objectType="sub_view" objectID="45E73A15-3657-C71F-CC9F-373EE7D206AA" name="06 Préstamos" visible="false"/>
+   <object objectType="sub_view" objectID="91071AA7-E074-DEE2-CB94-F4BCA8AAA960" name="07 Movimientos de inventario" visible="false"/>
+   <object objectType="sub_view" objectID="FD3B3508-5643-1154-6AC5-699033B4BF17" name="08 Trazabilidad de movimientos" visible="false"/>
+   <object objectType="sub_view" objectID="C5B836F2-60E2-5724-083E-07C132E35595" name="09 Unidades y check in" visible="false"/>
+   <object objectType="sub_view" objectID="DC0F4B10-EA5E-FF6A-689B-3F3963990E93" name="10 Estado y fallas" visible="false"/>
+   <object objectType="sub_view" objectID="EC714951-0912-98DD-9E0D-17D7B837632D" name="11 Mantenimiento" visible="false"/>
+   <object objectType="sub_view" objectID="4790B1FD-76E3-6D43-58FF-92797C9A30B0" name="12 Planes y alertas" visible="false"/>
+   <object objectType="sub_view" objectID="4575E169-D0B6-03C1-7E85-786EB0968A53" name="13 Auditoría" visible="false"/>
+   <object objectType="sub_view" objectID="BC185CC0-530E-00CD-AD85-78BBBDB8E8C0" name="From_RM_01 Acceso y organización" visible="false"/>
+   <object objectType="sub_view" objectID="3A25EB62-7192-A27A-509E-92D06D60B120" name="From_RM_02 Catálogo y atributos" visible="false"/>
+   <object objectType="sub_view" objectID="5E249955-1128-0C51-C86D-C5D70246D07A" name="From_RM_03 Ubicaciones" visible="false"/>
+   <object objectType="sub_view" objectID="6B45D8B5-407D-5BF8-7714-C853EDCE0402" name="From_RM_04 Existencias y equipo" visible="false"/>
+   <object objectType="sub_view" objectID="B4E6C459-6CD8-94DA-EFED-204219E0F482" name="From_RM_05 Entregas de equipamiento" visible="false"/>
+   <object objectType="sub_view" objectID="01BD8AF2-91E8-1982-F489-0284A6B8D8B6" name="From_RM_06 Préstamos" visible="false"/>
+   <object objectType="sub_view" objectID="CDA3B4CC-BA91-EF11-93B2-864915372C12" name="From_RM_07 Movimientos de inventario" visible="false"/>
+   <object objectType="sub_view" objectID="E55A0A45-5CC3-7C97-068C-AF8A1487246E" name="From_RM_08 Trazabilidad de movimientos" visible="false"/>
+   <object objectType="sub_view" objectID="AB34B2C8-33BB-4679-7D54-842229BE5760" name="From_RM_09 Unidades y check in" visible="false"/>
+   <object objectType="sub_view" objectID="11AC0DD5-C107-9D55-CC35-B7F56F1A76CA" name="From_RM_10 Estado y fallas" visible="false"/>
+   <object objectType="sub_view" objectID="DC66EB5C-5979-4180-A2FB-18F9D03CDC60" name="From_RM_11 Mantenimiento" visible="false"/>
+   <object objectType="sub_view" objectID="99174028-6243-A85D-3360-8C4A6B372D51" name="From_RM_12 Planes y alertas" visible="false"/>
+   <object objectType="sub_view" objectID="9DE5076C-49A9-1B00-6907-29058A4AF543" name="From_RM_13 Auditoría" visible="false"/>
+   <object objectType="sub_view" objectID="11DFC8C5-FDC8-6DE3-55C2-54D31C4B3322" name="From_RM_Mejoras 18OCT - Capacidades" visible="false"/>
+   <object objectType="sub_view" objectID="BD6C254A-7FC3-E147-3B9C-D9DB3295F77C" name="From_RM_Mejoras 18OCT - Check in" visible="false"/>
+   <object objectType="sub_view" objectID="3285CDC9-2F8E-CBC9-7B12-25ADAF27FC73" name="From_RM_Mejoras 18OCT - Mantenimiento" visible="false"/>
+   <object objectType="sub_view" objectID="E5A133A6-C9D2-8497-43EA-2F7A12F8718C" name="From_RM_Mejoras 18OCT - Transferencias" visible="false"/>
+   <object objectType="sub_view" objectID="AA7F4899-76F9-9964-8111-71765C3D94DE" name="From_RM_Vista 1 - Simplificado - Acceso e inventario" visible="false"/>
+   <object objectType="sub_view" objectID="A3FC3D69-3A81-153B-715C-06ED920D3D4A" name="From_RM_Vista 2 - Simplificado - Unidades y mantenimiento" visible="false"/>
+   <object objectType="sub_view" objectID="0131D20A-0994-4A6A-9825-83B763BFD6C5" name="Vista 1 - Logico simplificado - Acceso e inventario" visible="true"/>
+   <object objectType="sub_view" objectID="F0374B36-D17A-41DC-8EB3-0D00FF339ABD" name="Vista 2 - Logico simplificado - Unidades y mantenimiento" visible="true"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

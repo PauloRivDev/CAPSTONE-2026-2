@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_plan_control_componente_id" directorySegmentName="seg_0" id="7E89B890-9EC1-AA75-F6F8-77B3F21B4913">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>65D42777-A896-0EDA-387A-0E54C034BCCC</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>A1578084-647A-5731-DB62-43CF0321DEDE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F608BCAE-EFC4-37D4-0F6D-574107490892</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>87D60546-28C0-1CC2-001A-F04F78167CBD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_asignacion_equipo_bombero_id" directorySegmentName="seg_0" id="3D602248-B55A-8B0A-4761-01DE991AB56A">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>3221D5BA-CFCC-7ABB-A9B9-3D2D0AADA5F6</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>41ABC7CC-180A-6EA5-E727-33E1186EE8E0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68866FBE-1CDC-0F60-267B-7336B0C55D49</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FCA90D20-10D5-D685-04F7-4F02E45322EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

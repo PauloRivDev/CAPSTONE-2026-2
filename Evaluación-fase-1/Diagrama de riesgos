@@ -22,7 +22,7 @@
         <mxCell id="KPI-01-plazo" parent="group-KPI-01" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
           <mxGeometry height="68" width="68" x="838" y="277.5" as="geometry" />
         </mxCell>
-        <mxCell id="KPI-01-desvio" parent="group-KPI-01" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Registrar atraso, dependencia&lt;br&gt;y efecto en hitos; conservar&lt;br&gt;el corte" vertex="1">
+        <mxCell id="KPI-01-desvio" parent="group-KPI-01" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Registrar atraso, dependencia&lt;br&gt;y efecto en hitos, conservar&lt;br&gt;el corte" vertex="1">
           <mxGeometry height="63" width="205" x="1077" y="228" as="geometry" />
         </mxCell>
         <mxCell id="KPI-01-medir" parent="group-KPI-01" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Propuesta: medir % de&lt;br&gt;actividades previstas&lt;br&gt;cumplidas a tiempo" vertex="1">
@@ -520,7 +520,7 @@
         <mxCell id="KPI-03-logro" parent="group-KPI-03" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
           <mxGeometry height="68" width="68" x="866" y="287.5" as="geometry" />
         </mxCell>
-        <mxCell id="KPI-03-brecha" parent="group-KPI-03" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Registrar criterio no logrado&lt;br&gt;y causa; mantener el objetivo&lt;br&gt;original" vertex="1">
+        <mxCell id="KPI-03-brecha" parent="group-KPI-03" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Registrar criterio no logrado&lt;br&gt;y causa, mantener el objetivo&lt;br&gt;original" vertex="1">
           <mxGeometry height="63" width="202" x="1235" y="213" as="geometry" />
         </mxCell>
         <mxCell id="KPI-03-restan" parent="group-KPI-03" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
@@ -1570,7 +1570,7 @@
         <mxCell id="KPI-07-criterion_cut" parent="group-KPI-07" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
           <mxGeometry height="68" width="68" x="836" y="677" as="geometry" />
         </mxCell>
-        <mxCell id="KPI-07-test" parent="group-KPI-07" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Revisar pruebas de&lt;br&gt;rendimiento, seguridad u&lt;br&gt;otros RNF aplicables" vertex="1">
+        <mxCell id="KPI-07-test" parent="group-KPI-07" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Revisar pruebas de&lt;br&gt;rendimiento, seguridad o&lt;br&gt;otros RNF aplicables" vertex="1">
           <mxGeometry height="63" width="202" x="551" y="839" as="geometry" />
         </mxCell>
         <mxCell id="KPI-07-record" parent="group-KPI-07" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
@@ -3196,7 +3196,7 @@
         <mxCell id="KPI-13-recovered" parent="group-KPI-13" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
           <mxGeometry height="68" width="68" x="178" y="700" as="geometry" />
         </mxCell>
-        <mxCell id="KPI-13-uptime" parent="group-KPI-13" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Conciliar intervalos&lt;br&gt;disponibles e indisponibles&lt;br&gt;sin superponerlos" vertex="1">
+        <mxCell id="KPI-13-uptime" parent="group-KPI-13" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Conciliar intervalos&lt;br&gt;disponibles y indisponibles&lt;br&gt;sin superponerlos" vertex="1">
           <mxGeometry height="63" width="202" x="329" y="862" as="geometry" />
         </mxCell>
         <mxCell id="KPI-13-outage" parent="group-KPI-13" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
@@ -3811,7 +3811,7 @@
         <mxCell id="KPI-15-complete" parent="group-KPI-15" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
           <mxGeometry height="68" width="68" x="247" y="464" as="geometry" />
         </mxCell>
-        <mxCell id="KPI-15-error" parent="group-KPI-15" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Registrar carga fallida o&lt;br&gt;incompleta; conservar tiempo&lt;br&gt;y motivo aparte" vertex="1">
+        <mxCell id="KPI-15-error" parent="group-KPI-15" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Registrar carga fallida o&lt;br&gt;incompleta, conservar tiempo&lt;br&gt;y motivo aparte" vertex="1">
           <mxGeometry height="63" width="202" x="45" y="611" as="geometry" />
         </mxCell>
         <mxCell id="KPI-15-measure" parent="group-KPI-15" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Propuesta: resumir segundos&lt;br&gt;de carga por reporte con&lt;br&gt;criterio acordado" vertex="1">
@@ -3919,7 +3919,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KPI-15-label5" parent="group-KPI-15" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Arial;fillColor=#ffffff;strokeColor=none;spacing=0;fontColor=#000000;shadow=0;" value="Fallo separado; no equivale a carga rápida" vertex="1">
+        <mxCell id="KPI-15-label5" parent="group-KPI-15" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Arial;fillColor=#ffffff;strokeColor=none;spacing=0;fontColor=#000000;shadow=0;" value="Fallo separado, no equivale a carga rápida" vertex="1">
           <mxGeometry height="20" width="285.2" x="75.9" y="696.5" as="geometry" />
         </mxCell>
         <mxCell id="KPI-15-e6" edge="1" parent="group-KPI-15" source="KPI-15-measure" style="edgeStyle=none;rounded=0;html=1;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;exitX=0.468119;exitY=1.003175;exitPerimeter=0;entryX=0.480545;entryY=-0.005657;entryPerimeter=0;fontColor=#000000;shadow=0;" target="KPI-15-validate">
@@ -4972,7 +4972,7 @@
         <mxCell id="KPI-19-moves" parent="group-KPI-19" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Reunir movimientos y campos&lt;br&gt;de trazabilidad definidos&lt;br&gt;para cada tipo" vertex="1">
           <mxGeometry height="63" width="208" x="281" y="206" as="geometry" />
         </mxCell>
-        <mxCell id="KPI-19-type" parent="group-KPI-19" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Determinar campos aplicables&lt;br&gt;según entrada, salida o&lt;br&gt;traslado" vertex="1">
+        <mxCell id="KPI-19-type" parent="group-KPI-19" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Definir campos por entrega,&lt;br&gt;recepcion, salida o traslado" vertex="1">
           <mxGeometry height="63" width="208" x="281" y="334" as="geometry" />
         </mxCell>
         <mxCell id="KPI-19-complete" parent="group-KPI-19" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
@@ -5308,7 +5308,7 @@
         <mxCell id="KPI-20-exists" parent="group-KPI-20" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
           <mxGeometry height="68" width="68" x="672" y="491" as="geometry" />
         </mxCell>
-        <mxCell id="KPI-20-fields" parent="group-KPI-20" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Captura única de responsable,&lt;br&gt;km, horas, estado, fallas y&lt;br&gt;notas; auditoría automática" vertex="1">
+        <mxCell id="KPI-20-fields" parent="group-KPI-20" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Captura única de responsable,&lt;br&gt;km, horas, estado, fallas y&lt;br&gt;notas, auditoría automática" vertex="1">
           <mxGeometry height="63" width="208" x="602" y="334" as="geometry" />
         </mxCell>
         <mxCell id="KPI-20-complete" parent="group-KPI-20" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
@@ -5866,7 +5866,7 @@
         <mxCell id="KPI-22-start" parent="group-KPI-22" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;ellipse;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Inicio" vertex="1">
           <mxGeometry height="58" width="58" x="45" y="269.5" as="geometry" />
         </mxCell>
-        <mxCell id="KPI-22-maintenance" parent="group-KPI-22" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Cruzar mantenimientos del&lt;br&gt;período con registros e&lt;br&gt;historial de la unidad" vertex="1">
+        <mxCell id="KPI-22-maintenance" parent="group-KPI-22" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Cruzar registros del periodo&lt;br&gt;y historial, fotos y pruebas&lt;br&gt;segun alcance por aprobar" vertex="1">
           <mxGeometry height="63" width="202" x="156" y="267" as="geometry" />
         </mxCell>
         <mxCell id="KPI-22-exists" parent="group-KPI-22" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rhombus;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="" vertex="1">
@@ -6223,7 +6223,7 @@
         <mxCell id="KPI-23-start" parent="group-KPI-23" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;ellipse;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Inicio" vertex="1">
           <mxGeometry height="58" width="58" x="470" y="95" as="geometry" />
         </mxCell>
-        <mxCell id="KPI-23-rules" parent="group-KPI-23" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Recuperar reglas vigentes de&lt;br&gt;alertas y datos de unidades&lt;br&gt;para la evaluación" vertex="1">
+        <mxCell id="KPI-23-rules" parent="group-KPI-23" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Reglas vigentes: fecha,&lt;br&gt;km y horas. Datos vigentes&lt;br&gt;de unidades para evaluar" vertex="1">
           <mxGeometry height="63" width="202" x="398" y="206" as="geometry" />
         </mxCell>
         <mxCell id="KPI-23-expected" parent="group-KPI-23" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=10;strokeWidth=1;strokeColor=#000000;rounded=1;arcSize=14;fillColor=#ffffff;fontColor=#000000;shadow=0;" value="Calcular el resultado&lt;br&gt;esperado de cada escenario&lt;br&gt;acordado" vertex="1">
@@ -8505,7 +8505,7 @@
         <mxCell id="KRI-01-critical" parent="group-KRI-01" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Escalar ambigüedades y&lt;br&gt;priorizar su aclaración" vertex="1">
           <mxGeometry height="67" width="202" x="566" y="1752" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-01-validate" parent="group-KRI-01" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-01-validate" parent="group-KRI-01" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="829" y="1756.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-01-close" parent="group-KRI-01" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -8817,7 +8817,7 @@
         <mxCell id="KRI-02-critical" parent="group-KRI-02" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Revisar alcance y compromisos&lt;br&gt;con los responsables" vertex="1">
           <mxGeometry height="67" width="219" x="3699" y="311" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-02-validate" parent="group-KRI-02" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-02-validate" parent="group-KRI-02" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="3707.5" y="439.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-02-close" parent="group-KRI-02" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -9177,7 +9177,7 @@
         <mxCell id="KRI-03-critical" parent="group-KRI-03" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Escalar las reglas que&lt;br&gt;comprometan la operación" vertex="1">
           <mxGeometry height="67" width="202" x="566" y="1448" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-03-validate" parent="group-KRI-03" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-03-validate" parent="group-KRI-03" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="829" y="1452.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-03-close" parent="group-KRI-03" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -9495,7 +9495,7 @@
         <mxCell id="KRI-04-critical" parent="group-KRI-04" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Revisar historias afectadas&lt;br&gt;antes de comprometer su&lt;br&gt;entrega" vertex="1">
           <mxGeometry height="82" width="202" x="3270.9" y="354.5" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-04-validate" parent="group-KRI-04" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-04-validate" parent="group-KRI-04" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="3270.9" y="497.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-04-close" parent="group-KRI-04" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -9816,7 +9816,7 @@
         <mxCell id="KRI-05-critical" parent="group-KRI-05" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Priorizar estabilización&lt;br&gt;conjunta de frontend y backend" vertex="1">
           <mxGeometry height="67" width="215" x="749.5" y="1906" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-05-validate" parent="group-KRI-05" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-05-validate" parent="group-KRI-05" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="182" y="2254.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-05-close" parent="group-KRI-05" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Alexander" vertex="1">
@@ -10203,7 +10203,7 @@
         <mxCell id="KRI-06-critical" parent="group-KRI-06" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Coordinar estabilización del&lt;br&gt;modelo y sus dependencias" vertex="1">
           <mxGeometry height="67" width="202" x="3225.5" y="354" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-06-validate" parent="group-KRI-06" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-06-validate" parent="group-KRI-06" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="3225.5" y="482.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-06-close" parent="group-KRI-06" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Paulo" vertex="1">
@@ -10524,7 +10524,7 @@
         <mxCell id="KRI-07-critical" parent="group-KRI-07" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Priorizar saneamiento y&lt;br&gt;prevenir nuevas&lt;br&gt;inconsistencias" vertex="1">
           <mxGeometry height="82" width="202" x="303" y="1752" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-07-validate" parent="group-KRI-07" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-07-validate" parent="group-KRI-07" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="829" y="1764" as="geometry" />
         </mxCell>
         <mxCell id="KRI-07-close" parent="group-KRI-07" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Paulo" vertex="1">
@@ -10848,7 +10848,7 @@
         <mxCell id="KRI-08-critical" parent="group-KRI-08" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Priorizar optimización y&lt;br&gt;revisar impacto operativo" vertex="1">
           <mxGeometry height="67" width="202" x="2735.5" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-08-validate" parent="group-KRI-08" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-08-validate" parent="group-KRI-08" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="2735.5" y="482.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-08-close" parent="group-KRI-08" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Paulo" vertex="1">
@@ -11157,7 +11157,7 @@
         <mxCell id="KRI-09-critical" parent="group-KRI-09" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Revisar la release y ejecutar&lt;br&gt;recuperación controlada" vertex="1">
           <mxGeometry height="67" width="202" x="998" y="1779" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-09-validate" parent="group-KRI-09" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-09-validate" parent="group-KRI-09" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="427" y="2127.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-09-close" parent="group-KRI-09" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Paulo" vertex="1">
@@ -11550,7 +11550,7 @@
         <mxCell id="KRI-10-critical" parent="group-KRI-10" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Escalar los intentos y&lt;br&gt;contener el acceso indebido" vertex="1">
           <mxGeometry height="67" width="202" x="3661" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-10-validate" parent="group-KRI-10" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-10-validate" parent="group-KRI-10" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="4428.5" y="439.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-10-close" parent="group-KRI-10" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Paulo" vertex="1">
@@ -11925,7 +11925,7 @@
         <mxCell id="KRI-11-critical" parent="group-KRI-11" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Revisar roles comprometidos y&lt;br&gt;restringir acceso indebido" vertex="1">
           <mxGeometry height="67" width="213" x="843.5" y="1729" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-11-validate" parent="group-KRI-11" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-11-validate" parent="group-KRI-11" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="275" y="2077.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-11-close" parent="group-KRI-11" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Alexander" vertex="1">
@@ -12267,7 +12267,7 @@
         <mxCell id="KRI-12-a" parent="group-KRI-12" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Reunir alertas y registros de&lt;br&gt;acceso diarios&lt;br&gt;Corte: Diario" vertex="1">
           <mxGeometry height="67" width="202" x="167" y="363" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-12-b" parent="group-KRI-12" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Correlacionar eventos por&lt;br&gt;sesión e identidad" vertex="1">
+        <mxCell id="KRI-12-b" parent="group-KRI-12" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Correlacionar eventos por&lt;br&gt;sesión y identidad" vertex="1">
           <mxGeometry height="58" width="202" x="438" y="367.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-12-c" parent="group-KRI-12" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rhombus;" value="" vertex="1">
@@ -12303,7 +12303,7 @@
         <mxCell id="KRI-12-critical" parent="group-KRI-12" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Escalar el incidente y revisar&lt;br&gt;el alcance comprometido" vertex="1">
           <mxGeometry height="67" width="202" x="3688" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-12-validate" parent="group-KRI-12" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-12-validate" parent="group-KRI-12" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="4453" y="424.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-12-close" parent="group-KRI-12" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Paulo" vertex="1">
@@ -12678,7 +12678,7 @@
         <mxCell id="KRI-13-critical" parent="group-KRI-13" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Escalar las exposiciones y&lt;br&gt;revisar posibles usos&lt;br&gt;indebidos" vertex="1">
           <mxGeometry height="82" width="202" x="665" y="1762" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-13-validate" parent="group-KRI-13" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-13-validate" parent="group-KRI-13" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="82" y="2140.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-13-close" parent="group-KRI-13" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Paulo" vertex="1">
@@ -13041,7 +13041,7 @@
         <mxCell id="KRI-14-critical" parent="group-KRI-14" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Replanificar el Sprint y&lt;br&gt;acordar compromisos viables" vertex="1">
           <mxGeometry height="67" width="204" x="3074.5" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-14-validate" parent="group-KRI-14" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-14-validate" parent="group-KRI-14" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="3075.5" y="482.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-14-close" parent="group-KRI-14" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -13389,7 +13389,7 @@
         <mxCell id="KRI-15-critical" parent="group-KRI-15" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Reestimar trabajo pendiente y&lt;br&gt;ajustar la planificación" vertex="1">
           <mxGeometry height="67" width="207" x="303.5" y="1764" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-15-validate" parent="group-KRI-15" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-15-validate" parent="group-KRI-15" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="835" y="1768.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-15-close" parent="group-KRI-15" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -13734,7 +13734,7 @@
         <mxCell id="KRI-16-critical" parent="group-KRI-16" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Escalar bloqueos y revisar&lt;br&gt;tareas dependientes" vertex="1">
           <mxGeometry height="67" width="202" x="548.99" y="2439" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-16-validate" parent="group-KRI-16" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-16-validate" parent="group-KRI-16" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="285.99" y="2443.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-16-close" parent="group-KRI-16" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -14139,7 +14139,7 @@
         <mxCell id="KRI-17-critical" parent="group-KRI-17" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Revisar prioridades del&lt;br&gt;backlog con el responsable" vertex="1">
           <mxGeometry height="67" width="202" x="566" y="1752" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-17-validate" parent="group-KRI-17" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-17-validate" parent="group-KRI-17" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="829" y="1756.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-17-close" parent="group-KRI-17" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -14457,7 +14457,7 @@
         <mxCell id="KRI-18-critical" parent="group-KRI-18" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Acordar recuperación, alcance&lt;br&gt;y compromisos de entrega" vertex="1">
           <mxGeometry height="67" width="210" x="303" y="1460" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-18-validate" parent="group-KRI-18" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-18-validate" parent="group-KRI-18" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="837" y="1464.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-18-close" parent="group-KRI-18" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -14814,7 +14814,7 @@
         <mxCell id="KRI-19-critical" parent="group-KRI-19" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Reorganizar cobertura y tareas&lt;br&gt;críticas del proyecto" vertex="1">
           <mxGeometry height="67" width="213" x="4153" y="311" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-19-validate" parent="group-KRI-19" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-19-validate" parent="group-KRI-19" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="4158.5" y="439.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-19-close" parent="group-KRI-19" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -15159,7 +15159,7 @@
         <mxCell id="KRI-20-critical" parent="group-KRI-20" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Priorizar cobertura de&lt;br&gt;dependencias y reducir puntos&lt;br&gt;únicos" vertex="1">
           <mxGeometry height="82" width="210" x="303" y="1776" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-20-validate" parent="group-KRI-20" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-20-validate" parent="group-KRI-20" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="837" y="1788" as="geometry" />
         </mxCell>
         <mxCell id="KRI-20-close" parent="group-KRI-20" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Alexander" vertex="1">
@@ -15465,7 +15465,7 @@
         <mxCell id="KRI-21-critical" parent="group-KRI-21" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Replanificar tareas críticas y&lt;br&gt;reducir la sobrecarga&lt;br&gt;individual" vertex="1">
           <mxGeometry height="82" width="202" x="305" y="1587" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-21-validate" parent="group-KRI-21" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-21-validate" parent="group-KRI-21" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="837" y="1599" as="geometry" />
         </mxCell>
         <mxCell id="KRI-21-close" parent="group-KRI-21" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -15777,7 +15777,7 @@
         <mxCell id="KRI-22-critical" parent="group-KRI-22" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Escalar problemas recurrentes&lt;br&gt;y reorganizar la coordinación" vertex="1">
           <mxGeometry height="67" width="211" x="2771" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-22-validate" parent="group-KRI-22" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-22-validate" parent="group-KRI-22" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="2775.5" y="482.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-22-close" parent="group-KRI-22" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">
@@ -16083,7 +16083,7 @@
         <mxCell id="KRI-23-critical" parent="group-KRI-23" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Priorizar conciliación y&lt;br&gt;controlar movimientos&lt;br&gt;afectados" vertex="1">
           <mxGeometry height="82" width="202" x="663" y="1906" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-23-validate" parent="group-KRI-23" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-23-validate" parent="group-KRI-23" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="92" y="2269.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-23-close" parent="group-KRI-23" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Paulo" vertex="1">
@@ -16455,7 +16455,7 @@
         <mxCell id="KRI-24-a" parent="group-KRI-24" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Validar alcance y regla de&lt;br&gt;unicidad de series&lt;br&gt;Corte: Por Sprint" vertex="1">
           <mxGeometry height="67" width="202" x="167" y="371.5" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-24-b" parent="group-KRI-24" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Extraer números de serie e&lt;br&gt;identificadores de artículo" vertex="1">
+        <mxCell id="KRI-24-b" parent="group-KRI-24" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Extraer números de serie y&lt;br&gt;identificadores de artículo" vertex="1">
           <mxGeometry height="58" width="202" x="438" y="376" as="geometry" />
         </mxCell>
         <mxCell id="KRI-24-c" parent="group-KRI-24" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Agrupar coincidencias&lt;br&gt;preservando el dato original" vertex="1">
@@ -16491,7 +16491,7 @@
         <mxCell id="KRI-24-critical" parent="group-KRI-24" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Depurar duplicidades y revisar&lt;br&gt;artículos y movimientos&lt;br&gt;afectados" vertex="1">
           <mxGeometry height="82" width="209" x="3452" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-24-validate" parent="group-KRI-24" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-24-validate" parent="group-KRI-24" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="4224" y="437" as="geometry" />
         </mxCell>
         <mxCell id="KRI-24-close" parent="group-KRI-24" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Paulo" vertex="1">
@@ -16863,7 +16863,7 @@
         <mxCell id="KRI-25-critical" parent="group-KRI-25" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Regularizar préstamos&lt;br&gt;afectados y revisar el&lt;br&gt;circuito de cierre" vertex="1">
           <mxGeometry height="82" width="202" x="570" y="1682" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-25-validate" parent="group-KRI-25" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-25-validate" parent="group-KRI-25" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="833" y="1694" as="geometry" />
         </mxCell>
         <mxCell id="KRI-25-close" parent="group-KRI-25" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Alexander" vertex="1">
@@ -17169,7 +17169,7 @@
         <mxCell id="KRI-26-c" parent="group-KRI-26" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Contrastar identificación con&lt;br&gt;su referencia" vertex="1">
           <mxGeometry height="58" width="202" x="815" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-26-d" parent="group-KRI-26" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Verificar atributos&lt;br&gt;obligatorios de la ficha" vertex="1">
+        <mxCell id="KRI-26-d" parent="group-KRI-26" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Verificar ficha y lecturas&lt;br&gt;km/horas aplicables segun&lt;br&gt;reglas validadas" vertex="1">
           <mxGeometry height="58" width="202" x="289" y="500" as="geometry" />
         </mxCell>
         <mxCell id="KRI-26-e" parent="group-KRI-26" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Verificar vínculos y estado&lt;br&gt;registrados" vertex="1">
@@ -17202,7 +17202,7 @@
         <mxCell id="KRI-26-critical" parent="group-KRI-26" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Revisar registros y prevenir&lt;br&gt;propagación de inconsistencias" vertex="1">
           <mxGeometry height="67" width="215" x="303.5" y="1448" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-26-validate" parent="group-KRI-26" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-26-validate" parent="group-KRI-26" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="843" y="1452.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-26-close" parent="group-KRI-26" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Alexander" vertex="1">
@@ -17529,7 +17529,7 @@
         <mxCell id="KRI-27-critical" parent="group-KRI-27" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Revisar la generación de&lt;br&gt;alertas y priorizar&lt;br&gt;mantenimiento afectado" vertex="1">
           <mxGeometry height="82" width="202" x="3022" y="354.5" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-27-validate" parent="group-KRI-27" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-27-validate" parent="group-KRI-27" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="3022" y="497.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-27-close" parent="group-KRI-27" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Paulo" vertex="1">
@@ -17856,7 +17856,7 @@
         <mxCell id="KRI-28-critical" parent="group-KRI-28" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Coordinar contención y&lt;br&gt;resolución de defectos&lt;br&gt;críticos" vertex="1">
           <mxGeometry height="82" width="202" x="3849" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-28-validate" parent="group-KRI-28" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-28-validate" parent="group-KRI-28" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="4614" y="451" as="geometry" />
         </mxCell>
         <mxCell id="KRI-28-close" parent="group-KRI-28" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Alexander" vertex="1">
@@ -18252,7 +18252,7 @@
         <mxCell id="KRI-29-critical" parent="group-KRI-29" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Priorizar cobertura pendiente&lt;br&gt;y revisar el plan de pruebas" vertex="1">
           <mxGeometry height="67" width="202" x="325" y="1752" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-29-validate" parent="group-KRI-29" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-29-validate" parent="group-KRI-29" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="865" y="1756.5" as="geometry" />
         </mxCell>
         <mxCell id="KRI-29-close" parent="group-KRI-29" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Alexander" vertex="1">
@@ -18582,7 +18582,7 @@
         <mxCell id="KRI-30-critical" parent="group-KRI-30" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="CRÍTICO&lt;br&gt;Escalar pendientes y evaluar&lt;br&gt;alternativas para tareas&lt;br&gt;afectadas" vertex="1">
           <mxGeometry height="82" width="202" x="573.5" y="1809" as="geometry" />
         </mxCell>
-        <mxCell id="KRI-30-validate" parent="group-KRI-30" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio; sin clasificar" vertex="1">
+        <mxCell id="KRI-30-validate" parent="group-KRI-30" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Solicitar validación del dato&lt;br&gt;o del criterio, sin clasificar" vertex="1">
           <mxGeometry height="58" width="202" x="836.5" y="1821" as="geometry" />
         </mxCell>
         <mxCell id="KRI-30-close" parent="group-KRI-30" style="whiteSpace=wrap;html=1;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;strokeWidth=1;strokeColor=#000000;fillColor=#ffffff;fontColor=#000000;shadow=0;rounded=1;arcSize=14;" value="Registrar resultado, acción&lt;br&gt;y evidencia&lt;br&gt;Responsable: Mauricio" vertex="1">

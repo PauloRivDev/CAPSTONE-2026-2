@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="unidad_capacidad" name="unidad_capacidad">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<comment><![CDATA[RF-013; RNF-008. Reunion CBSB 18-10-2026. Capacidad tecnica por unidad. Una asociacion por par. Historia de cambios mediante auditoria de aplicacion; no destruir antecedentes ni confundir capacidad con equipo existente.]]></comment>
+<commentInRDBMS><![CDATA[RF-013; RNF-008. Reunion CBSB 18-10-2026. Capacidad tecnica por unidad. Una asociacion por par. Historia de cambios mediante auditoria de aplicacion; no destruir antecedentes ni confundir capacidad con equipo existente.]]></commentInRDBMS>
+<notes><![CDATA[RF-013; RNF-008. Reunion CBSB 18-10-2026. Capacidad tecnica por unidad. Una asociacion por par. Historia de cambios mediante auditoria de aplicacion; no destruir antecedentes ni confundir capacidad con equipo existente.]]></notes>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="488A7678-E6FB-DBC2-D39D-5012BA32DD74">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidad_id" id="98DABED4-8E41-CA47-2DC2-76A581D2825F">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8CF910A-F2AB-86E2-B146-E02FE699B140" referredColumn="3359DD6B-626F-273F-CB14-FC7CB4471268"/>
+</associations>
+</Column>
+<Column name="capacidad_id" id="EEBE2E03-150E-FC01-CB78-DD58FA113E45">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="580E2E37-C478-3A89-1412-B978FC78B6A1" referredColumn="F3ADBD5A-5458-DEF3-C6C7-48C3AB7D9C0B"/>
+</associations>
+</Column>
+<Column name="observaciones" id="5AD2DB07-852F-3FEA-D5D2-E98DD5409229">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="2B16E1DB-FF5C-198A-772F-4E19748570CC">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="pk_unidad_capacidad" name="pk_unidad_capacidad">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="488A7678-E6FB-DBC2-D39D-5012BA32DD74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="uq_unidad_capacidad" name="uq_unidad_capacidad">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98DABED4-8E41-CA47-2DC2-76A581D2825F"/>
+<colUsage columnID="EEBE2E03-150E-FC01-CB78-DD58FA113E45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74920A20-95BE-6839-961F-151817EEF837" name="fk_unidad_capacidad_unidad">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98DABED4-8E41-CA47-2DC2-76A581D2825F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AABB325A-1A51-C596-6FA0-254F08766260" name="fk_unidad_capacidad_capacidad">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EEBE2E03-150E-FC01-CB78-DD58FA113E45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_unidad_capacidad_activo" directorySegmentName="seg_1" id="18F8C60C-1567-DEC6-A987-6B0E8C611413">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:05:13 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<rule><![CDATA[activo IN (0,1)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

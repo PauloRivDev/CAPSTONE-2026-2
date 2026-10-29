@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_prestamo_detalle_estado_salida_id" directorySegmentName="seg_0" id="0F9948AD-7729-2777-5E2E-E03EFB7F1012">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>69E55519-2D8F-8387-32B0-B13015CFC662</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>5C4E2EBD-3F43-6D48-F5E3-2C0928A310D4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>50C93DB5-04B8-9020-D892-266CFC966AC7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>947A9C4B-EABE-50CA-F0B5-B56376D77248</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

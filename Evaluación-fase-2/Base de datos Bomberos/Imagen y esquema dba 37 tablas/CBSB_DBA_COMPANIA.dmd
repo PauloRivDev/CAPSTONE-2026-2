@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CBSB_DBA_COMPANIA" id="B7CFEF8B-CA42-E01A-24D5-93B8479036C9" version="3.5">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 01:56:27 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B7CFEF8B-CA42-E01A-24D5-93B8479036C9</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F65197A4-17C2-C2AA-8352-C3D8C378E4D5">
+<designStoragePath>C:\CBSB_V2_DataModeler_import_Oracle</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

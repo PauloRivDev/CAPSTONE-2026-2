@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_checkin_respuesta_checkin" directorySegmentName="seg_1" id="C133D0E4-32E1-4936-4911-C324655BF306">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:28 UTC</createdTime>
+<generatorID>20D6A36C-7027-C7F4-080F-1449D4006D88</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>79A4452F-4355-4FB5-6854-C49F32408E61</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6CA37974-E3C0-0FAD-C1F1-EF9B206571D0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD123907-DFB1-CBD0-820A-B05973CFFEC4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

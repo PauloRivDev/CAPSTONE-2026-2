@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_unidad_capacidad_capacidad" directorySegmentName="seg_1" id="80092E2B-85FB-6A84-228D-2B9AF748A102">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:28 UTC</createdTime>
+<generatorID>580E2E37-C478-3A89-1412-B978FC78B6A1</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>9BDF687F-163A-EA78-6C5F-FA15F3C85BB0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D34F971A-7561-9F5E-4308-3033DA9CD736</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B15FF06-1573-B5E7-86C1-23D0D5871006</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

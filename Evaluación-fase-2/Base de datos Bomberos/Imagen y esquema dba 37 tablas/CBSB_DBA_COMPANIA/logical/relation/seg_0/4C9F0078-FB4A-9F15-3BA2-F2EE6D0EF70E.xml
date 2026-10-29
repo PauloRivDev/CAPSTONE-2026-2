@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_prestamo_detalle_prestamo_id" directorySegmentName="seg_0" id="4C9F0078-FB4A-9F15-3BA2-F2EE6D0EF70E">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>C23EB947-8A79-E3E7-11BA-E2A0607FE7E2</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>6CBCD576-2CAD-74F9-08A0-D400E585F1A6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF43EC29-C38E-8D3B-4859-1B763FBF6FC7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>947A9C4B-EABE-50CA-F0B5-B56376D77248</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -58,7 +58,7 @@
         <mxCell id="b3-c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.3.4 Mockups y navegacion" vertex="1">
           <mxGeometry height="40" width="280" x="-1140" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="b3-c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.3.5 Entorno despliegue y respaldo" vertex="1">
+        <mxCell id="b3-c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.3.5 Entorno despliegue y respaldo&lt;br&gt;Incluye fotos historicas y vinculos" vertex="1">
           <mxGeometry height="40" width="280" x="-1140" y="660" as="geometry" />
         </mxCell>
         <mxCell id="b4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.5 Sprint 1 Acceso usuarios y catalogo" vertex="1">
@@ -97,7 +97,7 @@
         <mxCell id="b5-c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.6.4 Ubicacion y origen" vertex="1">
           <mxGeometry height="40" width="300" x="-190" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="b5-c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.6.5 Entregas devoluciones prestamos" vertex="1">
+        <mxCell id="b5-c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.6.5 Entregas devoluciones prestamos&lt;br&gt;Incluye transferencia definitiva RF-024" vertex="1">
           <mxGeometry height="40" width="300" x="-190" y="660" as="geometry" />
         </mxCell>
         <mxCell id="b5-c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.6.6 Integracion pruebas y DoD" vertex="1">
@@ -115,10 +115,10 @@
         <mxCell id="b6-c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.7.3 Kilometraje y horas" vertex="1">
           <mxGeometry height="40" width="300" x="120" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="b6-c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.7.4 Mantenimiento preventivo" vertex="1">
+        <mxCell id="b6-c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.7.4 Mantenimiento preventivo&lt;br&gt;Fotos antes/despues y historial" vertex="1">
           <mxGeometry height="40" width="300" x="120" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="b6-c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.7.5 Mantenimiento correctivo" vertex="1">
+        <mxCell id="b6-c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.7.5 Mantenimiento correctivo&lt;br&gt;Fotos antes/despues y historial" vertex="1">
           <mxGeometry height="40" width="300" x="120" y="660" as="geometry" />
         </mxCell>
         <mxCell id="b6-c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.7.6 Integracion pruebas y DoD" vertex="1">
@@ -172,7 +172,7 @@
         <mxCell id="b9-c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.9.2 Validacion con Bomberos" vertex="1">
           <mxGeometry height="40" width="280" x="750" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="b9-c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.9.3 Despliegue y restauracion" vertex="1">
+        <mxCell id="b9-c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.9.3 Despliegue y restauracion&lt;br&gt;Recuperacion de fotos y vinculos" vertex="1">
           <mxGeometry height="40" width="280" x="750" y="500" as="geometry" />
         </mxCell>
         <mxCell id="b9-c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#3333FF);strokeColor=default;fontSize=11;align=left;verticalAlign=middle;spacingLeft=8;" value="1.9.4 Manual de usuario" vertex="1">

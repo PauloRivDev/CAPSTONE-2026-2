@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D34F971A-7561-9F5E-4308-3033DA9CD736" name="capacidad">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<comment><![CDATA[RF-013. Reunion CBSB 18-10-2026. Catalogo de capacidades tecnicas de unidades; no representa material o equipo inventariado.]]></comment>
+<commentInRDBMS><![CDATA[RF-013. Reunion CBSB 18-10-2026. Catalogo de capacidades tecnicas de unidades; no representa material o equipo inventariado.]]></commentInRDBMS>
+<generatorID>capacidad</generatorID>
+<notes><![CDATA[RF-013. Reunion CBSB 18-10-2026. Catalogo de capacidades tecnicas de unidades; no representa material o equipo inventariado.]]></notes>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F53B94A2-26D4-2919-43C6-37F0CB0ED05D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>F3ADBD5A-5458-DEF3-C6C7-48C3AB7D9C0B</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="77314D77-928E-7433-AB1D-E542E09ECFE8">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>A2497637-4352-9C90-1403-A3802413BB30</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B38505CF-AAF1-5976-D901-1FC798C8D8D2">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>397E4D60-0587-5BD2-6117-6C199CEB29C2</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="0C5EA1C2-F7A9-FD7D-87D1-30854796C3EF">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>E7CBE896-A131-6C6D-66F8-6088CC9D4133</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activo" id="0BCE6D27-81A1-9F73-F3D5-526647AAA351">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>0DA767A9-BFBD-EAA7-ABE5-1F68145E8863</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9BDF687F-163A-EA78-6C5F-FA15F3C85BB0" name="pk_capacidad">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>pk_capacidad</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F53B94A2-26D4-2919-43C6-37F0CB0ED05D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C5321584-AF8E-5430-B3D8-EF2E6FD9ACA1" name="uq_capacidad_codigo">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>uq_capacidad_codigo</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>77314D77-928E-7433-AB1D-E542E09ECFE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

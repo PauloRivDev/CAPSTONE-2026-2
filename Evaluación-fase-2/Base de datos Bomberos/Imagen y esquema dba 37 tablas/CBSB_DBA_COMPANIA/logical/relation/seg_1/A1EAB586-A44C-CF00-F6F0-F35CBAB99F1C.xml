@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_mant_evidencia_mant" directorySegmentName="seg_1" id="A1EAB586-A44C-CF00-F6F0-F35CBAB99F1C">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:28 UTC</createdTime>
+<generatorID>F22006EE-A0DD-DC32-DC1B-4C9D94A3AFDB</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>9EE0D2AA-CB9F-EF84-1639-D995799145B3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>96B4D776-179B-09D0-5DEA-ACB725218520</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2C90E895-F907-F16D-F65C-0B16B44E7DBB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

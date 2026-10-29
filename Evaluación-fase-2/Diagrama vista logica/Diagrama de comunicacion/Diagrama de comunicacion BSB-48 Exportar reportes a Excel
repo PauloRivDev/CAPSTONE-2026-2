@@ -2,88 +2,88 @@
   <diagram id="cbsb-comunicacion-10-bsb-48" name="BSB-48 Exportar reportes a Excel">
     <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2530" pageHeight="1290" math="0" shadow="0">
       <root>
-        <mxCell id="0" style="fontStyle=0;html=0;" />
-        <mxCell id="1" parent="0" style="fontStyle=0;html=0;" />
-        <mxCell id="DC10_title" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=30;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="DIAGRAMA DE COMUNICACION 10&#xa;BSB-48  Exportar reportes a Excel" vertex="1">
-          <mxGeometry height="95" width="2330" x="100" y="45" as="geometry" />
+        <mxCell id="0" style="fontStyle=0;html=0;"/>
+        <mxCell id="1" parent="0" style="fontStyle=0;html=0;"/>
+        <mxCell id="DC10_title" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=30;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="DIAGRAMA DE COMUNICACION 10&#10;BSB-48  Exportar reportes a Excel" vertex="1">
+          <mxGeometry height="95" width="2330" x="100" y="45" as="geometry"/>
         </mxCell>
         <mxCell id="DC10_sub" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=22;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="Caso de uso: BSB-48       Referencias: RF-023" vertex="1">
-          <mxGeometry height="45" width="2330" x="100" y="150" as="geometry" />
+          <mxGeometry height="45" width="2330" x="100" y="150" as="geometry"/>
         </mxCell>
-        <mxCell id="DC10_A" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(actor)&#xa;Usuario con permisos" vertex="1">
-          <mxGeometry height="120" width="340" x="100" y="580" as="geometry" />
+        <mxCell id="DC10_A" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(actor)&#10;Usuario con permisos" vertex="1">
+          <mxGeometry height="120" width="340" x="100" y="580" as="geometry"/>
         </mxCell>
-        <mxCell id="DC10_B" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(interfaz)&#xa;Reporte filtrado" vertex="1">
-          <mxGeometry height="120" width="340" x="680" y="580" as="geometry" />
+        <mxCell id="DC10_B" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(interfaz)&#10;Reporte filtrado" vertex="1">
+          <mxGeometry height="120" width="340" x="680" y="580" as="geometry"/>
         </mxCell>
-        <mxCell id="DC10_C" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(control)&#xa;Reportes y exportacion" vertex="1">
-          <mxGeometry height="120" width="340" x="1260" y="580" as="geometry" />
+        <mxCell id="DC10_C" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(control)&#10;Reportes y exportacion" vertex="1">
+          <mxGeometry height="120" width="340" x="1260" y="580" as="geometry"/>
         </mxCell>
-        <mxCell id="DC10_d1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;stock_posicion" vertex="1">
-          <mxGeometry height="120" width="340" x="1870" y="260" as="geometry" />
+        <mxCell id="DC10_d1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;stock_posicion" vertex="1">
+          <mxGeometry height="120" width="340" x="1870" y="260" as="geometry"/>
         </mxCell>
-        <mxCell id="DC10_d2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;checkin" vertex="1">
-          <mxGeometry height="120" width="340" x="2090" y="540" as="geometry" />
+        <mxCell id="DC10_d2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;checkin" vertex="1">
+          <mxGeometry height="120" width="340" x="2090" y="540" as="geometry"/>
         </mxCell>
-        <mxCell id="DC10_d3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;mantenimiento" vertex="1">
-          <mxGeometry height="120" width="340" x="2000" y="870" as="geometry" />
+        <mxCell id="DC10_d3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;mantenimiento" vertex="1">
+          <mxGeometry height="120" width="340" x="2000" y="870" as="geometry"/>
         </mxCell>
-        <mxCell id="DC10_d4" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(control)&#xa;Exportador XLSX" vertex="1">
-          <mxGeometry height="120" width="340" x="1270" y="1050" as="geometry" />
+        <mxCell id="DC10_d4" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(control)&#10;Exportador XLSX" vertex="1">
+          <mxGeometry height="120" width="340" x="1270" y="1050" as="geometry"/>
         </mxCell>
         <object label="1: Elige reporte y filtros" descripcion="Se elige reporte, fecha/rango y compañia segun permisos" numero_mensaje="1" id="DC10_msg_1">
           <mxCell edge="1" parent="1" source="DC10_A" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=1;exitY=0.28;entryX=0;entryY=0.28;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="DC10_B">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-44" as="offset" />
+              <mxPoint y="-44" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
         <object label="2: Solicita exportacion" descripcion="Se solicita exportar el mismo resultado que se consulta" numero_mensaje="2" id="DC10_msg_2">
           <mxCell edge="1" parent="1" source="DC10_B" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=1;exitY=0.28;entryX=0;entryY=0.28;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="DC10_C">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-44" as="offset" />
+              <mxPoint y="-44" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="3: Consulta inventario" descripcion="Si corresponde, se consulta stock por compañia y ubicacion" numero_mensaje="3" id="DC10_msg_3">
+        <object label="3: Consulta inventario" descripcion="Consultar inventario propio o consolidado sin duplicar stock ni sumar condicion, custodia y disponibilidad superpuestas." numero_mensaje="3" id="DC10_msg_3">
           <mxCell edge="1" parent="1" source="DC10_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.836;exitY=0.0;entryX=0.164;entryY=1.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC10_d1">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-28" as="offset" />
+              <mxPoint y="-28" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="4: Consulta check-in" descripcion="Si corresponde, se consultan las revisiones diarias" numero_mensaje="4" id="DC10_msg_4">
+        <object label="4: Consulta check in" descripcion="Consultar cumplimiento del control y responsable por compañia, distinguir realizacion del check in de condicion operativa." numero_mensaje="4" id="DC10_msg_4">
           <mxCell edge="1" parent="1" source="DC10_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=1.0;exitY=0.432;entryX=0.0;entryY=0.568;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC10_d2">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-28" as="offset" />
+              <mxPoint y="-28" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
         <object label="5: Consulta mantenciones" descripcion="Si corresponde, se consultan mantenimientos y sus estados" numero_mensaje="5" id="DC10_msg_5">
           <mxCell edge="1" parent="1" source="DC10_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.95;exitY=1.0;entryX=0.05;entryY=0.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC10_d3">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-28" as="offset" />
+              <mxPoint y="-28" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
         <object label="6: Genera archivo Excel" descripcion="Se construye un XLSX con encabezados y filtros aplicados" numero_mensaje="6" id="DC10_msg_6">
           <mxCell edge="1" parent="1" source="DC10_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.504;exitY=1.0;entryX=0.496;entryY=0.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC10_d4">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint x="150" as="offset" />
+              <mxPoint x="150" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
         <object label="7: Retorna archivo" descripcion="Se entrega el archivo sin modificar informacion registrada" numero_mensaje="7" id="DC10_msg_7">
           <mxCell edge="1" parent="1" source="DC10_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0;exitY=0.8;entryX=1;entryY=0.8;dashed=1;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="DC10_B">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="44" as="offset" />
+              <mxPoint y="44" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
         <object label="8: Presenta descarga" descripcion="El usuario obtiene el mismo resultado que muestra su reporte" numero_mensaje="8" id="DC10_msg_8">
           <mxCell edge="1" parent="1" source="DC10_B" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0;exitY=0.8;entryX=1;entryY=0.8;dashed=1;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="DC10_A">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="44" as="offset" />
+              <mxPoint y="44" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>

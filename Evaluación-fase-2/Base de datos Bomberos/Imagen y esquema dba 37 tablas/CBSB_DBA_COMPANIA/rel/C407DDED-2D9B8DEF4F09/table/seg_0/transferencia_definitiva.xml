@@ -1,0 +1,333 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="transferencia_definitiva" name="transferencia_definitiva">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<comment><![CDATA[Envío definitivo de inventario propio de Comandancia. Pendiente reserva, aceptar mueve propiedad y saldos. Rechazar o cancelar libera la reserva.]]></comment>
+<commentInRDBMS><![CDATA[Envío definitivo de inventario propio de Comandancia. Pendiente reserva, aceptar mueve propiedad y saldos. Rechazar o cancelar libera la reserva.]]></commentInRDBMS>
+<notes><![CDATA[RF-024. RNF-007, RNF-008 y RNF-009. El destinatario acepta o rechaza el envío completo. El remitente autorizado puede cancelarlo mientras esté pendiente.]]></notes>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1FD36D5B-2613-E3F4-8B8A-30573BB23268">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="compania_destino_id" id="A0C30715-983A-BBE5-3653-801E39B0E466">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FE81B95-1D86-B20C-5A15-67C06034F67D" referredColumn="758452DE-7AAC-8CF1-9245-8F8345C2C19D"/>
+</associations>
+</Column>
+<Column name="registrado_por_id" id="8F3315BF-A458-B6BF-2C2C-B3A3739EF73F">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FE1BA78-BE28-9BD6-AF4A-E62607E5B238" referredColumn="A4F5ECD1-7E32-87AF-6882-D31094C17517"/>
+</associations>
+</Column>
+<Column name="fecha_registro" id="A620E2B6-8B52-AA05-AD94-7361236B9310">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="AE7A84AC-BD03-410D-0674-94A0C6291F0F">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="79266654-D275-C9A1-DE1F-5F5BD050AADD">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<comment><![CDATA[HISTORICA, PENDIENTE, ACEPTADA, RECHAZADA o CANCELADA. Se acepta la transferencia completa.]]></comment>
+<commentInRDBMS><![CDATA[HISTORICA, PENDIENTE, ACEPTADA, RECHAZADA o CANCELADA. Se acepta la transferencia completa.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>&apos;HISTORICA&apos;</defaultValue>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock_origen_id" id="6FC872C3-7902-41B5-D9D6-447C37CD1335">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<comment><![CDATA[Posición propia de Comandancia que se reserva y entrega.]]></comment>
+<commentInRDBMS><![CDATA[Posición propia de Comandancia que se reserva y entrega.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C78F7FC-EA74-21CD-DFB3-9B231CFF4C9D" referredColumn="8E828F07-0C18-3028-2643-40A3EDEA8442"/>
+</associations>
+</Column>
+<Column name="equipo_seriado_id" id="1A14E9C1-952A-D47B-D3B4-5712B863F62C">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<comment><![CDATA[Equipo físico transferido. Su serie original se conserva.]]></comment>
+<commentInRDBMS><![CDATA[Equipo físico transferido. Su serie original se conserva.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EC3116D-61C9-340C-CD1C-BC46B57C12C7" referredColumn="E00B6AD6-DB15-6994-3A01-37FB9574F618"/>
+</associations>
+</Column>
+<Column name="cantidad" id="8A7FE4F7-EFF9-C7AD-04F8-EF3F9555318B">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<comment><![CDATA[Unidades positivas de la transferencia nueva.]]></comment>
+<commentInRDBMS><![CDATA[Unidades positivas de la transferencia nueva.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrega" id="A74D2DAD-B9AE-D533-BE2C-7F4F06F3BEFD">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<comment><![CDATA[Fecha operativa del envío, distinta de la fecha de registro.]]></comment>
+<commentInRDBMS><![CDATA[Fecha operativa del envío, distinta de la fecha de registro.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="referencia" id="20371F59-ECA2-0950-BE42-B07DFD538C97">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<comment><![CDATA[Referencia del envío cuando exista.]]></comment>
+<commentInRDBMS><![CDATA[Referencia del envío cuando exista.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clave_solicitud" id="ED96CB66-14D3-9317-E164-27FBE5EE8E13">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<comment><![CDATA[UUID de solicitud para impedir un envío duplicado.]]></comment>
+<commentInRDBMS><![CDATA[UUID de solicitud para impedir un envío duplicado.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="respondido_por_id" id="4928755E-1135-EB58-C205-72BFA5959D2B">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<comment><![CDATA[Cuenta que acepta, rechaza o cancela, validada por ámbito.]]></comment>
+<commentInRDBMS><![CDATA[Cuenta que acepta, rechaza o cancela, validada por ámbito.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BACDA83-325E-ED5C-5457-F2D9887EAA55" referredColumn="A4F5ECD1-7E32-87AF-6882-D31094C17517"/>
+</associations>
+</Column>
+<Column name="fecha_respuesta" id="5A3E1A1A-5BBC-76A6-E567-C653CABC28EB">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<comment><![CDATA[Momento de aceptación, rechazo o cancelación.]]></comment>
+<commentInRDBMS><![CDATA[Momento de aceptación, rechazo o cancelación.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="motivo_respuesta" id="206217B2-8EE8-6093-D804-85057598012D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<comment><![CDATA[Motivo de rechazo o cancelación y observaciones de la respuesta.]]></comment>
+<commentInRDBMS><![CDATA[Motivo de rechazo o cancelación y observaciones de la respuesta.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="pk_transferencia_definitiva" name="pk_transferencia_definitiva">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FD36D5B-2613-E3F4-8B8A-30573BB23268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="uq_transferencia_solicitud" name="uq_transferencia_solicitud">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED96CB66-14D3-9317-E164-27FBE5EE8E13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE7D8A5A-E203-99E2-8893-89A075088E5E" name="fk_transferencia_destino">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0C30715-983A-BBE5-3653-801E39B0E466"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52DB1BAA-6999-002B-4084-8C29F95FCEEB" name="fk_transferencia_usuario">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F3315BF-A458-B6BF-2C2C-B3A3739EF73F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD42058A-3F13-4B03-E692-9ED1D5EB8A31" name="fk_transferencia_stock_origen">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FC872C3-7902-41B5-D9D6-447C37CD1335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EABAE334-1727-C392-B867-1F8AC9B57492" name="fk_transferencia_equipo">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A14E9C1-952A-D47B-D3B4-5712B863F62C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B6EA3FA-5A91-771B-8E3C-AF10B671F8F1" name="fk_transferencia_respuesta">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4928755E-1135-EB58-C205-72BFA5959D2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_transferencia_datos" directorySegmentName="seg_1" id="589EB4CF-A2D0-7AAC-A68B-7BE31D8C6FA1">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<rule><![CDATA["estado"='HISTORICA' OR ("estado" IN ('PENDIENTE','ACEPTADA','RECHAZADA','CANCELADA') AND "cantidad" IS NOT NULL AND "cantidad">0 AND "clave_solicitud" IS NOT NULL AND "fecha_entrega" IS NOT NULL AND "stock_origen_id" IS NOT NULL)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_transferencia_respuesta" directorySegmentName="seg_1" id="CF25C28A-A9CF-C9D4-23E4-631829A13B01">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<rule><![CDATA[("estado" IN ('HISTORICA','PENDIENTE') AND "fecha_respuesta" IS NULL AND "respondido_por_id" IS NULL) OR ("estado" IN ('ACEPTADA','RECHAZADA','CANCELADA') AND "fecha_respuesta" IS NOT NULL AND "respondido_por_id" IS NOT NULL)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

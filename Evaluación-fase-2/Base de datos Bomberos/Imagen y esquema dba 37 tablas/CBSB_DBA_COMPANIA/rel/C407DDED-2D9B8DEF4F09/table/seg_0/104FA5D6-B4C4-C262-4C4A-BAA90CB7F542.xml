@@ -1,0 +1,354 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="104FA5D6-B4C4-C262-4C4A-BAA90CB7F542" name="componente_unidad">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>94B0E3DB-74EB-DA29-57C3-86E4DC5E632B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="289EA1D7-0EC8-A7C4-6FC7-CEA2D26BF4CD">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>02C88FAD-6DF5-122C-C235-5309E6DF3951</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,19,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidad_id" id="B555F330-9F70-A10B-6E91-79C9A8903EE4">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>7916734F-BB28-269A-CC99-DD10785A09E9</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8F6A0EB-C024-1F3F-3E54-3139ED3C4A2E" referredColumn="3359DD6B-626F-273F-CB14-FC7CB4471268"/>
+</associations>
+</Column>
+<Column name="codigo" id="24C6DFF2-D747-5641-51D5-706EDC498569">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>F3C6E905-3F8A-0B15-AB76-60AD3142BA25</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B730F8E0-AEE8-6591-6276-11F10B4F79F4">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>F5BC39CD-9A13-3AA0-B207-FB8585FBF1D5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="15532A6A-9EE8-665D-BD32-7E88302C031B">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>C30E17DA-FF47-2598-AEEC-5512903989E1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activo" id="35B3294B-E7A0-59A4-19BD-5AB191266961">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>DF21DFDB-6F6F-34EB-E9BB-6AEC2139B5FD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>0,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="D6D555C7-B026-8DEB-5285-1CA273949DFF">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Marca del componente, cuando corresponda.]]></comment>
+<commentInRDBMS><![CDATA[Marca del componente, cuando corresponda.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="D0FE2A84-FD78-03D7-E922-28C6691806AC">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Modelo del componente, cuando corresponda.]]></comment>
+<commentInRDBMS><![CDATA[Modelo del componente, cuando corresponda.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_serie" id="49BD6A6E-1A54-936B-1A3D-23855AD9D8F6">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Serie del fabricante del componente. No reemplaza la identificación del vehículo.]]></comment>
+<commentInRDBMS><![CDATA[Serie del fabricante del componente. No reemplaza la identificación del vehículo.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="posicion" id="92DE8D2D-3630-CBA5-E063-435DEBB835E2">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Posición o emplazamiento del componente dentro de la unidad.]]></comment>
+<commentInRDBMS><![CDATA[Posición o emplazamiento del componente dentro de la unidad.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_instalacion" id="467C03CC-062E-8727-EF81-6EC9A29C3091">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Fecha de instalación del componente en la unidad.]]></comment>
+<commentInRDBMS><![CDATA[Fecha de instalación del componente en la unidad.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_retiro" id="DEFFAD17-3F5E-7CF8-ADF4-33952A75F31B">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Fecha de retiro del componente, conservando sus lecturas y mantenimientos históricos.]]></comment>
+<commentInRDBMS><![CDATA[Fecha de retiro del componente, conservando sus lecturas y mantenimientos históricos.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vida_util_valor" id="EF7D9010-C598-7AB3-B0DF-BB1A159E8A5B">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Vida útil de referencia. Un dato desconocido se conserva vacío.]]></comment>
+<commentInRDBMS><![CDATA[Vida útil de referencia. Un dato desconocido se conserva vacío.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vida_util_unidad" id="418862D6-AE8A-172A-72ED-DAFE4F82910B">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Unidad de la vida útil: DIAS, MESES, ANIOS, KM o HORAS.]]></comment>
+<commentInRDBMS><![CDATA[Unidad de la vida útil: DIAS, MESES, ANIOS, KM o HORAS.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio_uso" id="CA2F1316-604A-8EA7-6321-A87369FA7014">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Fecha desde la que se considera el inicio de uso del elemento.]]></comment>
+<commentInRDBMS><![CDATA[Fecha desde la que se considera el inicio de uso del elemento.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lectura_inicio_uso" id="8FE0520A-7B9D-EBF6-D33B-1BF1C9648198">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Lectura inicial cuando la vida útil se expresa en kilómetros o en horas.]]></comment>
+<commentInRDBMS><![CDATA[Lectura inicial cuando la vida útil se expresa en kilómetros o en horas.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_vencimiento" id="99F09211-429B-1F7B-2F85-D1B497E1D6E8">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<comment><![CDATA[Vencimiento conocido o documentado. No implica un cálculo automático de depreciación.]]></comment>
+<commentInRDBMS><![CDATA[Vencimiento conocido o documentado. No implica un cálculo automático de depreciación.]]></commentInRDBMS>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D65693E0-D1E0-DB30-A3B6-293BF66A92C6" name="PK_componente_unidad_id">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>27FC7EA0-3C10-A3C6-91D5-4ADB6F3556DA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="289EA1D7-0EC8-A7C4-6FC7-CEA2D26BF4CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E016F38-5052-2790-17EA-0EF5F75FCC1B" name="UQ_componente_unidad_unidad_id_codigo">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>EC2FE7DC-8909-D0B1-BF25-BA1440E28A9A</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B555F330-9F70-A10B-6E91-79C9A8903EE4"/>
+<colUsage columnID="24C6DFF2-D747-5641-51D5-706EDC498569"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73B54A8B-08A0-AD3D-0F50-CF0FBA35FBE6" name="FK_componente_unidad_unidad_id">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B555F330-9F70-A10B-6E91-79C9A8903EE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_componente_unidad_1" directorySegmentName="seg_0" id="46BC5F69-2F80-A438-7565-3352DC250F85">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:35 UTC</createdTime>
+<ownerDesignName>simplificacion_esquema_DBA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>51AD9826-E56A-3BCE-B051-3A7C87C74F0D</importedID>
+<rule><![CDATA["activo" IN (0,1)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_comp_vida" directorySegmentName="seg_1" id="D272E376-2562-1503-3DF5-0B916D0F1974">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 06:05:08 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<rule><![CDATA[("vida_util_valor" IS NULL AND "vida_util_unidad" IS NULL) OR ("vida_util_valor" IS NOT NULL AND "vida_util_valor">0 AND "vida_util_unidad" IS NOT NULL AND "vida_util_unidad" IN ('DIAS','MESES','ANIOS','KM','HORAS'))]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_comp_lectura" directorySegmentName="seg_1" id="066F075B-CCC2-D07D-D8A0-1175DD40BF80">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 06:05:08 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<rule><![CDATA["lectura_inicio_uso" IS NULL OR "lectura_inicio_uso">=0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_comp_fechas" directorySegmentName="seg_1" id="D9D8B179-6AEB-E623-40F1-ED1C4AD4FC8B">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 06:05:08 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<rule><![CDATA["fecha_vencimiento" IS NULL OR "fecha_inicio_uso" IS NULL OR "fecha_vencimiento">="fecha_inicio_uso"]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_comp_instalacion" directorySegmentName="seg_1" id="D0A6ED58-79B6-D57E-5102-218E526CFFFD">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 06:05:08 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<rule><![CDATA["fecha_retiro" IS NULL OR "fecha_instalacion" IS NULL OR "fecha_retiro">="fecha_instalacion"]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

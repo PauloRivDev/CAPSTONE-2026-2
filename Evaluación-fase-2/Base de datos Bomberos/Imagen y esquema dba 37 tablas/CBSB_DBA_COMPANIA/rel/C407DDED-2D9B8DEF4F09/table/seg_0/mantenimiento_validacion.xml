@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="mantenimiento_validacion" name="mantenimiento_validacion">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<comment><![CDATA[RF-017, RF-018; RNF-008, RNF-017. Reunion CBSB 18-10-2026. Validaciones sucesivas independientes. Inspeccion tecnica y conformidad de recepcion son distintas. Estados, orden de aprobacion y cierre pendientes; no sustituir historia.]]></comment>
+<commentInRDBMS><![CDATA[RF-017, RF-018; RNF-008, RNF-017. Reunion CBSB 18-10-2026. Validaciones sucesivas independientes. Inspeccion tecnica y conformidad de recepcion son distintas. Estados, orden de aprobacion y cierre pendientes; no sustituir historia.]]></commentInRDBMS>
+<notes><![CDATA[RF-017, RF-018; RNF-008, RNF-017. Reunion CBSB 18-10-2026. Validaciones sucesivas independientes. Inspeccion tecnica y conformidad de recepcion son distintas. Estados, orden de aprobacion y cierre pendientes; no sustituir historia.]]></notes>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BBA78FD5-F2F6-ACE7-23F5-14980095D4CC">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mantenimiento_id" id="1FEDD98B-530D-D256-E4B2-2C8D36262C30">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61CE5871-DF4C-0ED5-F2DC-4C0252A8C6FE" referredColumn="9AE700ED-7F3F-E2AA-2A9D-4321F6637652"/>
+</associations>
+</Column>
+<Column name="responsable_usuario_id" id="F776A724-8FD5-C84E-374C-0CF2E400B1C2">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43F30CF6-7512-2391-BB77-4B20CD228954" referredColumn="A4F5ECD1-7E32-87AF-6882-D31094C17517"/>
+</associations>
+</Column>
+<Column name="tipo_validacion" id="6C2222C8-B556-6284-34EB-ACF6AEE6FD5D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resultado" id="71737C6E-F2D5-1C58-C53D-F4E8D1887379">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="3B3735BB-F72B-3FED-1FDA-BD0970B35009">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_validacion" id="CF5394BD-D63A-9814-2B42-D881FB5C4C5D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="pk_mantenimiento_validacion" name="pk_mantenimiento_validacion">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA78FD5-F2F6-ACE7-23F5-14980095D4CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACB806C9-8783-1B6D-8619-A0E7733A7305" name="fk_mant_validacion_mant">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FEDD98B-530D-D256-E4B2-2C8D36262C30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05E10F4F-A5DC-63AF-BDA8-DB41AA9F3084" name="fk_mant_validacion_usuario">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F776A724-8FD5-C84E-374C-0CF2E400B1C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

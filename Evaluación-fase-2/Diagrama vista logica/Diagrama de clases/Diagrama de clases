@@ -1,9 +1,9 @@
-<mxfile host="app.diagrams.net" agent="CBSB · UML clásico · modelo aprobado V2">
+<mxfile host="app.diagrams.net" agent="CBSB · UML clásico · modelo propuesto según DLL">
   <diagram id="cbsb_uml_una_pagina_sobrio" name="Diagrama de clases">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3810" pageHeight="2640" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3810" pageHeight="3100" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" parent="0" value="Relaciones principales (44)" />
+        <mxCell id="1" parent="0" value="Relaciones principales" />
         <mxCell id="FK_001" edge="1" parent="1" source="class_regla_control" style="edgeStyle=segmentEdgeStyle;rounded=0;orthogonalLoop=1;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="class_alerta_control" tooltip="alerta_control.regla_control_id → regla_control.id | 1 ↔ 0..* | FK_alerta_control_regla_control_id" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -356,7 +356,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2" parent="0" value="Relaciones transversales (42) · activar si se necesitan" visible="0" />
+        <mxCell id="2" parent="0" value="Relaciones transversales · activar si se necesitan" visible="0" />
         <mxCell id="FK_002" edge="1" parent="2" source="class_usuario" style="edgeStyle=segmentEdgeStyle;rounded=0;orthogonalLoop=1;html=1;strokeColor=#A2A2A2;strokeWidth=0.9;opacity=68;startArrow=none;endArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="class_alerta_control" tooltip="alerta_control.resuelta_por_id → usuario.id | 0..1 ↔ 0..* | FK_alerta_control_resuelta_por_id" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -693,7 +693,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3" parent="0" value="Clases UML (29)" />
+        <mxCell id="3" parent="0" value="Clases UML (36)" />
         <mxCell id="title" parent="3" style="html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#252525;fontSize=25;fontFamily=Arial;align=left;verticalAlign=middle;" value="&lt;b&gt;DIAGRAMA DE CLASES CBSB&lt;/b&gt;" vertex="1">
           <mxGeometry height="45" width="378" x="1716" y="60" as="geometry" />
         </mxCell>
@@ -1258,8 +1258,8 @@
         <mxCell id="attr_lectura_unidad_9" parent="class_lectura_unidad" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="motivo_correccion : CLOB NULL" value="- motivo_correccion : CLOB" vertex="1">
           <mxGeometry height="22" width="393" x="6" y="249" as="geometry" />
         </mxCell>
-        <mxCell id="class_mantenimiento" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Tabla SQL: mantenimiento | 17 atributos | 4 FK salientes" value="" vertex="1">
-          <mxGeometry height="435" width="405" x="3274" y="1250" as="geometry" />
+        <mxCell id="class_mantenimiento" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Persistencia según DLL; modelo propuesto." value="" vertex="1">
+          <mxGeometry height="523" width="405" x="3274" y="1250" as="geometry" />
         </mxCell>
         <mxCell id="class_mantenimiento_name" parent="class_mantenimiento" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=17;fontColor=#242424;fontFamily=Arial;align=center;verticalAlign=middle;" value="&lt;b&gt;Mantenimiento&lt;/b&gt;" vertex="1">
           <mxGeometry height="48" width="405" y="2" as="geometry" />
@@ -1375,8 +1375,8 @@
         <mxCell id="attr_movimiento_detalle_15" parent="class_movimiento_detalle" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="observaciones : CLOB NULL" value="- observaciones : CLOB" vertex="1">
           <mxGeometry height="22" width="393" x="6" y="381" as="geometry" />
         </mxCell>
-        <mxCell id="class_movimiento_inventario" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Tabla SQL: movimiento_inventario | 8 atributos | 2 FK salientes" value="" vertex="1">
-          <mxGeometry height="237" width="405" x="1678" y="760" as="geometry" />
+        <mxCell id="class_movimiento_inventario" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Persistencia según DLL; modelo propuesto." value="" vertex="1">
+          <mxGeometry height="259" width="405" x="1678" y="760" as="geometry" />
         </mxCell>
         <mxCell id="class_movimiento_inventario_name" parent="class_movimiento_inventario" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=17;fontColor=#242424;fontFamily=Arial;align=center;verticalAlign=middle;" value="&lt;b&gt;MovimientoInventario&lt;/b&gt;" vertex="1">
           <mxGeometry height="48" width="405" y="2" as="geometry" />
@@ -1770,6 +1770,416 @@
         </mxCell>
         <mxCell id="attr_variante_atributo_4" parent="class_variante_atributo" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="valor_libre : VARCHAR2(200) NULL" value="- valor_libre : VARCHAR2(200)" vertex="1">
           <mxGeometry height="22" width="393" x="6" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="class_capacidad" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Concepto de persistencia del DLL; modelo propuesto." value="" vertex="1">
+          <mxGeometry height="149" width="405" x="82" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_capacidad_name" parent="class_capacidad" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=17;fontColor=#242424;fontFamily=Arial;align=center;verticalAlign=middle;" value="&lt;b&gt;Capacidad&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="405" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="class_capacidad_line" parent="class_capacidad" style="rounded=0;strokeColor=none;fillColor=#555555;" value="" vertex="1">
+          <mxGeometry height="1" width="403" x="1" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_capacidad_0" parent="class_capacidad" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="id : NUMBER(19) NOT NULL" value="- id : NUMBER(19)  [PK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_capacidad_1" parent="class_capacidad" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="codigo : VARCHAR NOT NULL" value="- codigo : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_capacidad_2" parent="class_capacidad" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="nombre : VARCHAR NOT NULL" value="- nombre : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_capacidad_3" parent="class_capacidad" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="descripcion : CLOB NULL" value="- descripcion : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="class_unidad_capacidad" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Concepto de persistencia del DLL; modelo propuesto." value="" vertex="1">
+          <mxGeometry height="149" width="405" x="614" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_unidad_capacidad_name" parent="class_unidad_capacidad" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=17;fontColor=#242424;fontFamily=Arial;align=center;verticalAlign=middle;" value="&lt;b&gt;UnidadCapacidad&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="405" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="class_unidad_capacidad_line" parent="class_unidad_capacidad" style="rounded=0;strokeColor=none;fillColor=#555555;" value="" vertex="1">
+          <mxGeometry height="1" width="403" x="1" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_unidad_capacidad_0" parent="class_unidad_capacidad" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="id : NUMBER(19) NOT NULL" value="- id : NUMBER(19)  [PK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_unidad_capacidad_1" parent="class_unidad_capacidad" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="unidad_id : NUMBER(19) NOT NULL" value="- unidad_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_unidad_capacidad_2" parent="class_unidad_capacidad" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="capacidad_id : NUMBER(19) NOT NULL" value="- capacidad_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_unidad_capacidad_3" parent="class_unidad_capacidad" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="observaciones : CLOB NULL" value="- observaciones : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="class_checklist_item" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Concepto de persistencia del DLL; modelo propuesto." value="" vertex="1">
+          <mxGeometry height="215" width="405" x="1146" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_checklist_item_name" parent="class_checklist_item" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=17;fontColor=#242424;fontFamily=Arial;align=center;verticalAlign=middle;" value="&lt;b&gt;ItemChecklist&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="405" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="class_checklist_item_line" parent="class_checklist_item" style="rounded=0;strokeColor=none;fillColor=#555555;" value="" vertex="1">
+          <mxGeometry height="1" width="403" x="1" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checklist_item_0" parent="class_checklist_item" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="id : NUMBER(19) NOT NULL" value="- id : NUMBER(19)  [PK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checklist_item_1" parent="class_checklist_item" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="codigo : VARCHAR NOT NULL" value="- codigo : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checklist_item_2" parent="class_checklist_item" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="nombre : VARCHAR NOT NULL" value="- nombre : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checklist_item_3" parent="class_checklist_item" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="descripcion : CLOB NULL" value="- descripcion : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checklist_item_4" parent="class_checklist_item" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="unidad_id : NUMBER(19) NULL" value="- unidad_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checklist_item_5" parent="class_checklist_item" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="tipo_unidad_id : NUMBER(19) NULL" value="- tipo_unidad_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checklist_item_6" parent="class_checklist_item" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="orden_visual : NUMBER(5) NULL" value="- orden_visual : NUMBER(5)" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="class_checkin_respuesta" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Concepto de persistencia del DLL; modelo propuesto." value="" vertex="1">
+          <mxGeometry height="237" width="405" x="1678" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_checkin_respuesta_name" parent="class_checkin_respuesta" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=17;fontColor=#242424;fontFamily=Arial;align=center;verticalAlign=middle;" value="&lt;b&gt;RespuestaCheckIn&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="405" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="class_checkin_respuesta_line" parent="class_checkin_respuesta" style="rounded=0;strokeColor=none;fillColor=#555555;" value="" vertex="1">
+          <mxGeometry height="1" width="403" x="1" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checkin_respuesta_0" parent="class_checkin_respuesta" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="id : NUMBER(19) NOT NULL" value="- id : NUMBER(19)  [PK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checkin_respuesta_1" parent="class_checkin_respuesta" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="checkin_id : NUMBER(19) NOT NULL" value="- checkin_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checkin_respuesta_2" parent="class_checkin_respuesta" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="checklist_item_id : NUMBER(19) NOT NULL" value="- checklist_item_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checkin_respuesta_3" parent="class_checkin_respuesta" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="resultado_codigo : VARCHAR NULL" value="- resultado_codigo : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checkin_respuesta_4" parent="class_checkin_respuesta" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="observaciones : CLOB NULL" value="- observaciones : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checkin_respuesta_5" parent="class_checkin_respuesta" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="codigo_item_registrado : VARCHAR NOT NULL" value="- codigo_item_registrado : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checkin_respuesta_6" parent="class_checkin_respuesta" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="nombre_item_registrado : VARCHAR NOT NULL" value="- nombre_item_registrado : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_checkin_respuesta_7" parent="class_checkin_respuesta" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="descripcion_item_registrada : CLOB NULL" value="- descripcion_item_registrada : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="class_mantenimiento_evidencia" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Concepto de persistencia del DLL; modelo propuesto." value="" vertex="1">
+          <mxGeometry height="259" width="405" x="2210" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_mantenimiento_evidencia_name" parent="class_mantenimiento_evidencia" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=17;fontColor=#242424;fontFamily=Arial;align=center;verticalAlign=middle;" value="&lt;b&gt;EvidenciaMantenimiento&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="405" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="class_mantenimiento_evidencia_line" parent="class_mantenimiento_evidencia" style="rounded=0;strokeColor=none;fillColor=#555555;" value="" vertex="1">
+          <mxGeometry height="1" width="403" x="1" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_evidencia_0" parent="class_mantenimiento_evidencia" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="id : NUMBER(19) NOT NULL" value="- id : NUMBER(19)  [PK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_evidencia_1" parent="class_mantenimiento_evidencia" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="mantenimiento_id : NUMBER(19) NOT NULL" value="- mantenimiento_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_evidencia_2" parent="class_mantenimiento_evidencia" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="registrado_por_id : NUMBER(19) NOT NULL" value="- registrado_por_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_evidencia_3" parent="class_mantenimiento_evidencia" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="tipo_etapa : VARCHAR NULL" value="- tipo_etapa : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_evidencia_4" parent="class_mantenimiento_evidencia" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="nombre_archivo : VARCHAR NOT NULL" value="- nombre_archivo : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_evidencia_5" parent="class_mantenimiento_evidencia" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="ruta_almacenamiento : VARCHAR NOT NULL" value="- ruta_almacenamiento : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_evidencia_6" parent="class_mantenimiento_evidencia" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="tipo_mime : VARCHAR NULL" value="- tipo_mime : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_evidencia_7" parent="class_mantenimiento_evidencia" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="tamano_bytes : NUMBER(19) NULL" value="- tamano_bytes : NUMBER(19)" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_evidencia_8" parent="class_mantenimiento_evidencia" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="creado_en : TIMESTAMP NULL" value="- creado_en : TIMESTAMP" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="class_mantenimiento_validacion" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Concepto de persistencia del DLL; modelo propuesto." value="" vertex="1">
+          <mxGeometry height="215" width="405" x="2742" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_mantenimiento_validacion_name" parent="class_mantenimiento_validacion" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=17;fontColor=#242424;fontFamily=Arial;align=center;verticalAlign=middle;" value="&lt;b&gt;ValidacionMantenimiento&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="405" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="class_mantenimiento_validacion_line" parent="class_mantenimiento_validacion" style="rounded=0;strokeColor=none;fillColor=#555555;" value="" vertex="1">
+          <mxGeometry height="1" width="403" x="1" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_validacion_0" parent="class_mantenimiento_validacion" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="id : NUMBER(19) NOT NULL" value="- id : NUMBER(19)  [PK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_validacion_1" parent="class_mantenimiento_validacion" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="mantenimiento_id : NUMBER(19) NOT NULL" value="- mantenimiento_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_validacion_2" parent="class_mantenimiento_validacion" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="responsable_usuario_id : NUMBER(19) NOT NULL" value="- responsable_usuario_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_validacion_3" parent="class_mantenimiento_validacion" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="tipo_validacion : VARCHAR NULL" value="- tipo_validacion : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_validacion_4" parent="class_mantenimiento_validacion" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="resultado : VARCHAR NULL" value="- resultado : VARCHAR" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_validacion_5" parent="class_mantenimiento_validacion" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="observaciones : CLOB NULL" value="- observaciones : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="161" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_validacion_6" parent="class_mantenimiento_validacion" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="fecha_validacion : TIMESTAMP NULL" value="- fecha_validacion : TIMESTAMP" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="183" as="geometry" />
+        </mxCell>
+        <mxCell id="class_transferencia_definitiva" parent="3" style="rounded=0;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#454545;strokeWidth=1.3;shadow=0;" tooltip="Concepto de persistencia del DLL; modelo propuesto." value="" vertex="1">
+          <mxGeometry height="171" width="405" x="3274" y="2660" as="geometry" />
+        </mxCell>
+        <mxCell id="class_transferencia_definitiva_name" parent="class_transferencia_definitiva" style="rounded=0;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontSize=17;fontColor=#242424;fontFamily=Arial;align=center;verticalAlign=middle;" value="&lt;b&gt;TransferenciaDefinitiva&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="405" y="2" as="geometry" />
+        </mxCell>
+        <mxCell id="class_transferencia_definitiva_line" parent="class_transferencia_definitiva" style="rounded=0;strokeColor=none;fillColor=#555555;" value="" vertex="1">
+          <mxGeometry height="1" width="403" x="1" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_transferencia_definitiva_0" parent="class_transferencia_definitiva" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="id : NUMBER(19) NOT NULL" value="- id : NUMBER(19)  [PK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_transferencia_definitiva_1" parent="class_transferencia_definitiva" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="compania_destino_id : NUMBER(19) NOT NULL" value="- compania_destino_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_transferencia_definitiva_2" parent="class_transferencia_definitiva" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="registrado_por_id : NUMBER(19) NOT NULL" value="- registrado_por_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_transferencia_definitiva_3" parent="class_transferencia_definitiva" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="fecha_registro : TIMESTAMP NULL" value="- fecha_registro : TIMESTAMP" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="117" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_transferencia_definitiva_4" parent="class_transferencia_definitiva" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="observaciones : CLOB NULL" value="- observaciones : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_17" parent="class_mantenimiento" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="observaciones_iniciales : CLOB NULL" value="- observaciones_iniciales : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_18" parent="class_mantenimiento" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="observaciones_finales : CLOB NULL" value="- observaciones_finales : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_19" parent="class_mantenimiento" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="pruebas_realizadas : CLOB NULL" value="- pruebas_realizadas : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="469" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_mantenimiento_20" parent="class_mantenimiento" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="resultado_pruebas : CLOB NULL" value="- resultado_pruebas : CLOB" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="491" as="geometry" />
+        </mxCell>
+        <mxCell id="attr_movimiento_inventario_8" parent="class_movimiento_inventario" style="html=1;whiteSpace=nowrap;overflow=hidden;rounded=0;fillColor=none;strokeColor=none;fontColor=#303030;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacingLeft=12;" tooltip="transferencia_definitiva_id : NUMBER(19) NULL" value="- transferencia_definitiva_id : NUMBER(19)  [FK]" vertex="1">
+          <mxGeometry height="22" width="393" x="6" y="227" as="geometry" />
+        </mxCell>
+        <mxCell id="extension_dll" parent="3" style="html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#555555;fontSize=14;fontFamily=Arial;fontStyle=1;align=left;verticalAlign=middle;" value="EXTENSIÓN DEL MODELO PROPUESTO SEGÚN DLL DE 36 TABLAS" vertex="1">
+          <mxGeometry height="30" width="2000" x="82" y="2530" as="geometry" />
+        </mxCell>
+        <mxCell id="extension_cautions" parent="3" style="html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontColor=#555555;fontSize=14;fontFamily=Arial;align=left;verticalAlign=middle;" value="Origen Comandancia y reglas operativas pendientes. Evidencias: rutas y metadatos; adjuntos fuera de la BD. Respuestas: instantáneas históricas. Validaciones independientes, sin cierre automático." vertex="1">
+          <mxGeometry height="48" width="3597" x="82" y="2570" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_checkin_respuesta_checkin" edge="1" parent="1" source="class_checkin" target="class_checkin_respuesta" value="" tooltip="checkin_respuesta.checkin_id → checkin.id | 1 ↔ 0..* | fk_checkin_respuesta_checkin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3172.0" y="1169.5" />
+              <mxPoint x="3172.0" y="2380" />
+              <mxPoint x="1653.0" y="2380" />
+              <mxPoint x="1653.0" y="2778.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_checkin_respuesta_checkin_p" parent="DLL_fk_checkin_respuesta_checkin" vertex="1" connectable="0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_checkin_respuesta_checkin_c" parent="DLL_fk_checkin_respuesta_checkin" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_checkin_respuesta_item" edge="1" parent="1" source="class_checklist_item" target="class_checkin_respuesta" value="" tooltip="checkin_respuesta.checklist_item_id → checklist_item.id | 1 ↔ 0..* | fk_checkin_respuesta_item" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_checkin_respuesta_item_p" parent="DLL_fk_checkin_respuesta_item" vertex="1" connectable="0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_checkin_respuesta_item_c" parent="DLL_fk_checkin_respuesta_item" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_checklist_item_tipo" edge="1" parent="2" source="class_catalogo_valor" target="class_checklist_item" value="" tooltip="checklist_item.tipo_unidad_id → catalogo_valor.id | 0..1 ↔ 0..* | fk_checklist_item_tipo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1064.0" y="336.5" />
+              <mxPoint x="1064.0" y="2410" />
+              <mxPoint x="1121.0" y="2410" />
+              <mxPoint x="1121.0" y="2767.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_checklist_item_tipo_p" parent="DLL_fk_checklist_item_tipo" vertex="1" connectable="0" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_checklist_item_tipo_c" parent="DLL_fk_checklist_item_tipo" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_checklist_item_unidad" edge="1" parent="1" source="class_unidad" target="class_checklist_item" value="" tooltip="checklist_item.unidad_id → unidad.id | 0..1 ↔ 0..* | fk_checklist_item_unidad" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3172.0" y="457.5" />
+              <mxPoint x="3172.0" y="2425" />
+              <mxPoint x="1121.0" y="2425" />
+              <mxPoint x="1121.0" y="2767.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_checklist_item_unidad_p" parent="DLL_fk_checklist_item_unidad" vertex="1" connectable="0" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_checklist_item_unidad_c" parent="DLL_fk_checklist_item_unidad" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_mant_evidencia_mant" edge="1" parent="1" source="class_mantenimiento" target="class_mantenimiento_evidencia" value="" tooltip="mantenimiento_evidencia.mantenimiento_id → mantenimiento.id | 1 ↔ 0..* | fk_mant_evidencia_mant" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3714.0" y="1511.5" />
+              <mxPoint x="3714.0" y="2440" />
+              <mxPoint x="2185.0" y="2440" />
+              <mxPoint x="2185.0" y="2789.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_mant_evidencia_mant_p" parent="DLL_fk_mant_evidencia_mant" vertex="1" connectable="0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_mant_evidencia_mant_c" parent="DLL_fk_mant_evidencia_mant" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_mant_evidencia_usuario" edge="1" parent="2" source="class_usuario" target="class_mantenimiento_evidencia" value="" tooltip="mantenimiento_evidencia.registrado_por_id → usuario.id | 1 ↔ 0..* | fk_mant_evidencia_usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532.0" y="908.5" />
+              <mxPoint x="532.0" y="2455" />
+              <mxPoint x="2185.0" y="2455" />
+              <mxPoint x="2185.0" y="2789.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_mant_evidencia_usuario_p" parent="DLL_fk_mant_evidencia_usuario" vertex="1" connectable="0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_mant_evidencia_usuario_c" parent="DLL_fk_mant_evidencia_usuario" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_mant_validacion_mant" edge="1" parent="1" source="class_mantenimiento" target="class_mantenimiento_validacion" value="" tooltip="mantenimiento_validacion.mantenimiento_id → mantenimiento.id | 1 ↔ 0..* | fk_mant_validacion_mant" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3704.0" y="1511.5" />
+              <mxPoint x="3704.0" y="2470" />
+              <mxPoint x="2717.0" y="2470" />
+              <mxPoint x="2717.0" y="2767.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_mant_validacion_mant_p" parent="DLL_fk_mant_validacion_mant" vertex="1" connectable="0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_mant_validacion_mant_c" parent="DLL_fk_mant_validacion_mant" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_mant_validacion_usuario" edge="1" parent="2" source="class_usuario" target="class_mantenimiento_validacion" value="" tooltip="mantenimiento_validacion.responsable_usuario_id → usuario.id | 1 ↔ 0..* | fk_mant_validacion_usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="522.0" y="908.5" />
+              <mxPoint x="522.0" y="2485" />
+              <mxPoint x="2717.0" y="2485" />
+              <mxPoint x="2717.0" y="2767.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_mant_validacion_usuario_p" parent="DLL_fk_mant_validacion_usuario" vertex="1" connectable="0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_mant_validacion_usuario_c" parent="DLL_fk_mant_validacion_usuario" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_movimiento_transferencia" edge="1" parent="1" source="class_transferencia_definitiva" target="class_movimiento_inventario" value="" tooltip="movimiento_inventario.transferencia_definitiva_id → transferencia_definitiva.id | 0..1 ↔ 0..* | fk_movimiento_transferencia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=0;exitY=0.5;entryX=1;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3249.0" y="2745.5" />
+              <mxPoint x="3249.0" y="2500" />
+              <mxPoint x="2108.0" y="2500" />
+              <mxPoint x="2108.0" y="889.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_movimiento_transferencia_p" parent="DLL_fk_movimiento_transferencia" vertex="1" connectable="0" value="0..1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_movimiento_transferencia_c" parent="DLL_fk_movimiento_transferencia" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_transferencia_destino" edge="1" parent="2" source="class_compania" target="class_transferencia_definitiva" value="" tooltip="transferencia_definitiva.compania_destino_id → compania.id | 1 ↔ 0..* | fk_transferencia_destino" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="512.0" y="325.5" />
+              <mxPoint x="512.0" y="2515" />
+              <mxPoint x="3249.0" y="2515" />
+              <mxPoint x="3249.0" y="2745.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_transferencia_destino_p" parent="DLL_fk_transferencia_destino" vertex="1" connectable="0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_transferencia_destino_c" parent="DLL_fk_transferencia_destino" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_transferencia_usuario" edge="1" parent="2" source="class_usuario" target="class_transferencia_definitiva" value="" tooltip="transferencia_definitiva.registrado_por_id → usuario.id | 1 ↔ 0..* | fk_transferencia_usuario" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="522.0" y="908.5" />
+              <mxPoint x="522.0" y="2530" />
+              <mxPoint x="3249.0" y="2530" />
+              <mxPoint x="3249.0" y="2745.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_transferencia_usuario_p" parent="DLL_fk_transferencia_usuario" vertex="1" connectable="0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_transferencia_usuario_c" parent="DLL_fk_transferencia_usuario" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_unidad_capacidad_capacidad" edge="1" parent="1" source="class_capacidad" target="class_unidad_capacidad" value="" tooltip="unidad_capacidad.capacidad_id → capacidad.id | 1 ↔ 0..* | fk_unidad_capacidad_capacidad" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_unidad_capacidad_capacidad_p" parent="DLL_fk_unidad_capacidad_capacidad" vertex="1" connectable="0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_unidad_capacidad_capacidad_c" parent="DLL_fk_unidad_capacidad_capacidad" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_unidad_capacidad_unidad" edge="1" parent="1" source="class_unidad" target="class_unidad_capacidad" value="" tooltip="unidad_capacidad.unidad_id → unidad.id | 1 ↔ 0..* | fk_unidad_capacidad_unidad" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#666666;strokeWidth=1.15;opacity=88;startArrow=none;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3172.0" y="457.5" />
+              <mxPoint x="3172.0" y="2560" />
+              <mxPoint x="589.0" y="2560" />
+              <mxPoint x="589.0" y="2734.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DLL_fk_unidad_capacidad_unidad_p" parent="DLL_fk_unidad_capacidad_unidad" vertex="1" connectable="0" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="-0.85" y="-12" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DLL_fk_unidad_capacidad_unidad_c" parent="DLL_fk_unidad_capacidad_unidad" vertex="1" connectable="0" value="0..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=12;labelBackgroundColor=#FFFFFF;">
+          <mxGeometry x="0.85" y="-12" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

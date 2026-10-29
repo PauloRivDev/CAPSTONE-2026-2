@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_stock_posicion_variante_id" directorySegmentName="seg_1" id="0885EE3F-4AD6-CF66-32B9-EE0A5F7C62D0">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>87012AC3-B86D-D259-F17A-91B30EDE3054</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>247D8417-7647-54E0-616A-564662F914DA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7C8CF18-3108-803D-BA12-1D75E8EE380E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A895D8B-3E24-9C66-8FDE-90759D7B76F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

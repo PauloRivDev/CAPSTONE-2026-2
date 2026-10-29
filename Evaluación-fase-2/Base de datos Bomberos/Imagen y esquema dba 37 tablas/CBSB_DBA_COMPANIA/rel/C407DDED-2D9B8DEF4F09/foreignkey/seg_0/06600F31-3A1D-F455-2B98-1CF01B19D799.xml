@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="06600F31-3A1D-F455-2B98-1CF01B19D799" containerWithKeyObject="5BC01DA3-706A-B775-C541-B65E3D5AB044" localFKIndex="7DDAA1B7-5C86-03C0-6EF5-A0C29E9A67FF" name="FK_regla_control_plan_control_id">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>B016C5AC-1D19-BB26-964A-CC03FD9646BB</importedID>
+<referredTableLongName>plan_control</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3248819-537C-704F-7C08-7F9103D5C4CC</referredTableID>
+<keyObject>3DA1A226-A518-3184-1B46-B84D5CAF3222</keyObject>
+<referredKeyID>3DA1A226-A518-3184-1B46-B84D5CAF3222</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

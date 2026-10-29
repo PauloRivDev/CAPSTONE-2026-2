@@ -2,102 +2,88 @@
   <diagram id="cbsb-comunicacion-03-bsb-16" name="BSB-16 Registrar ingreso de articulos al inventario">
     <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2500" pageHeight="1320" math="0" shadow="0">
       <root>
-        <mxCell id="0" style="fontStyle=0;html=0;" />
-        <mxCell id="1" parent="0" style="fontStyle=0;html=0;" />
-        <mxCell id="DC03_title" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=30;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="DIAGRAMA DE COMUNICACION 03&#xa;BSB-16  Registrar ingreso de articulos al inventario" vertex="1">
-          <mxGeometry height="95" width="2300" x="100" y="45" as="geometry" />
+        <mxCell id="0" style="fontStyle=0;html=0;"/>
+        <mxCell id="1" parent="0" style="fontStyle=0;html=0;"/>
+        <mxCell id="DC03_ingreso_group" parent="1" value="Registro de ingreso" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#555555;fillColor=none;fontFamily=Arial;fontSize=24;verticalAlign=top;spacingTop=12;" vertex="1"><mxGeometry x="1160" y="790" width="1280" height="490" as="geometry"/></mxCell><mxCell id="DC03_title" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=30;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="DIAGRAMA DE COMUNICACION 03&#10;BSB-16  Registrar ingreso de articulos al inventario" vertex="1">
+          <mxGeometry height="95" width="2300" x="100" y="45" as="geometry"/>
         </mxCell>
         <mxCell id="DC03_sub" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=22;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="Caso de uso: BSB-16       Referencias: RF-008     RNF-008, RNF-009" vertex="1">
-          <mxGeometry height="45" width="2300" x="100" y="150" as="geometry" />
+          <mxGeometry height="45" width="2300" x="100" y="150" as="geometry"/>
         </mxCell>
-        <mxCell id="DC03_A" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(actor)&#xa;Encargado de inventario" vertex="1">
-          <mxGeometry height="120" width="340" x="100" y="600" as="geometry" />
+        <mxCell id="DC03_A" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(actor)&#10;Encargado de inventario" vertex="1">
+          <mxGeometry height="120" width="340" x="100" y="600" as="geometry"/>
         </mxCell>
-        <mxCell id="DC03_B" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(interfaz)&#xa;Formulario de ingreso" vertex="1">
-          <mxGeometry height="120" width="340" x="680" y="600" as="geometry" />
+        <mxCell id="DC03_B" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(interfaz)&#10;Formulario de ingreso" vertex="1">
+          <mxGeometry height="120" width="340" x="680" y="600" as="geometry"/>
         </mxCell>
-        <mxCell id="DC03_C" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(control)&#xa;Registro de inventario" vertex="1">
-          <mxGeometry height="120" width="340" x="1260" y="600" as="geometry" />
+        <mxCell id="DC03_C" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(control)&#10;Registro de inventario" vertex="1">
+          <mxGeometry height="120" width="340" x="1260" y="600" as="geometry"/>
         </mxCell>
-        <mxCell id="DC03_d1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;articulo" vertex="1">
-          <mxGeometry height="120" width="340" x="1860" y="250" as="geometry" />
+        <mxCell id="DC03_d1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;articulo" vertex="1">
+          <mxGeometry height="120" width="340" x="1860" y="250" as="geometry"/>
         </mxCell>
-        <mxCell id="DC03_d2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;ubicacion" vertex="1">
-          <mxGeometry height="120" width="340" x="2060" y="520" as="geometry" />
+        <mxCell id="DC03_d2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;ubicacion" vertex="1">
+          <mxGeometry height="120" width="340" x="2060" y="520" as="geometry"/>
         </mxCell>
-        <mxCell id="DC03_d3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;movimiento_inventario" vertex="1">
-          <mxGeometry height="120" width="340" x="2060" y="850" as="geometry" />
+        <mxCell id="DC03_d3" parent="DC03_ingreso_group" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;movimiento_inventario" vertex="1">
+          <mxGeometry height="120" width="340" x="900.0" y="60.0" as="geometry"/>
         </mxCell>
-        <mxCell id="DC03_d4" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;movimiento_detalle" vertex="1">
-          <mxGeometry height="120" width="340" x="1660" y="1080" as="geometry" />
+        <mxCell id="DC03_d4" parent="DC03_ingreso_group" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;movimiento_detalle" vertex="1">
+          <mxGeometry height="120" width="340" x="500.0" y="290.0" as="geometry"/>
         </mxCell>
-        <mxCell id="DC03_d5" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;stock_posicion" vertex="1">
-          <mxGeometry height="120" width="340" x="1200" y="1080" as="geometry" />
+        <mxCell id="DC03_d5" parent="DC03_ingreso_group" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;stock_posicion" vertex="1">
+          <mxGeometry height="120" width="340" x="40.0" y="290.0" as="geometry"/>
         </mxCell>
-        <object label="1: Ingresa articulo/cantidad" descripcion="Se indican articulo del catalogo, cantidad, fecha y ubicacion inicial" numero_mensaje="1" id="DC03_msg_1">
+        <object label="1: Ingresa articulo/cantidad" descripcion="Registrar articulo, cantidad, fecha, origen y ubicacion en unidad, bodega o dependencia habilitada." numero_mensaje="1" id="DC03_msg_1">
           <mxCell edge="1" parent="1" source="DC03_A" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=1;exitY=0.28;entryX=0;entryY=0.28;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="DC03_B">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-44" as="offset" />
+              <mxPoint y="-44" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="2: Solicita registrar" descripcion="Se solicita un ingreso para la compañia autorizada" numero_mensaje="2" id="DC03_msg_2">
+        <object label="2: Solicita registrar" descripcion="Se solicita un ingreso para el inventario de la compañia o de Comandancia, segun permiso." numero_mensaje="2" id="DC03_msg_2">
           <mxCell edge="1" parent="1" source="DC03_B" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=1;exitY=0.28;entryX=0;entryY=0.28;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="DC03_C">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-44" as="offset" />
+              <mxPoint y="-44" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
         <object label="3: Valida articulo" descripcion="Se obtiene el articulo base del catalogo maestro" numero_mensaje="3" id="DC03_msg_3">
           <mxCell edge="1" parent="1" source="DC03_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.803;exitY=0.0;entryX=0.197;entryY=1.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC03_d1">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-28" as="offset" />
+              <mxPoint y="-28" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
         <object label="4: Verifica ubicacion" descripcion="Se verifica la ubicacion inicial cuando se declara" numero_mensaje="4" id="DC03_msg_4">
           <mxCell edge="1" parent="1" source="DC03_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=1.0;exitY=0.358;entryX=0.0;entryY=0.642;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC03_d2">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-28" as="offset" />
+              <mxPoint y="-28" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="5: Registra ingreso" descripcion="Se almacena el movimiento de inventario, fecha y responsable" numero_mensaje="5" id="DC03_msg_5">
-          <mxCell edge="1" parent="1" source="DC03_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=1.0;exitY=0.943;entryX=0.0;entryY=0.057;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC03_d3">
+        <object label="5: Registra ingreso completo" descripcion="Una operacion funcional comprende movimiento, detalle y existencias del ambito autorizado, con responsable, fecha y registro historico. Orden interno no especificado. No duplicar como ingreso una recepcion vinculada a RF-024." numero_mensaje="5" id="DC03_msg_5">
+          <mxCell edge="1" parent="1" source="DC03_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.5;exitY=1;entryX=0.23;entryY=0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=360;" target="DC03_ingreso_group">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-28" as="offset" />
+              <mxPoint y="0" as="offset" x="220"/>
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="6: Registra detalle" descripcion="Se registra el articulo, cantidad o identificacion correspondiente" numero_mensaje="6" id="DC03_msg_6">
-          <mxCell edge="1" parent="1" source="DC03_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.647;exitY=1.0;entryX=0.353;entryY=0.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC03_d4">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint y="-28" as="offset" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="7: Actualiza existencias" descripcion="Se incrementa el stock de la compañia pertinente" numero_mensaje="7" id="DC03_msg_7">
-          <mxCell edge="1" parent="1" source="DC03_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.478;exitY=1.0;entryX=0.522;entryY=0.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC03_d5">
-            <mxGeometry relative="1" as="geometry">
-              <mxPoint x="-150" as="offset" />
-            </mxGeometry>
-          </mxCell>
-        </object>
-        <object label="8: Confirma registro" descripcion="Se devuelve el resultado de la operacion" numero_mensaje="8" id="DC03_msg_8">
+        <object label="6: Confirma registro" descripcion="Se confirma el ingreso con movimiento, detalle, existencias y registro historico del ambito autorizado." numero_mensaje="6" id="DC03_msg_8">
           <mxCell edge="1" parent="1" source="DC03_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0;exitY=0.8;entryX=1;entryY=0.8;dashed=1;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="DC03_B">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="44" as="offset" />
+              <mxPoint y="44" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="9: Muestra comprobante" descripcion="Se informa el ingreso guardado o su error" numero_mensaje="9" id="DC03_msg_9">
+        <object label="7: Muestra comprobante" descripcion="Se informa el ingreso guardado o su error" numero_mensaje="7" id="DC03_msg_9">
           <mxCell edge="1" parent="1" source="DC03_B" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0;exitY=0.8;entryX=1;entryY=0.8;dashed=1;fontStyle=0;whiteSpace=wrap;labelWidth=210;" target="DC03_A">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint y="44" as="offset" />
+              <mxPoint y="44" as="offset"/>
             </mxGeometry>
           </mxCell>
         </object>
-      </root>
+      <mxCell id="DC03_ingreso_note" parent="1" value="Operacion funcional: movimiento, detalle y existencias con responsable, fecha y registro historico.&#10;Orden interno no especificado." style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;fontFamily=Arial;fontSize=22;fontColor=#111111;" vertex="1"><mxGeometry x="1180" y="1300" width="1240" height="95" as="geometry"/></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>

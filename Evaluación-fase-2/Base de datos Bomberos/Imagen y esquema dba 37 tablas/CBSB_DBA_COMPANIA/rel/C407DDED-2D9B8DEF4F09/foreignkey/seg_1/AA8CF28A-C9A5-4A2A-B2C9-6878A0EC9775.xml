@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="AA8CF28A-C9A5-4A2A-B2C9-6878A0EC9775" containerWithKeyObject="91641474-D580-287E-2C46-FD344EE11856" localFKIndex="0A7A1140-AFFA-B6BB-9AB2-C456F8658697" name="fk_equipo_lote">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:54:12 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<referredTableLongName>lote_ingreso</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4EF6D291-2CE2-9874-2CD4-E35916B0C45E</referredTableID>
+<keyObject>pk_lote_ingreso</keyObject>
+<referredKeyID>pk_lote_ingreso</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

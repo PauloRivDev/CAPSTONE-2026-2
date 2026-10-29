@@ -1,217 +1,171 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Pagina-1" id="EBgdgaWdPHMdErTCm9ON">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2060" pageHeight="1270" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2060" pageHeight="2700" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="servidor" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="720" width="1080" x="890" y="205" as="geometry" />
-        </mxCell>
-        <mxCell id="servidor_titulo" parent="servidor" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=25;align=left;" value="(dispositivo) Servidor local institucional CBSB" vertex="1">
-          <mxGeometry height="44" width="980" x="40" y="19" as="geometry" />
-        </mxCell>
-        <mxCell id="servidor_marca" parent="servidor" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="1046" y="13" as="geometry" />
-        </mxCell>
-        <mxCell id="nginx" parent="servidor" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="166" width="200" x="80" y="153" as="geometry" />
-        </mxCell>
-        <mxCell id="nginx_tipo" parent="nginx" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=16;align=center;" value="(entorno de ejecucion)" vertex="1">
-          <mxGeometry height="26" width="184" x="8" y="15" as="geometry" />
-        </mxCell>
-        <mxCell id="nginx_nombre" parent="nginx" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=22;align=center;" value="Nginx" vertex="1">
-          <mxGeometry height="31" width="160" x="20" y="46" as="geometry" />
-        </mxCell>
-        <mxCell id="nginx_texto" parent="nginx" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=17;align=center;" value="HTTPS previsto&#xa;Proxy inverso" vertex="1">
-          <mxGeometry height="59" width="170" x="15" y="91" as="geometry" />
-        </mxCell>
-        <mxCell id="gunicorn" parent="servidor" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="166" width="202" x="352" y="153" as="geometry" />
-        </mxCell>
-        <mxCell id="gunicorn_tipo" parent="gunicorn" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=16;align=center;" value="(entorno de ejecucion)" vertex="1">
-          <mxGeometry height="26" width="186" x="8" y="15" as="geometry" />
-        </mxCell>
-        <mxCell id="gunicorn_nombre" parent="gunicorn" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=22;align=center;" value="Gunicorn" vertex="1">
-          <mxGeometry height="31" width="166" x="18" y="46" as="geometry" />
-        </mxCell>
-        <mxCell id="gunicorn_texto" parent="gunicorn" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=17;align=center;" value="Servidor WSGI" vertex="1">
-          <mxGeometry height="34" width="172" x="15" y="91" as="geometry" />
-        </mxCell>
-        <mxCell id="django" parent="servidor" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="234" width="400" x="615" y="133" as="geometry" />
-        </mxCell>
-        <mxCell id="django_tipo" parent="django" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=16;align=left;" value="(aplicacion)" vertex="1">
-          <mxGeometry height="28" width="335" x="20" y="13" as="geometry" />
-        </mxCell>
-        <mxCell id="django_nombre" parent="django" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=23;align=center;" value="Django / Python" vertex="1">
-          <mxGeometry height="35" width="350" x="25" y="47" as="geometry" />
-        </mxCell>
-        <mxCell id="django_texto" parent="django" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=19;align=center;" value="Views y Templates&#xa;Reglas de negocio y ORM&#xa;Inventario · Unidades · Reportes" vertex="1">
-          <mxGeometry height="81" width="366" x="17" y="92" as="geometry" />
-        </mxCell>
-        <mxCell id="reportes" parent="servidor" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="145" width="418" x="105" y="460" as="geometry" />
-        </mxCell>
-        <mxCell id="reportes_tipo" parent="reportes" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=16;align=left;" value="(artefacto)" vertex="1">
-          <mxGeometry height="27" width="370" x="20" y="14" as="geometry" />
-        </mxCell>
-        <mxCell id="reportes_nombre" parent="reportes" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=22;align=center;" value="Reportes Excel (.xlsx)" vertex="1">
-          <mxGeometry height="35" width="368" x="25" y="46" as="geometry" />
-        </mxCell>
-        <mxCell id="reportes_texto" parent="reportes" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=17;align=center;" value="Descarga por navegador (RF-023)" vertex="1">
-          <mxGeometry height="31" width="388" x="15" y="93" as="geometry" />
-        </mxCell>
-        <mxCell id="sqlite" parent="servidor" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="145" width="400" x="615" y="455" as="geometry" />
-        </mxCell>
-        <mxCell id="sqlite_tipo" parent="sqlite" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=16;align=left;" value="(artefacto)" vertex="1">
-          <mxGeometry height="27" width="352" x="20" y="14" as="geometry" />
-        </mxCell>
-        <mxCell id="sqlite_nombre" parent="sqlite" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=21;align=center;" value="Archivo de base de datos SQLite" vertex="1">
-          <mxGeometry height="36" width="374" x="13" y="45" as="geometry" />
-        </mxCell>
-        <mxCell id="nota_sqlite" parent="servidor" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="64" width="940" x="85" y="632" as="geometry" />
-        </mxCell>
-        <mxCell id="nota_sqlite_texto" parent="nota_sqlite" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=17;align=center;" value="SQLite se aloja en el servidor de aplicacion; no existe un servidor de base de datos independiente" vertex="1">
-          <mxGeometry height="32" width="904" x="18" y="16" as="geometry" />
-        </mxCell>
-        <mxCell id="titulo" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=34;align=center;" value="CBSB DIAGRAMA DE DESPLIEGUE" vertex="1">
+        <mxCell id="titulo" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=31;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=31;align=center;" value="CBSB DIAGRAMA DE DESPLIEGUE" vertex="1">
           <mxGeometry height="48" width="1330" x="360" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="puestos_titulo" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=21;align=left;" value="PUESTOS DE USUARIO" vertex="1">
-          <mxGeometry height="32" width="400" x="65" y="175" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-5" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=cube;size=18;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="980" width="1235" x="700" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="comandancia" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="195" width="370" x="65" y="225" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-1" parent="KOnQapo799F-HYbhpZIb-5" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;container=1;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="100" width="830" x="30" y="860" as="geometry" />
         </mxCell>
-        <mxCell id="comandancia_tipo" parent="comandancia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=16;align=left;" value="(dispositivo)" vertex="1">
-          <mxGeometry height="28" width="280" x="24" y="12" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-26" parent="KOnQapo799F-HYbhpZIb-1" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;text;strokeColor=none;fillColor=none;fontSize=19;" value="&lt;b&gt;HERRAMIENTAS DE APOYO&lt;/b&gt; · fuera del despliegue" vertex="1">
+          <mxGeometry height="25.384615384615387" width="800" x="15" y="7.6923076923076925" as="geometry" />
         </mxCell>
-        <mxCell id="comandancia_marca" parent="comandancia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="336" y="12" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-41" parent="KOnQapo799F-HYbhpZIb-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-family: Arial; font-size: 16px; text-align: left;&quot;&gt;Jira - Confluence - draw.io&lt;/b&gt;&lt;br style=&quot;font-family: Arial; font-size: 16px; text-align: left;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 16px; text-align: left;&quot;&gt;Gestión y documentación&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="400" x="15" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="comandancia_nombre" parent="comandancia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=23;align=center;" value="Equipo de Comandancia" vertex="1">
-          <mxGeometry height="35" width="330" x="20" y="46" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-42" parent="KOnQapo799F-HYbhpZIb-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-family: Arial; font-size: 16px; text-align: left;&quot;&gt;GitHub&lt;/b&gt;&lt;br style=&quot;font-family: Arial; font-size: 16px; text-align: left;&quot;&gt;&lt;span style=&quot;font-family: Arial; font-size: 16px; text-align: left;&quot;&gt;Control de versiones&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="400" x="415" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="navegador_comandancia" parent="comandancia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="70" width="300" x="35" y="89" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-3" parent="KOnQapo799F-HYbhpZIb-5" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;container=1;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="650" width="245" x="-670" y="-10" as="geometry" />
         </mxCell>
-        <mxCell id="navegador_comandancia_texto" parent="navegador_comandancia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=17;align=center;" value="(entorno de ejecucion)&#xa;Navegador web" vertex="1">
-          <mxGeometry height="51" width="280" x="10" y="9" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-4" parent="KOnQapo799F-HYbhpZIb-3" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;text;strokeColor=none;fillColor=none;fontSize=20;" value="&lt;b&gt;USUARIOS CBSB&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Contexto de uso&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="225" x="10" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="comandancia_uso" parent="comandancia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=16;align=center;" value="Supervision institucional" vertex="1">
-          <mxGeometry height="24" width="328" x="21" y="164" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-9" parent="KOnQapo799F-HYbhpZIb-3" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;verticalAlign=bottom;spacingBottom=16;" value="&lt;b&gt;Comandancia&lt;/b&gt;&lt;br&gt;Supervisión general&lt;br&gt;Permisos superiores" vertex="1">
+          <mxGeometry height="140" width="205" x="20" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="compañia" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="205" width="370" x="65" y="525" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-10" parent="KOnQapo799F-HYbhpZIb-3" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;verticalAlign=bottom;spacingBottom=18;" value="&lt;b&gt;Usuarios de compañías&lt;/b&gt;&lt;br&gt;Operaciones diarias" vertex="1">
+          <mxGeometry height="140" width="205" x="20" y="265" as="geometry" />
         </mxCell>
-        <mxCell id="compañia_tipo" parent="compañia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=16;align=left;" value="(dispositivo)" vertex="1">
-          <mxGeometry height="28" width="280" x="24" y="12" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-11" parent="KOnQapo799F-HYbhpZIb-3" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;verticalAlign=bottom;spacingBottom=18;" value="&lt;b&gt;Inventario / Material Menor&lt;/b&gt;&lt;br&gt;Material Mayor /&lt;br&gt;Mantenimiento" vertex="1">
+          <mxGeometry height="160" width="205" x="20" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="compañia_marca" parent="compañia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="336" y="12" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-12" parent="KOnQapo799F-HYbhpZIb-3" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=umlActor;" value="" vertex="1">
+          <mxGeometry height="48" width="34" x="105" y="92" as="geometry" />
         </mxCell>
-        <mxCell id="compañia_nombre" parent="compañia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=23;align=center;" value="Equipo de compañia" vertex="1">
-          <mxGeometry height="35" width="330" x="20" y="46" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-13" parent="KOnQapo799F-HYbhpZIb-3" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=umlActor;" value="" vertex="1">
+          <mxGeometry height="48" width="34" x="105" y="277" as="geometry" />
         </mxCell>
-        <mxCell id="navegador_compañia" parent="compañia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="73" width="300" x="35" y="85" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-14" parent="KOnQapo799F-HYbhpZIb-3" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=umlActor;" value="" vertex="1">
+          <mxGeometry height="48" width="34" x="105" y="462" as="geometry" />
         </mxCell>
-        <mxCell id="navegador_compañia_texto" parent="navegador_compañia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=17;align=center;" value="(entorno de ejecucion)&#xa;Navegador web" vertex="1">
-          <mxGeometry height="51" width="280" x="10" y="11" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-6" parent="KOnQapo799F-HYbhpZIb-5" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;text;strokeColor=none;fillColor=none;fontSize=21;" value="«dispositivo»&lt;br&gt;&lt;b&gt;SERVIDOR LOCAL CBSB&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="780" x="25" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="compañia_uso" parent="compañia" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=16;align=center;" value="Gestion operativa de su compañia" vertex="1">
-          <mxGeometry height="25" width="334" x="18" y="170" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-43" parent="KOnQapo799F-HYbhpZIb-5" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=cube;size=18;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=28;fontSize=17;" value="«entorno de ejecución»&lt;br&gt;&lt;b&gt;Sistema operativo UNIX / Linux compatible&lt;/b&gt;" vertex="1">
+          <mxGeometry height="645" width="780" y="85" as="geometry" />
         </mxCell>
-        <mxCell id="canal" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="185" width="300" x="510" y="393" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-16" parent="KOnQapo799F-HYbhpZIb-43" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=cube;size=18;container=1;collapsible=0;recursiveResize=0;align=left;spacingLeft=76;fontSize=16;" value="«entorno de ejecución»&lt;br&gt;&lt;b&gt;Nginx&lt;/b&gt;&lt;br&gt;Servidor web /&lt;br&gt;proxy inverso" vertex="1">
+          <mxGeometry height="125" width="270" x="20" y="95" as="geometry" />
         </mxCell>
-        <mxCell id="canal_titulo" parent="canal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=18;align=center;" value="CANAL DE COMUNICACION" vertex="1">
-          <mxGeometry height="37" width="276" x="12" y="9" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-40" parent="KOnQapo799F-HYbhpZIb-16" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.proxy_server;" value="" vertex="1">
+          <mxGeometry height="65" width="55.25" x="25" y="32" as="geometry" />
         </mxCell>
-        <mxCell id="canal_texto" parent="canal" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=19;align=center;" value="Red autorizada CBSB&#xa;Acceso entre sedes" vertex="1">
-          <mxGeometry height="82" width="260" x="20" y="63" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-17" parent="KOnQapo799F-HYbhpZIb-43" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=cube;size=18;container=1;collapsible=0;recursiveResize=0;align=left;spacingLeft=69;fontSize=16;" value="«entorno de ejecución»&lt;br&gt;&lt;b&gt;Gunicorn / Python&lt;/b&gt;&lt;br&gt;Servidor WSGI" vertex="1">
+          <mxGeometry height="125" width="300" x="455" y="95" as="geometry" />
         </mxCell>
-        <mxCell id="respaldo" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;container=1;collapsible=0;recursiveResize=0;connectable=1;" value="" vertex="1">
-          <mxGeometry height="150" width="620" x="1320" y="1025" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-39" parent="KOnQapo799F-HYbhpZIb-17" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/assets/infrastructure/1/Web_Server.svg" value="" vertex="1">
+          <mxGeometry height="55" width="46" x="25" y="35" as="geometry" />
         </mxCell>
-        <mxCell id="respaldo_tipo" parent="respaldo" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=16;align=left;" value="(dispositivo / almacenamiento)" vertex="1">
-          <mxGeometry height="28" width="535" x="20" y="13" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-18" parent="KOnQapo799F-HYbhpZIb-43" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=note;size=16;container=1;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="250" width="735" x="20" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="respaldo_marca" parent="respaldo" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="586" y="12" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-19" parent="KOnQapo799F-HYbhpZIb-18" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;text;strokeColor=none;fillColor=none;fontSize=19;" value="«artefacto»&lt;br&gt;&lt;b&gt;Aplicación CBSB · Django / Python&lt;/b&gt;" vertex="1">
+          <mxGeometry height="42" width="695" x="17" y="16" as="geometry" />
         </mxCell>
-        <mxCell id="respaldo_nombre" parent="respaldo" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=none;fontSize=22;align=center;" value="Respaldo independiente del servidor" vertex="1">
-          <mxGeometry height="37" width="575" x="20" y="48" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-20" parent="KOnQapo799F-HYbhpZIb-18" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;align=left;spacingLeft=18;" value="&lt;b&gt;Capa de presentación&lt;/b&gt;&lt;br&gt;&lt;br&gt;Django Templates&lt;br&gt;HTML - CSS - Bootstrap" vertex="1">
+          <mxGeometry height="120" width="265" x="20" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="comandancia_canal" edge="1" parent="1" source="comandancia" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;endSize=15;startArrow=none;strokeColor=#242424;strokeWidth=2.2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.26;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="canal">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="468" y="322.5" />
-              <mxPoint x="468" y="441.1" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="KOnQapo799F-HYbhpZIb-21" parent="KOnQapo799F-HYbhpZIb-18" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;align=left;spacingLeft=18;fontSize=14;" value="&lt;b&gt;Lógica de negocio&lt;/b&gt;&lt;br&gt;URLs y Views: reciben/procesan solicitudes&lt;br&gt;Autenticación · Roles y permisos&lt;br&gt;Usuarios · Compañías&lt;br&gt;Catálogo y inventario · Equipamiento&lt;br&gt;Préstamos · Unidades · Check in&lt;br&gt;Mantenimiento · Alertas · Reportes" vertex="1">
+          <mxGeometry height="140" width="410" x="305" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="compañia_canal" edge="1" parent="1" source="compañia" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;endSize=15;startArrow=none;strokeColor=#242424;strokeWidth=2.2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.73;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="canal">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="468" y="627.5" />
-              <mxPoint x="468" y="528.05" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="KOnQapo799F-HYbhpZIb-22" parent="KOnQapo799F-HYbhpZIb-18" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;strokeColor=none;" value="&lt;b&gt;Django ORM&lt;/b&gt; - Acceso y persistencia de datos" vertex="1">
+          <mxGeometry height="30" width="680" x="25" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="canal_nginx" edge="1" parent="1" source="canal" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;endSize=15;startArrow=none;strokeColor=#242424;strokeWidth=2.2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="nginx">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="850" y="485.5" />
-              <mxPoint x="850" y="441" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="KOnQapo799F-HYbhpZIb-23" parent="KOnQapo799F-HYbhpZIb-43" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=note;size=16;container=1;collapsible=0;fontSize=14;" value="«artefacto» &lt;b&gt;Archivo de base de datos SQLite&lt;/b&gt;&lt;br&gt;Información actual y histórica" vertex="1">
+          <mxGeometry height="65" width="310" x="30" y="565" as="geometry" />
         </mxCell>
-        <mxCell id="nginx_gunicorn" edge="1" parent="1" source="nginx" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;endSize=15;startArrow=none;strokeColor=#242424;strokeWidth=2.2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="gunicorn">
+        <mxCell id="KOnQapo799F-HYbhpZIb-24" parent="KOnQapo799F-HYbhpZIb-43" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=note;size=16;container=1;collapsible=0;fontSize=14;" value="«artefacto» &lt;b&gt;Rutina de respaldo&lt;/b&gt;&lt;br&gt;Generación periódica de copias" vertex="1">
+          <mxGeometry height="55" width="305" x="460" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-44" parent="KOnQapo799F-HYbhpZIb-43" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;text;strokeColor=none;fillColor=none;fontSize=13;" value="HTTP solo para redirigir a HTTPS" vertex="1">
+          <mxGeometry height="30" width="260" x="25" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-7" parent="KOnQapo799F-HYbhpZIb-5" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;container=1;collapsible=0;" value="" vertex="1">
+          <mxGeometry height="360" width="310" x="880" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-8" parent="KOnQapo799F-HYbhpZIb-7" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;text;strokeColor=none;fillColor=none;fontSize=20;" value="&lt;b&gt;SALIDAS&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="15" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-25" parent="KOnQapo799F-HYbhpZIb-7" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=note;size=16;container=1;collapsible=0;verticalAlign=bottom;spacingBottom=22;fontSize=17;" value="«artefacto»&lt;br&gt;&lt;b&gt;Reporte Excel (.xlsx)&lt;/b&gt;&lt;br&gt;&lt;br&gt;Por fecha / compañía&lt;br&gt;Descarga al equipo cliente" vertex="1">
+          <mxGeometry height="240" width="260" x="25" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-37" parent="KOnQapo799F-HYbhpZIb-25" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Document_icons-2697/647702-excel-1195.svg" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="105" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-27" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="KOnQapo799F-HYbhpZIb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=none;exitX=1;exitY=.5;entryX=0;entryY=0.25;" target="deploy_equipo_cliente" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gunicorn_django" edge="1" parent="1" source="gunicorn" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;endSize=15;startArrow=none;strokeColor=#242424;strokeWidth=2.2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.44;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="django">
+        <mxCell id="KOnQapo799F-HYbhpZIb-28" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="KOnQapo799F-HYbhpZIb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=none;exitX=1;exitY=.5;entryX=0;entryY=0.5;" target="deploy_equipo_cliente" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="django_sqlite" edge="1" parent="1" source="django" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;endSize=15;startArrow=none;strokeColor=#242424;strokeWidth=2.2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="sqlite">
+        <mxCell id="KOnQapo799F-HYbhpZIb-29" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="KOnQapo799F-HYbhpZIb-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=none;exitX=1;exitY=.5;entryX=0;entryY=0.75;" target="deploy_equipo_cliente" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="django_reportes" edge="1" parent="1" source="django" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;endSize=15;startArrow=none;strokeColor=#242424;strokeWidth=2.2;exitX=0;exitY=0.92;exitDx=0;exitDy=0;entryX=1;entryY=0.45;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="reportes">
+        <mxCell id="KOnQapo799F-HYbhpZIb-30" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="deploy_equipo_cliente" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=none;exitX=.5;exitY=0;entryX=0;entryY=.5;" target="KOnQapo799F-HYbhpZIb-16" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1460" y="553.28" />
-              <mxPoint x="1460" y="730.25" />
+              <mxPoint x="-175" y="150" />
+              <mxPoint x="-50" y="150" />
+              <mxPoint x="-50" y="242.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sqlite_respaldo" edge="1" parent="1" source="sqlite" style="edgeStyle=none;rounded=0;html=0;endArrow=block;endFill=1;endSize=15;startArrow=none;strokeColor=#242424;strokeWidth=2.2;exitX=1;exitY=0.52;exitDx=0;exitDy=0;entryX=0.82;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;dashed=1;dashPattern=6 4;" target="respaldo">
+        <mxCell id="KOnQapo799F-HYbhpZIb-31" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="KOnQapo799F-HYbhpZIb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=none;exitX=1;exitY=.5;entryX=0;entryY=.5;" target="KOnQapo799F-HYbhpZIb-17" value="HTTP (proxy)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-32" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="KOnQapo799F-HYbhpZIb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;exitX=.81;exitY=0;entryX=.5;entryY=1;" target="KOnQapo799F-HYbhpZIb-17" value="«despliegue»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-33" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="KOnQapo799F-HYbhpZIb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;exitX=.2;exitY=1;entryX=.5;entryY=0;" target="KOnQapo799F-HYbhpZIb-23" value="ORM / SQL">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-34" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="KOnQapo799F-HYbhpZIb-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;exitX=1;exitY=.5;entryX=0;entryY=.5;" target="KOnQapo799F-HYbhpZIb-24" value="Datos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-35" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="KOnQapo799F-HYbhpZIb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;exitX=1;exitY=.45;entryX=0;entryY=.55;" target="KOnQapo799F-HYbhpZIb-25" value="Genera .xlsx">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-36" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="KOnQapo799F-HYbhpZIb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;exitX=.5;exitY=0;entryX=0;entryY=0;entryDx=399;entryDy=645.0000000000001;entryPerimeter=0;" target="KOnQapo799F-HYbhpZIb-43" value="Versionado y documentación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-45" parent="KOnQapo799F-HYbhpZIb-5" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=cube;size=18;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=26;fontSize=17;" value="«dispositivo»&lt;br&gt;&lt;b&gt;Almacenamiento independiente&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:14px&quot;&gt;Medio fuera del servidor&lt;/font&gt;" vertex="1">
+          <mxGeometry height="230" width="355" x="880" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="deploy_copia_respaldo" parent="KOnQapo799F-HYbhpZIb-45" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=note;size=16;container=1;collapsible=0;fontSize=15;" value="«artefacto»&lt;br&gt;&lt;b&gt;Copia de respaldo&lt;/b&gt;&lt;br&gt;Restauración prevista (BD y adjuntos)" vertex="1">
+          <mxGeometry height="85" width="305" x="25" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="KOnQapo799F-HYbhpZIb-46" edge="1" parent="KOnQapo799F-HYbhpZIb-5" source="KOnQapo799F-HYbhpZIb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;strokeWidth=1.5;labelBackgroundColor=#ffffff;endArrow=open;endFill=0;dashed=1;exitX=1;exitY=.5;entryX=0;entryY=.5;" target="deploy_copia_respaldo" value="Copia">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2000" y="735.4" />
-              <mxPoint x="2000" y="988" />
-              <mxPoint x="1828.4" y="988" />
+              <mxPoint x="835" y="687.5" />
+              <mxPoint x="835" y="837.5" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="https_etiqueta" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=#FFFFFF;fontSize=16;align=center;" value="HTTPS&#xa;previsto" vertex="1">
-          <mxGeometry height="42" width="71" x="817" y="466" as="geometry" />
+        <mxCell id="deploy_equipo_cliente" parent="KOnQapo799F-HYbhpZIb-5" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=cube;size=18;container=1;collapsible=0;recursiveResize=0;" value="" vertex="1">
+          <mxGeometry height="330" width="265" x="-330" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="proxy_etiqueta" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=#FFFFFF;fontSize=16;align=center;" value="proxy&#xa;HTTP" vertex="1">
-          <mxGeometry height="43" width="64" x="1174" y="385" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-15" parent="deploy_equipo_cliente" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;shape=cube;size=18;container=1;collapsible=0;recursiveResize=0;verticalAlign=bottom;spacingBottom=16;fontSize=15;" value="«entorno de ejecución»&lt;br&gt;&lt;b&gt;Navegador web&lt;/b&gt;&lt;br&gt;&lt;br&gt;HTML · CSS · Bootstrap&lt;br&gt;Acceso autorizado" vertex="1">
+          <mxGeometry height="210" width="205" x="30" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="wsgi_etiqueta" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=#FFFFFF;fontSize=16;align=center;" value="WSGI" vertex="1">
-          <mxGeometry height="28" width="55" x="1447" y="395" as="geometry" />
+        <mxCell id="KOnQapo799F-HYbhpZIb-38" parent="KOnQapo799F-HYbhpZIb-15" style="shape=mxgraph.signs.tech.computer;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" value="" vertex="1">
+          <mxGeometry height="52" width="60" x="72.5" y="33" as="geometry" />
         </mxCell>
-        <mxCell id="orm_etiqueta" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=#FFFFFF;fontSize=16;align=center;" value="ORM / SQL" vertex="1">
-          <mxGeometry height="31" width="115" x="1750" y="602" as="geometry" />
+        <mxCell id="deploy_equipo_cliente_title" parent="deploy_equipo_cliente" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;text;strokeColor=none;fillColor=none;fontSize=18;" value="«dispositivo»&lt;br&gt;&lt;b&gt;Equipo cliente&lt;/b&gt;" vertex="1">
+          <mxGeometry height="48" width="140" x="20" y="33" as="geometry" />
         </mxCell>
-        <mxCell id="genera_etiqueta" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=#FFFFFF;fontSize=17;align=center;" value="Genera" vertex="1">
-          <mxGeometry height="31" width="94" x="1413" y="625" as="geometry" />
-        </mxCell>
-        <mxCell id="respaldo_etiqueta" parent="1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#242424;strokeWidth=1.8;fontColor=#171717;fontFamily=Arial;fontStyle=0;fontSize=18;align=center;verticalAlign=middle;spacing=0;shadow=0;strokeColor=none;fillColor=#FFFFFF;fontSize=17;align=center;" value="Copia de seguridad" vertex="1">
-          <mxGeometry height="31" width="225" x="1684" y="945" as="geometry" />
+        <mxCell id="deploy_https_label" parent="KOnQapo799F-HYbhpZIb-5" style="whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=16;strokeWidth=1.4;shadow=0;rounded=0;text;strokeColor=none;fillColor=none;fontSize=15;align=center;" value="HTTPS&lt;br&gt;Red interna CBSB" vertex="1">
+          <mxGeometry height="54" width="220" x="-265" y="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

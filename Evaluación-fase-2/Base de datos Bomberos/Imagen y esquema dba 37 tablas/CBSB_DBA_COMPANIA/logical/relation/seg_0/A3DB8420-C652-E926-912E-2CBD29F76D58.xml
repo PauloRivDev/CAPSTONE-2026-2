@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_mantenimiento_unidad_id" directorySegmentName="seg_0" id="A3DB8420-C652-E926-912E-2CBD29F76D58">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>54822714-FC94-715A-726D-EFC6C8C93B78</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>045D8CE9-6CAB-66D3-C6DC-22A91260EF32</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1CCA76C4-608B-06B5-B4CF-A8141A61ECE4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96B4D776-179B-09D0-5DEA-ACB725218520</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

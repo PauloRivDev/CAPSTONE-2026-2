@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_asignacion_lote" directorySegmentName="seg_1" id="81956FB8-EEDD-31FC-6CF7-2955076467A8">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 05:56:39 UTC</createdTime>
+<generatorID>D7909D0C-CAED-391B-1021-8B9BC9AA579D</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>E10F398E-5591-AA48-8AAE-9E5D6A4CEAE8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00310011-CDFA-84F9-7834-F60AD0ED584F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FCA90D20-10D5-D685-04F7-4F02E45322EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

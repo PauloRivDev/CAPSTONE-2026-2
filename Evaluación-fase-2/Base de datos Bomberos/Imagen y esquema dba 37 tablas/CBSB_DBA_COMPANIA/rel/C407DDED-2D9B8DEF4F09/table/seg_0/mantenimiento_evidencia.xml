@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="mantenimiento_evidencia" name="mantenimiento_evidencia">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<comment><![CDATA[RF-017, RF-018; RNF-008, RNF-017. Reunion CBSB 18-10-2026. Multiples evidencias por mantenimiento. Referencia interna de archivo, no URL publica. No sobrescribir historia. Almacenamiento y restauracion de archivos pendientes de validar. Etapas pendientes, sin CHECK cerrado.]]></comment>
+<commentInRDBMS><![CDATA[RF-017, RF-018; RNF-008, RNF-017. Reunion CBSB 18-10-2026. Multiples evidencias por mantenimiento. Referencia interna de archivo, no URL publica. No sobrescribir historia. Almacenamiento y restauracion de archivos pendientes de validar. Etapas pendientes, sin CHECK cerrado.]]></commentInRDBMS>
+<notes><![CDATA[RF-017, RF-018; RNF-008, RNF-017. Reunion CBSB 18-10-2026. Multiples evidencias por mantenimiento. Referencia interna de archivo, no URL publica. No sobrescribir historia. Almacenamiento y restauracion de archivos pendientes de validar. Etapas pendientes, sin CHECK cerrado.]]></notes>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2111F538-D146-147F-1CB4-1C07E892FD84">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mantenimiento_id" id="93431F92-2C5C-4C67-0477-3FA533FE6752">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F22006EE-A0DD-DC32-DC1B-4C9D94A3AFDB" referredColumn="9AE700ED-7F3F-E2AA-2A9D-4321F6637652"/>
+</associations>
+</Column>
+<Column name="registrado_por_id" id="6E22408B-0CEB-7AD6-48A6-EA830774C8AA">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91DDAC9C-093D-0333-1A98-A126E23712DA" referredColumn="A4F5ECD1-7E32-87AF-6882-D31094C17517"/>
+</associations>
+</Column>
+<Column name="tipo_etapa" id="33B6F4ED-FAA0-5570-D656-3BCB4052171F">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_archivo" id="53F3CC8C-5025-37F5-2F9A-425139D137F8">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruta_almacenamiento" id="C1D2724D-4FD3-AE8D-9C5A-A63093F44EC3">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_mime" id="7A516122-A1B7-6006-BB83-75070F015527">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tamano_bytes" id="F2D66473-0745-73CC-11D4-DE30ACFB26B5">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creado_en" id="E5784589-EB85-FE4A-301F-E40A6742E68A">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="FFA34893-CA64-A8CF-8366-15267E1C4FBA">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 03:54:44 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="pk_mantenimiento_evidencia" name="pk_mantenimiento_evidencia">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:18 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2111F538-D146-147F-1CB4-1C07E892FD84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="817A255E-1D67-E827-F9B1-0C620E379F96" name="fk_mant_evidencia_mant">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93431F92-2C5C-4C67-0477-3FA533FE6752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C009A360-7804-5EA1-9D23-8AD0B7FE4CF7" name="fk_mant_evidencia_usuario">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E22408B-0CEB-7AD6-48A6-EA830774C8AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_mant_evidencia_tamano" directorySegmentName="seg_1" id="A3EB6440-25C3-E6FC-FEC6-73BEB0DB1617">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:05:13 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<rule><![CDATA[tamano_bytes >= 0]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

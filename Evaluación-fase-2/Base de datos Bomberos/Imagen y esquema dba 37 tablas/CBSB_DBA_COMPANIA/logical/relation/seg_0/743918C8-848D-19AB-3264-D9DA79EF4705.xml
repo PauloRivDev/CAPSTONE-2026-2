@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_falla_unidad_checkin_id" directorySegmentName="seg_0" id="743918C8-848D-19AB-3264-D9DA79EF4705">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>0E288D8F-33B6-3DEA-B343-1128C0D4CB23</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>79A4452F-4355-4FB5-6854-C49F32408E61</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6CA37974-E3C0-0FAD-C1F1-EF9B206571D0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E3CABA07-82BF-3397-3594-2AE4323FB2C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

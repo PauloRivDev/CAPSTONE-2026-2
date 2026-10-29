@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="Mejoras 18OCT - Capacidades" id="ADDF7767-E755-F71D-7C72-A882FB2979F6">
+<createdBy>mauri</createdBy>
+<modifiedBy>mauri</modifiedBy>
+<createdTime>2026-10-22 04:05:53 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<showElements>true</showElements>
+<showDatatype>true</showDatatype>
+<showKeys>true</showKeys>
+<hideDetailsOnZoomOut>false</hideDetailsOnZoomOut>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="16EF3B3D-73E1-AB54-1973-483F0B4C8DBA" otype="Table" vid="EA4882C0-850A-473C-0178-74DACB178EBD">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="70" y="70" width="490" height="548"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="capacidad" otype="Table" vid="049A1DC8-DA2B-A072-34B9-D883753AC843">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1470" y="70" width="490" height="212"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="unidad_capacidad" otype="Table" vid="D15D6DB8-CA96-0448-C58E-5365884B332A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="770" y="750" width="490" height="244"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="580E2E37-C478-3A89-1412-B978FC78B6A1" otype="FKIndexAssociation" vid_source="049A1DC8-DA2B-A072-34B9-D883753AC843" vid_target="D15D6DB8-CA96-0448-C58E-5365884B332A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1608" y="282"/>
+<point x="1137" y="750"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="D8CF910A-F2AB-86E2-B146-E02FE699B140" otype="FKIndexAssociation" vid_source="EA4882C0-850A-473C-0178-74DACB178EBD" vid_target="D15D6DB8-CA96-0448-C58E-5365884B332A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="560" y="528"/>
+<point x="853" y="750"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

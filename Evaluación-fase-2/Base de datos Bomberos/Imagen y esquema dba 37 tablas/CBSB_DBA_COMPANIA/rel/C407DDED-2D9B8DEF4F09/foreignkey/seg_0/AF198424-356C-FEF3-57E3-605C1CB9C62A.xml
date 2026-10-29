@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF198424-356C-FEF3-57E3-605C1CB9C62A" containerWithKeyObject="91641474-D580-287E-2C46-FD344EE11856" localFKIndex="93F1D5EB-EB90-AACB-4484-16B796F492B7" name="FK_equipo_seriado_variante_id">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>3B8D8C96-FE88-C5E9-F64A-34CD795A6D6B</importedID>
+<referredTableLongName>articulo_variante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FA178EB-53C8-3BB1-F92D-F6303D373E4D</referredTableID>
+<keyObject>C6CF2019-97DF-FEEE-D62D-391C3ED65533</keyObject>
+<referredKeyID>C6CF2019-97DF-FEEE-D62D-391C3ED65533</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

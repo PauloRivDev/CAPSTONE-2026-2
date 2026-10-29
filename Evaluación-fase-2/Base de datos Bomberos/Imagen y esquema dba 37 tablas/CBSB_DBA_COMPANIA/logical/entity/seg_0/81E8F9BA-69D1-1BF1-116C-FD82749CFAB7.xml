@@ -1,0 +1,307 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81E8F9BA-69D1-1BF1-116C-FD82749CFAB7" name="transferencia_definitiva">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<comment><![CDATA[Envío definitivo de inventario propio de Comandancia. Pendiente reserva, aceptar mueve propiedad y saldos. Rechazar o cancelar libera la reserva.]]></comment>
+<commentInRDBMS><![CDATA[Envío definitivo de inventario propio de Comandancia. Pendiente reserva, aceptar mueve propiedad y saldos. Rechazar o cancelar libera la reserva.]]></commentInRDBMS>
+<generatorID>transferencia_definitiva</generatorID>
+<notes><![CDATA[RF-024. RNF-007, RNF-008 y RNF-009. El destinatario acepta o rechaza el envío completo. El remitente autorizado puede cancelarlo mientras esté pendiente.]]></notes>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C80A0087-CD9E-8A74-BB55-F1E406E88A26">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>1FD36D5B-2613-E3F4-8B8A-30573BB23268</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<ownDataTypeParameters>,19,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="compania_destino_id" id="4BDCA3A8-BA69-236B-56FB-E8271F4F404C">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>D1E9D3F2-9B02-5882-CDC5-6498222A787F</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<referedAttribute>C09BBD1D-7D08-B3BD-A1D3-BE7B907B910B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registrado_por_id" id="88B23644-B5D8-B4F9-C09E-1F4EAADAFCD0">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>11339F05-A839-388D-6199-E5F7947920A4</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<referedAttribute>7FC095ED-1BDC-36E5-8F8B-E786A490560E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_registro" id="806EB6EA-D51C-BBBB-BC5A-BF25AB57498C">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>A620E2B6-8B52-AA05-AD94-7361236B9310</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="8694C670-47DF-1F16-1733-1978FE6C5471">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>AE7A84AC-BD03-410D-0674-94A0C6291F0F</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="EF2DE9C9-9B07-8793-9ECE-61ACBA0C5ED6">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<comment><![CDATA[HISTORICA, PENDIENTE, ACEPTADA, RECHAZADA o CANCELADA. Se acepta la transferencia completa.]]></comment>
+<commentInRDBMS><![CDATA[HISTORICA, PENDIENTE, ACEPTADA, RECHAZADA o CANCELADA. Se acepta la transferencia completa.]]></commentInRDBMS>
+<generatorID>79266654-D275-C9A1-DE1F-5F5BD050AADD</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<usesDefaultValue>true</usesDefaultValue>
+<defaultValue>&apos;HISTORICA&apos;</defaultValue>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock_origen_id" id="BE5E600E-B11F-26A2-BD51-68B2918659F8">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<comment><![CDATA[Posición propia de Comandancia que se reserva y entrega.]]></comment>
+<commentInRDBMS><![CDATA[Posición propia de Comandancia que se reserva y entrega.]]></commentInRDBMS>
+<generatorID>AD5693F3-FFBE-7CB3-77D8-17CD038620DA</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>862E1B26-CFD4-6925-9F63-E5623BCA35A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="equipo_seriado_id" id="0BB9C9E8-8967-36A3-8A4F-0154DE5BF85A">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<comment><![CDATA[Equipo físico transferido. Su serie original se conserva.]]></comment>
+<commentInRDBMS><![CDATA[Equipo físico transferido. Su serie original se conserva.]]></commentInRDBMS>
+<generatorID>457F9597-40B5-9ED9-92B2-4EFBE854A472</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DE1745A9-201A-AC9E-9E92-3EF4E3653924</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="5E2503E0-002F-B63B-8AE8-DA65AA221B58">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<comment><![CDATA[Unidades positivas de la transferencia nueva.]]></comment>
+<commentInRDBMS><![CDATA[Unidades positivas de la transferencia nueva.]]></commentInRDBMS>
+<generatorID>8A7FE4F7-EFF9-C7AD-04F8-EF3F9555318B</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_entrega" id="27BEB4BF-D3D9-F1E4-FA4B-B1C57941693C">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<comment><![CDATA[Fecha operativa del envío, distinta de la fecha de registro.]]></comment>
+<commentInRDBMS><![CDATA[Fecha operativa del envío, distinta de la fecha de registro.]]></commentInRDBMS>
+<generatorID>A74D2DAD-B9AE-D533-BE2C-7F4F06F3BEFD</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referencia" id="401F0EE3-9895-B40F-69E3-ADE008BBF164">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<comment><![CDATA[Referencia del envío cuando exista.]]></comment>
+<commentInRDBMS><![CDATA[Referencia del envío cuando exista.]]></commentInRDBMS>
+<generatorID>20371F59-ECA2-0950-BE42-B07DFD538C97</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clave_solicitud" id="9B5C5C73-2D83-ED4D-283F-9259437773E3">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<comment><![CDATA[UUID de solicitud para impedir un envío duplicado.]]></comment>
+<commentInRDBMS><![CDATA[UUID de solicitud para impedir un envío duplicado.]]></commentInRDBMS>
+<generatorID>ED96CB66-14D3-9317-E164-27FBE5EE8E13</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="respondido_por_id" id="5654921D-9A08-71F9-461E-6CD65F8868B8">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<comment><![CDATA[Cuenta que acepta, rechaza o cancela, validada por ámbito.]]></comment>
+<commentInRDBMS><![CDATA[Cuenta que acepta, rechaza o cancela, validada por ámbito.]]></commentInRDBMS>
+<generatorID>6FF5A0D0-4467-C192-EF2B-2131205BC469</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7FC095ED-1BDC-36E5-8F8B-E786A490560E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_respuesta" id="5F7522D4-31A6-1507-BC6B-44B53BD227FB">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<comment><![CDATA[Momento de aceptación, rechazo o cancelación.]]></comment>
+<commentInRDBMS><![CDATA[Momento de aceptación, rechazo o cancelación.]]></commentInRDBMS>
+<generatorID>5A3E1A1A-5BBC-76A6-E567-C653CABC28EB</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivo_respuesta" id="F55F7F2D-D3D8-CCCB-1C15-2D7705B63FAB">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<comment><![CDATA[Motivo de rechazo o cancelación y observaciones de la respuesta.]]></comment>
+<commentInRDBMS><![CDATA[Motivo de rechazo o cancelación y observaciones de la respuesta.]]></commentInRDBMS>
+<generatorID>206217B2-8EE8-6093-D804-85057598012D</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D57CBBD5-A12B-6F3F-80B6-CAE4B0E18719" name="pk_transferencia_definitiva">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:27 UTC</createdTime>
+<generatorID>pk_transferencia_definitiva</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C80A0087-CD9E-8A74-BB55-F1E406E88A26</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F36E2E09-618E-A1C7-6218-0953897DEA81" name="uq_transferencia_solicitud">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<generatorID>uq_transferencia_solicitud</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>9B5C5C73-2D83-ED4D-283F-9259437773E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

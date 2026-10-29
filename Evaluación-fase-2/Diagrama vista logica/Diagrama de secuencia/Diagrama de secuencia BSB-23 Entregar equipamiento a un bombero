@@ -200,7 +200,7 @@
             <mxPoint x="490" y="1132" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_10" parent="1" value="11. Confirmar entrega e historial" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_10" parent="1" value="11. Confirmar entrega y historial" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
           <mxGeometry x="508" y="1065" width="264" height="58" as="geometry" />
         </mxCell>
         <mxCell id="msg_11" parent="1" source="life_1" target="life_0" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.6;endArrow=open;endFill=0;startArrow=none;dashed=1;exitX=0.5;exitY=0.76443769;exitPerimeter=0;entryX=0.5;entryY=0.76443769;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">

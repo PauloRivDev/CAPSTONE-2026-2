@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_transferencia_equipo" directorySegmentName="seg_1" id="457F9597-40B5-9ED9-92B2-4EFBE854A472">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<generatorID>6EC3116D-61C9-340C-CD1C-BC46B57C12C7</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>7BD2ED29-F43B-D685-EF53-89484ABB7AA1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6909BAA6-6DFB-BE08-830C-E38708A5DB81</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81E8F9BA-69D1-1BF1-116C-FD82749CFAB7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

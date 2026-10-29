@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_movimiento_transferencia" directorySegmentName="seg_1" id="3404EF7E-B7BE-341D-016B-0C4E145C3FF8">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:09:28 UTC</createdTime>
+<generatorID>044C34C4-4ED3-09F2-1D36-7F7A4C27A109</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>D57CBBD5-A12B-6F3F-80B6-CAE4B0E18719</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>81E8F9BA-69D1-1BF1-116C-FD82749CFAB7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8D56D15A-1725-554C-3DA4-5C89EBA6B623</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

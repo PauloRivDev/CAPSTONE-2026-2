@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="580E2E37-C478-3A89-1412-B978FC78B6A1" containerWithKeyObject="unidad_capacidad" localFKIndex="AABB325A-1A51-C596-6FA0-254F08766260" name="fk_unidad_capacidad_capacidad">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<referredTableLongName>capacidad</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>capacidad</referredTableID>
+<keyObject>pk_capacidad</keyObject>
+<referredKeyID>pk_capacidad</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_transferencia_stock_origen" directorySegmentName="seg_1" id="AD5693F3-FFBE-7CB3-77D8-17CD038620DA">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:05:25 UTC</createdTime>
+<generatorID>3C78F7FC-EA74-21CD-DFB3-9B231CFF4C9D</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>0FA9CD65-AA3F-5ACB-3E0D-AC3894209B85</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6A895D8B-3E24-9C66-8FDE-90759D7B76F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81E8F9BA-69D1-1BF1-116C-FD82749CFAB7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

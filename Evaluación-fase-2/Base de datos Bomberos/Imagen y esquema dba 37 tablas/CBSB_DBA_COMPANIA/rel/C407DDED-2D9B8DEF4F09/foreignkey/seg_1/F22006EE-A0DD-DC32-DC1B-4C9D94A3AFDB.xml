@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="F22006EE-A0DD-DC32-DC1B-4C9D94A3AFDB" containerWithKeyObject="mantenimiento_evidencia" localFKIndex="817A255E-1D67-E827-F9B1-0C620E379F96" name="fk_mant_evidencia_mant">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<referredTableLongName>mantenimiento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E9C36FE-377C-838D-D9AA-137242949331</referredTableID>
+<keyObject>F676AED1-CEF0-0B98-6139-7A8E7EACDC55</keyObject>
+<referredKeyID>F676AED1-CEF0-0B98-6139-7A8E7EACDC55</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

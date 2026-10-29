@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_regla_control_plan_control_id" directorySegmentName="seg_0" id="6076597C-061A-D0EB-D48D-1DEA4DF945EF">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:01:56 UTC</createdTime>
+<generatorID>06600F31-3A1D-F455-2B98-1CF01B19D799</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>A239EB60-7238-05BE-FD8F-FC7C3145F7A1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>87D60546-28C0-1CC2-001A-F04F78167CBD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A768A30F-9F78-8191-0E61-06D679983AF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

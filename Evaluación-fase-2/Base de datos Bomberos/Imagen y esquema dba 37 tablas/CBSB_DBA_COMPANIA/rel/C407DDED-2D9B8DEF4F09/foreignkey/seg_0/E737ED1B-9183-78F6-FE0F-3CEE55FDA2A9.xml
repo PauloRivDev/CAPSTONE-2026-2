@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E737ED1B-9183-78F6-FE0F-3CEE55FDA2A9" containerWithKeyObject="8F9E6DFE-0D81-B5B9-8CAB-E9BDF47BC917" localFKIndex="46B5D6AD-BE02-3072-7266-121BA66E0F7D" name="FK_atributo_opcion_atributo_id">
+<sourceDDLFile>CBSB_V2_DataModeler_import_Oracle.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-08 02:00:36 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>2A1F5B4E-3588-9129-D3F5-D3ED70A17E87</importedID>
+<referredTableLongName>atributo_def</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B8A7A1C-C990-A8E6-C4C1-468F47B32CE8</referredTableID>
+<keyObject>64679A81-311F-9A62-5285-D8F67639B53B</keyObject>
+<referredKeyID>64679A81-311F-9A62-5285-D8F67639B53B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

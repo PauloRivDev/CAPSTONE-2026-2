@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="3C78F7FC-EA74-21CD-DFB3-9B231CFF4C9D" containerWithKeyObject="transferencia_definitiva" localFKIndex="FD42058A-3F13-4B03-E692-9ED1D5EB8A31" name="fk_transferencia_stock_origen">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-25 21:03:07 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<referredTableLongName>stock_posicion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FCAFA15F-7503-46B5-6F4D-E9CA3497DC40</referredTableID>
+<keyObject>F53B0AFD-79B5-4AAD-2C13-D54F6C8D0538</keyObject>
+<referredKeyID>F53B0AFD-79B5-4AAD-2C13-D54F6C8D0538</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

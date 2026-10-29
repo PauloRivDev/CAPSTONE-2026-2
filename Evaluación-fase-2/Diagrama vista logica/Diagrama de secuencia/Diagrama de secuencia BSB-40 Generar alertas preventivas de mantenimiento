@@ -1,14 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
 <mxfile host="app.diagrams.net" agent="Draw" version="26.0.4" type="device" compressed="false">
   <diagram name="BSB-40 Generar alertas preventivas de mantenimiento" id="cbsb-seq-bsb40">
     <mxGraphModel dx="1414" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2144" pageHeight="1558" math="0" shadow="0" background="#FFFFFF">
       <root>
         <mxCell id="0" style="fontStyle=0;" />
         <mxCell id="1" parent="0" style="fontStyle=0;" />
-        <mxCell id="title_BSB-40" parent="1" value="Diagrama de secuencia BSB-40&#10;Generar alertas preventivas de mantenimiento" style="text;html=0;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontColor=#111111;fontFamily=Arial;fontSize=25;fontStyle=0;whiteSpace=wrap;" vertex="1">
+        <mxCell id="title_BSB-40" parent="1" value="Diagrama de secuencia BSB-40&#10;Generar alertas preventivas de mantenimiento" style="text;html=0;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontColor=#111111;fontFamily=Arial;fontSize=22;fontStyle=0;whiteSpace=wrap;" vertex="1">
           <mxGeometry x="40" y="18" width="2064" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="ref_BSB-40" parent="1" value="Caso de uso: BSB-40   Requisito: RF-019   Sistema de Gestion CBSB" style="text;html=0;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontColor=#111111;fontFamily=Arial;fontSize=17;fontStyle=0;" vertex="1">
+        <mxCell id="ref_BSB-40" parent="1" value="Caso de uso: BSB-40   Requisito: RF-019   Sistema de Gestion CBSB" style="text;html=0;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontColor=#111111;fontFamily=Arial;fontSize=14;fontStyle=0;" vertex="1">
           <mxGeometry x="45" y="93" width="2054" height="28" as="geometry" />
         </mxCell>
         <mxCell id="life_0" parent="1" value="" style="rounded=0;fillColor=none;strokeColor=none;opacity=0;fontStyle=0;" vertex="1">
@@ -20,7 +19,7 @@
             <mxPoint x="190" y="1510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="head_0" parent="1" value="Usuario autorizado" style="rounded=0;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1.45;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;spacing=8;" vertex="1">
+        <mxCell id="head_0" parent="1" value="Capitan / Comandancia" style="rounded=0;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#222222;strokeWidth=1.45;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;spacing=8;" vertex="1">
           <mxGeometry x="65" y="144" width="250" height="74" as="geometry" />
         </mxCell>
         <mxCell id="life_1" parent="1" value="" style="rounded=0;fillColor=none;strokeColor=none;opacity=0;fontStyle=0;" vertex="1">
@@ -98,13 +97,13 @@
         <mxCell id="alt_0" parent="1" value="" style="rounded=0;fillColor=none;strokeColor=#777777;strokeWidth=1.4;fontStyle=0;" vertex="1">
           <mxGeometry x="40" y="874" width="2064" height="614" as="geometry" />
         </mxCell>
-        <mxCell id="alt_label_0" parent="1" value="alt" style="rounded=0;fillColor=#FFFFFF;strokeColor=#777777;fontFamily=Arial;fontSize=18;fontStyle=0;align=center;" vertex="1">
+        <mxCell id="alt_label_0" parent="1" value="alt" style="rounded=0;fillColor=#FFFFFF;strokeColor=#777777;fontFamily=Arial;fontSize=15;fontStyle=0;align=center;" vertex="1">
           <mxGeometry x="46" y="874" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="guard_0_0" parent="1" value="[Algun limite se aproxima]" style="text;html=0;align=left;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;fontColor=#111111;fontFamily=Arial;fontSize=18;fontStyle=0;" vertex="1">
+        <mxCell id="guard_0_0" parent="1" value="[Algun limite se aproxima, se alcanza o esta vencido]" style="text;html=0;align=left;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;fontColor=#111111;fontFamily=Arial;fontSize=14;fontStyle=0;" vertex="1">
           <mxGeometry x="124" y="875" width="1964" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="guard_0_1" parent="1" value="[Sin condiciones de alerta]" style="text;html=0;align=left;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;fontColor=#111111;fontFamily=Arial;fontSize=18;fontStyle=0;" vertex="1">
+        <mxCell id="guard_0_1" parent="1" value="[Sin condiciones de alerta]" style="text;html=0;align=left;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;fontColor=#111111;fontFamily=Arial;fontSize=15;fontStyle=0;" vertex="1">
           <mxGeometry x="70" y="1244" width="2019" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sep_0_1" parent="1" edge="1" style="endArrow=none;dashed=1;dashPattern=4 4;strokeColor=#777777;strokeWidth=1;fontStyle=0;" value="">
@@ -122,7 +121,7 @@
             <mxPoint x="484" y="317" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_0" parent="1" value="1. Solicitar alertas de sus unidades" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_0" parent="1" value="1. Pedir alertas del ambito autorizado" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=19;fontStyle=0;" vertex="1">
           <mxGeometry x="208" y="250" width="258" height="58" as="geometry" />
         </mxCell>
         <mxCell id="msg_1" parent="1" source="life_1" target="life_2" style="edgeStyle=none;rounded=0;html=0;strokeColor=#161616;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;dashed=0;exitX=0.5;exitY=0.14783282;exitPerimeter=0;entryX=0.5;entryY=0.14783282;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -131,7 +130,7 @@
             <mxPoint x="778" y="409" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_1" parent="1" value="2. Evaluar vencimientos y umbrales" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_1" parent="1" value="2. Evaluar vencimientos y umbrales" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=19;fontStyle=0;" vertex="1">
           <mxGeometry x="502" y="342" width="258" height="58" as="geometry" />
         </mxCell>
         <mxCell id="msg_2" parent="1" source="life_2" target="life_3" style="edgeStyle=none;rounded=0;html=0;strokeColor=#161616;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;dashed=0;exitX=0.5;exitY=0.21904025;exitPerimeter=0;entryX=0.5;entryY=0.21904025;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -140,7 +139,7 @@
             <mxPoint x="1072" y="501" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_2" parent="1" value="3. Consultar planes por unidad" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_2" parent="1" value="3. Consultar planes por unidad" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=19;fontStyle=0;" vertex="1">
           <mxGeometry x="796" y="434" width="258" height="58" as="geometry" />
         </mxCell>
         <mxCell id="msg_3" parent="1" source="life_3" target="life_2" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.6;endArrow=open;endFill=0;startArrow=none;dashed=1;exitX=0.5;exitY=0.27167183;exitPerimeter=0;entryX=0.5;entryY=0.27167183;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -149,7 +148,7 @@
             <mxPoint x="778" y="569" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_3" parent="1" value="4. Planes vigentes" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_3" parent="1" value="4. Planes vigentes" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=18;fontStyle=0;" vertex="1">
           <mxGeometry x="796" y="526" width="258" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg_4" parent="1" source="life_2" target="life_4" style="edgeStyle=none;rounded=0;html=0;strokeColor=#161616;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;dashed=0;exitX=0.5;exitY=0.32430341;exitPerimeter=0;entryX=0.5;entryY=0.32430341;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -158,7 +157,7 @@
             <mxPoint x="1366" y="637" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_4" parent="1" value="5. Consultar umbrales configurados" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_4" parent="1" value="5. Consultar umbrales configurados" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=18;fontStyle=0;" vertex="1">
           <mxGeometry x="796" y="594" width="552" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg_5" parent="1" source="life_4" target="life_2" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.6;endArrow=open;endFill=0;startArrow=none;dashed=1;exitX=0.5;exitY=0.37693498;exitPerimeter=0;entryX=0.5;entryY=0.37693498;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -167,7 +166,7 @@
             <mxPoint x="778" y="705" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_5" parent="1" value="6. Fechas, km y horas limite" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_5" parent="1" value="6. Fechas, km y horas limite" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=18;fontStyle=0;" vertex="1">
           <mxGeometry x="796" y="662" width="552" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg_6" parent="1" source="life_2" target="life_5" style="edgeStyle=none;rounded=0;html=0;strokeColor=#161616;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;dashed=0;exitX=0.5;exitY=0.42956656;exitPerimeter=0;entryX=0.5;entryY=0.42956656;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -176,7 +175,7 @@
             <mxPoint x="1660" y="773" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_6" parent="1" value="7. Consultar lecturas actuales" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_6" parent="1" value="7. Consultar lecturas actuales" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=18;fontStyle=0;" vertex="1">
           <mxGeometry x="796" y="730" width="846" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg_7" parent="1" source="life_5" target="life_2" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.6;endArrow=open;endFill=0;startArrow=none;dashed=1;exitX=0.5;exitY=0.48219814;exitPerimeter=0;entryX=0.5;entryY=0.48219814;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -185,7 +184,7 @@
             <mxPoint x="778" y="841" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_7" parent="1" value="8. Ultimos kilometrajes y horas" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_7" parent="1" value="8. Ultimos kilometrajes y horas" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=18;fontStyle=0;" vertex="1">
           <mxGeometry x="796" y="798" width="846" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg_8" parent="1" source="life_2" target="life_6" style="edgeStyle=none;rounded=0;html=0;strokeColor=#161616;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;dashed=0;exitX=0.5;exitY=0.58359133;exitPerimeter=0;entryX=0.5;entryY=0.58359133;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -194,7 +193,7 @@
             <mxPoint x="1954" y="972" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_8" parent="1" value="9. Registrar alertas por motivo y unidad" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_8" parent="1" value="9. Registrar alertas por motivo y unidad" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=18;fontStyle=0;" vertex="1">
           <mxGeometry x="796" y="929" width="1140" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg_9" parent="1" source="life_6" target="life_2" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.6;endArrow=open;endFill=0;startArrow=none;dashed=1;exitX=0.5;exitY=0.63622291;exitPerimeter=0;entryX=0.5;entryY=0.63622291;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -203,7 +202,7 @@
             <mxPoint x="778" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_9" parent="1" value="10. Alertas disponibles" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_9" parent="1" value="10. Alertas disponibles" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=18;fontStyle=0;" vertex="1">
           <mxGeometry x="796" y="997" width="1140" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg_10" parent="1" source="life_2" target="life_1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.6;endArrow=open;endFill=0;startArrow=none;dashed=1;exitX=0.5;exitY=0.68885449;exitPerimeter=0;entryX=0.5;entryY=0.68885449;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -212,7 +211,7 @@
             <mxPoint x="484" y="1108" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_10" parent="1" value="11. Mostrar alertas activas" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_10" parent="1" value="11. Mostrar panel de alertas" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=14;fontStyle=0;" vertex="1">
           <mxGeometry x="502" y="1065" width="258" height="34" as="geometry" />
         </mxCell>
         <mxCell id="msg_11" parent="1" source="life_1" target="life_0" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.6;endArrow=open;endFill=0;startArrow=none;dashed=1;exitX=0.5;exitY=0.76006192;exitPerimeter=0;entryX=0.5;entryY=0.76006192;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -221,7 +220,7 @@
             <mxPoint x="190" y="1200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_11" parent="1" value="12. Consultar motivos y vencimientos" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_11" parent="1" value="12. Consultar motivos y vencimientos" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=19;fontStyle=0;" vertex="1">
           <mxGeometry x="208" y="1133" width="258" height="58" as="geometry" />
         </mxCell>
         <mxCell id="msg_12" parent="1" source="life_2" target="life_1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.6;endArrow=open;endFill=0;startArrow=none;dashed=1;exitX=0.5;exitY=0.88312693;exitPerimeter=0;entryX=0.5;entryY=0.88312693;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -230,7 +229,7 @@
             <mxPoint x="484" y="1359" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_12" parent="1" value="13. Informar sin alertas nuevas" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_12" parent="1" value="13. Informar sin alertas nuevas" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=19;fontStyle=0;" vertex="1">
           <mxGeometry x="502" y="1292" width="258" height="58" as="geometry" />
         </mxCell>
         <mxCell id="msg_13" parent="1" source="life_1" target="life_0" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.6;endArrow=open;endFill=0;startArrow=none;dashed=1;exitX=0.5;exitY=0.95433437;exitPerimeter=0;entryX=0.5;entryY=0.95433437;entryPerimeter=0;fontStyle=0;endSize=9;" value="" edge="1">
@@ -239,7 +238,7 @@
             <mxPoint x="190" y="1451" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="msg_label_13" parent="1" value="14. Mostrar estado del control" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=20;fontStyle=0;" vertex="1">
+        <mxCell id="msg_label_13" parent="1" value="14. Mostrar estado del control" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;strokeColor=none;fillColor=#FFFFFF;spacing=4;fontColor=#111111;fontFamily=Arial;fontSize=19;fontStyle=0;" vertex="1">
           <mxGeometry x="208" y="1384" width="258" height="58" as="geometry" />
         </mxCell>
       </root>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="61CE5871-DF4C-0ED5-F2DC-4C0252A8C6FE" containerWithKeyObject="mantenimiento_validacion" localFKIndex="ACB806C9-8783-1B6D-8619-A0E7733A7305" name="fk_mant_validacion_mant">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<referredTableLongName>mantenimiento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E9C36FE-377C-838D-D9AA-137242949331</referredTableID>
+<keyObject>F676AED1-CEF0-0B98-6139-7A8E7EACDC55</keyObject>
+<referredKeyID>F676AED1-CEF0-0B98-6139-7A8E7EACDC55</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="20D6A36C-7027-C7F4-080F-1449D4006D88" containerWithKeyObject="checkin_respuesta" localFKIndex="C79CF061-29DD-3FBF-0CB3-6213E347F097" name="fk_checkin_respuesta_checkin">
+<createdBy>mauri</createdBy>
+<createdTime>2026-10-22 04:00:19 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<referredTableLongName>checkin</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CA40193-DA28-EBD2-09C5-28F4BFB8C2A1</referredTableID>
+<keyObject>3CD381A0-F555-9450-35C5-5C25082ECB67</keyObject>
+<referredKeyID>3CD381A0-F555-9450-35C5-5C25082ECB67</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

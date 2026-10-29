@@ -4,34 +4,34 @@
       <root>
         <mxCell id="0" style="fontStyle=0;html=0;" />
         <mxCell id="1" parent="0" style="fontStyle=0;html=0;" />
-        <mxCell id="DC05_title" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=30;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="DIAGRAMA DE COMUNICACION 05&#xa;BSB-26  Registrar prestamo entre compañias" vertex="1">
+        <mxCell id="DC05_title" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=30;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="DIAGRAMA DE COMUNICACION 05&#10;BSB-26  Registrar prestamo entre compañias" vertex="1">
           <mxGeometry height="95" width="2200" x="100" y="45" as="geometry" />
         </mxCell>
         <mxCell id="DC05_sub" parent="1" style="text;html=0;rounded=0;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#111111;fontSize=22;fontFamily=Arial;fontStyle=0;align=left;verticalAlign=middle;spacing=0;" value="Caso de uso: BSB-26       Referencias: RF-012     RNF-007, RNF-008, RNF-009, RNF-011" vertex="1">
           <mxGeometry height="45" width="2200" x="100" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="DC05_A" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(actor)&#xa;Encargado autorizado" vertex="1">
+        <mxCell id="DC05_A" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(actor)&#10;Encargado autorizado" vertex="1">
           <mxGeometry height="120" width="340" x="260" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="DC05_B" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(interfaz)&#xa;Formulario de prestamo" vertex="1">
+        <mxCell id="DC05_B" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(interfaz)&#10;Formulario de prestamo" vertex="1">
           <mxGeometry height="120" width="340" x="260" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="DC05_C" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(control)&#xa;Gestion de prestamos" vertex="1">
+        <mxCell id="DC05_C" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(control)&#10;Gestion de prestamos" vertex="1">
           <mxGeometry height="120" width="340" x="900" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="DC05_d1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;compania" vertex="1">
+        <mxCell id="DC05_d1" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;compania" vertex="1">
           <mxGeometry height="120" width="340" x="1460" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="DC05_d2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;stock_posicion" vertex="1">
+        <mxCell id="DC05_d2" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;stock_posicion" vertex="1">
           <mxGeometry height="120" width="340" x="1900" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="DC05_d3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;prestamo" vertex="1">
+        <mxCell id="DC05_d3" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;prestamo" vertex="1">
           <mxGeometry height="120" width="340" x="1900" y="930" as="geometry" />
         </mxCell>
-        <mxCell id="DC05_d4" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;prestamo_detalle" vertex="1">
+        <mxCell id="DC05_d4" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;prestamo_detalle" vertex="1">
           <mxGeometry height="120" width="340" x="1450" y="1140" as="geometry" />
         </mxCell>
-        <mxCell id="DC05_d5" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#xa;auditoria_evento" vertex="1">
+        <mxCell id="DC05_d5" parent="1" style="rounded=0;whiteSpace=wrap;html=0;strokeColor=#111111;fillColor=#FFFFFF;strokeWidth=1.5;fontColor=#111111;fontSize=24;fontFamily=Arial;fontStyle=0;align=center;verticalAlign=middle;spacing=10;shadow=0;" value="(entidad)&#10;auditoria_evento" vertex="1">
           <mxGeometry height="120" width="340" x="870" y="1140" as="geometry" />
         </mxCell>
         <object label="1: Define prestamo" descripcion="Se indica origen, destino, material, cantidad/serie, fecha y estado" numero_mensaje="1" id="DC05_msg_1">
@@ -69,7 +69,7 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <object label="6: Registra materiales" descripcion="Se registran las cantidades o series prestadas" numero_mensaje="6" id="DC05_msg_6">
+        <object label="6: Registra material, custodia y ubicacion" descripcion="Se registran las cantidades o series prestadas, custodia y ubicacion actual del material. El prestamo es temporal y mantiene la obligacion de devolucion." numero_mensaje="6" id="DC05_msg_6">
           <mxCell edge="1" parent="1" source="DC05_C" style="edgeStyle=none;rounded=0;html=0;strokeColor=#111111;strokeWidth=1.6;endArrow=classic;endFill=1;startArrow=none;fontColor=#111111;fontSize=22;fontFamily=Arial;labelBackgroundColor=#FFFFFF;align=center;verticalAlign=middle;exitX=0.707;exitY=1.0;entryX=0.293;entryY=0.0;dashed=0;fontStyle=0;whiteSpace=wrap;labelWidth=290;" target="DC05_d4">
             <mxGeometry relative="1" as="geometry">
               <mxPoint y="-28" as="offset" />
