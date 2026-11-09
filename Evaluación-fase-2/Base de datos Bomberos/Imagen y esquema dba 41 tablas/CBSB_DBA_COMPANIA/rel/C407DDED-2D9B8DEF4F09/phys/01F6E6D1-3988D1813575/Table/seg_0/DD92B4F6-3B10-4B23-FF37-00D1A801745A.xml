@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="asignacion_equipo" directorySegmentName="seg_0" id="DD92B4F6-3B10-4B23-FF37-00D1A801745A">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="bombero_id" id="0F38E5D4-6638-1CDE-8687-A3E09960901C">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="equipo_seriado_id" id="3DF088B4-B9C8-CD13-6926-AFF7EB9A16F3">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="cantidad_devuelta" id="3E7B822E-6E89-B778-8FF5-1E34FDA32A24">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="entregado_por_id" id="5A6E5B4B-3E96-1369-AC18-450A91D9B392">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="compania_id" id="644ED65A-21B1-A2F3-72B9-84324C7EE8ED">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="lote_ingreso_id" id="6489EBEB-271A-8D4A-8340-6563A5242136">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="id" id="65B3EB17-3032-DDC7-7E0A-F5F3959DB2D6">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="cantidad_entregada" id="7D58F758-2A61-D140-7EA6-C8EB6241FAC1">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="fecha_entrega" id="90958A09-2E1B-E2D1-D94A-3867454E3B6F">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<defaultValue>systimestamp</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="observaciones" id="9F5AE285-E930-3361-9718-56D998EE64C6">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="variante_id" id="C5DAF67F-79D6-D663-B253-D74BA59B102A">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="estado_salida_id" id="E83808A5-6CEF-8B56-DA9D-0D49696B38E1">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_asignacion_equipo_compania_id" id="298F8B69-4F62-A249-C3FB-5415547B8B94">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_asignacion_equipo_bombero_id" id="37538AF0-9FA4-B49F-ABD4-65172689A326">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_asignacion_equipo_equipo_seriado_id" id="621BB060-5637-BF43-7421-AB6A562B128B">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_asignacion_equipo_estado_salida_id" id="91596D88-224A-49A1-4830-DB8EA185F464">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_asignacion_equipo_entregado_por_id" id="C7138307-D184-9B96-B93E-DAF0929DA117">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_asignacion_lote" id="FB4F19E5-0370-E337-28E3-07591C1E33E4">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_asignacion_equipo_variante_id" id="FDEA1AD3-8135-E5DE-8372-EF3B34695647">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_asignacion_equipo_id" id="07D35EEA-E903-E3A3-DFD8-0C94810BC637">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="ck_asignacion_equipo_1" id="257987BA-C28B-1B4A-967E-6BDC27C266F1">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="ck_asignacion_equipo_2" id="5292E2CC-B62C-A735-BA4F-FC1015D8D9BC">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="ck_asignacion_equipo_4" id="B612A40A-993F-6CB3-6AA7-1AB6BAE36A46">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="ck_asignacion_equipo_3" id="C724863B-0E17-CB16-FAB1-DE1D09BE9B5F">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev20c>

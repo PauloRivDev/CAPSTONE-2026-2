@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="movimiento_detalle" directorySegmentName="seg_0" id="75084B85-D96D-DBD9-7462-84E9F0B9AAE3">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="compania_destino_id" id="1D555A92-B9C1-5E4B-C160-6776D42CE1DB">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="asignacion_id" id="317A69B8-1A6C-9FF1-0C53-C512DD290E3D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="id" id="3B9ABBE9-83EB-8A23-A13B-7E8C9DF87721">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="compania_origen_id" id="482E10C8-0D3A-6F72-F14D-710256D08F22">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="ubicacion_origen_id" id="59956875-54D4-6F14-CDF4-A388B8FB3DEB">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="estado_origen_id" id="7FF50DC5-AA8D-8E3B-1EEB-44197AD83DEE">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="cantidad" id="99330533-3D6F-D5AA-87E0-DB259060662B">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="movimiento_id" id="A44A1424-EBB6-957B-B993-550ECC861AA7">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="variante_id" id="AD823E50-24A9-45FF-1DB0-0BD6C6303A7A">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="lote_ingreso_id" id="AF5FD002-B40C-EFE6-892F-CD8F56883B66">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="ubicacion_destino_id" id="C79C223A-3A43-909A-FA34-4A12D3E3C001">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="observaciones" id="D682AC23-A773-1AF3-646E-C067A6AAE660">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="estado_destino_id" id="D73F95A3-809F-0F67-828C-6EE13E8BDBF8">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="stock_origen_id" id="E2AC53B7-2E22-99D9-45C2-05380269062A">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="stock_destino_id" id="E3CE686F-2321-EDA1-BFC0-A46CDB801E2D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="prestamo_detalle_id" id="ECD87CE3-948F-9CBD-D79E-6FD67566AF6A">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="equipo_seriado_id" id="FA105F16-422F-7CD7-5DEB-B0A02E1BB305">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_compania_destino_id" id="29E61C93-5CF9-FCC3-79A5-7E6B632C3ADD">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_compania_origen_id" id="3B26FB28-AE51-8822-7759-566594FE5561">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_asignacion_id" id="65170914-5ABA-9AAD-DB2F-BBDF17E9B2E2">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_variante_id" id="654E58CB-CB7A-9185-8506-B01216C97E72">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_ubicacion_origen_id" id="8C84E693-AA9D-5473-DCD1-B14DDC4D4805">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_equipo_seriado_id" id="9BF3CC67-62A3-4054-ECA9-830CB9F3F542">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_estado_destino_id" id="9E6B853D-1DE1-B3F1-A7BE-86FDEDD8E489">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_stock_origen_id" id="A2CB6537-FC70-C80D-3C36-EB2C42AA31F0">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_stock_destino_id" id="B0C0B871-4E96-C0A0-9587-168A0CF293F6">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_movdet_lote" id="B3F3E0D7-4B4C-DF0D-BCA2-8FFE36F9FB23">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_ubicacion_destino_id" id="B768F973-1846-C678-AFFD-EA3DEF0C6CF4">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_movimiento_id" id="BEB59268-0F15-A7F4-A7E6-426E62D2E242">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_estado_origen_id" id="DF800F0B-3766-2672-1B0B-C2804B07B272">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_movimiento_detalle_prestamo_detalle_id" id="E1054CE6-33D1-4E98-D623-1808C0C972AF">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_movimiento_detalle_id" id="F8B684FC-2687-C093-BCD0-B721E0FC8E3D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="ck_movimiento_detalle_2" id="4B7EA2CC-D66E-EE33-F976-E3A0672EE87E">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="ck_movimiento_detalle_1" id="8F31AE89-AB5C-A895-DB47-3E76532E0219">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev20c>

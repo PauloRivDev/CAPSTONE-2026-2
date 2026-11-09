@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4C4BFBE-ABE1-679A-E683-C63C9BA1D3CB" name="regla_destinatario">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>F15933B3-8497-44A0-7B5E-3F639A3662DA</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="3C28C93D-F151-9403-2DE1-B93B4EE9325A">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>07C1CE71-AA58-4A73-32EC-7FA911E23EBD</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="regla_control_id" id="3FD40CE8-FB7E-A14F-C4C9-4407F321476D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>55E3B15F-69B2-8C60-F494-DA0E785A8C32</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<referedAttribute>5723DA03-5701-1FB2-0B4F-255253103792</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol_id" id="D0DDF596-4831-E8D1-7FD8-5C6A71641E33">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>D69929DC-7080-85EB-6CED-205A60F2706E</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B513AC1B-909E-C538-235A-9E0E2CEADE9A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_id" id="CBD70569-010D-5D14-51A1-2937BA62E703">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>D2B656E5-6E3B-F646-F598-95B31E977954</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7FC095ED-1BDC-36E5-8F8B-E786A490560E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="notificar_proximo" id="D6ACF227-6D7E-3003-CCB7-EC7B9544E403">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>BA4E1182-1DD7-CDDA-9A0F-4B65D77FCA95</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B3048878-A987-503C-2BBC-6038190D32D0</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="notificar_vencido" id="792D695A-405C-B80B-0901-9F305CB7898D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>238FA7A4-A409-3365-45B6-826E191BCCD9</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B3048878-A987-503C-2BBC-6038190D32D0</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38853677-DB45-D1B7-C219-D47F23913B6D" name="pk_regla_destinatario">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>AC5A3B57-D131-DD50-3B0E-DB7CC9CCEB6E</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C28C93D-F151-9403-2DE1-B93B4EE9325A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="checklist_item" directorySegmentName="seg_0" id="checklist_item">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="unidad_id" id="0411F2B6-7410-335A-1662-19EB4FC4C4D8">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="099C2784-7B48-38B2-7176-C12B405F17F2">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="codigo" id="2277618F-274A-3889-A8CF-463C43C8B6B7">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="activo" id="4B2880D9-5D7D-A8CC-86B7-BD257CC0A419">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="tipo_unidad_id" id="5F56DC1E-862A-98B1-0403-56B8A3BD7748">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="descripcion" id="726B9FB5-CBED-CEB1-1789-56B62DC1C66A">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="creado_en" id="9843A623-86FF-515E-3A4F-6403BEC6955B">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<defaultValue>systimestamp</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="orden_visual" id="B74AD994-9B0F-5585-2935-6399F9196732">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nombre" id="C4E093DB-AD8E-E342-811D-724CC157339B">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="obligatorio" id="EF12B904-91D2-5119-9F78-CE5260A354F9">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_checklist_item_unidad" id="4A5FD976-4E68-AAD0-6FDD-136EF0DBADB2">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_checklist_item_tipo" id="576AD411-424A-0D85-CC9C-429F9C73AF15">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_checklist_item" id="pk_checklist_item">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="ck_checklist_item_activo" id="6D7BFEB6-4D36-2853-D3D0-95237A5159B7">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="uq_checklist_item_codigo" id="uq_checklist_item_codigo">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

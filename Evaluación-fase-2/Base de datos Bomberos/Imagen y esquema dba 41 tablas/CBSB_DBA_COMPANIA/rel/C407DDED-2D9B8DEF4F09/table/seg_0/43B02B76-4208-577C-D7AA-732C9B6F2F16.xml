@@ -1,0 +1,269 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43B02B76-4208-577C-D7AA-732C9B6F2F16" name="importacion_lote">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>2B1BF8BD-6097-B45F-1CFC-24F2CBD736BE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B6082356-937B-9E13-9C71-ADE2DFD0BD3D">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>E433052B-4F77-84AF-983B-D6B901744FA9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="nombre_archivo" id="80F86026-8FA6-DAD5-112F-2BA8A8DE0ED0">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>1B2A8FEF-F1CF-3D3C-7FD1-AB36AF4C9B76</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>BD22D242-E796-3D72-0BA4-9E2AAE6DC0D0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_registros" id="49A24006-458C-8A58-B27C-65CE0662A7B6">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>C0B62370-427D-49D6-8A05-AE67A5A3EC98</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>00958859-E364-6ECB-7015-44A27D1893D2</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registros_exitosos" id="C6929440-C9B4-6DAC-0714-17F401420B61">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>E7005E56-5E7C-4B4E-6613-828E9DA357BC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>00958859-E364-6ECB-7015-44A27D1893D2</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registros_fallidos" id="AB412BF1-47E4-4A2E-E810-EC61CDC86AC5">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>5F741F57-C20B-1D3B-A6DF-0D074F08BB11</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>00958859-E364-6ECB-7015-44A27D1893D2</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="3E9DC15D-4353-5535-8C45-0D35A4375AE2">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>2DA6648B-165D-50C6-DC22-684983F99EE2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C9A1BF78-8929-EA67-C9FD-74770361EEAE</domain>
+<defaultValue>&apos;PENDIENTE&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resumen" id="BF34D294-C811-C99A-3B83-B6A0267978C1">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>9045AE05-F570-063C-80EE-2FB094B82B09</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>57EC8072-19E4-4520-0CE1-950A7A9ABF5A</domain>
+<defaultValue>&apos;{}&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="EF0D8108-FD27-66C4-3836-1BD4A3F98970">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>398D9C8C-87DE-604B-7F88-00069C933A6F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>57EC8072-19E4-4520-0CE1-950A7A9ABF5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creado_en" id="85563452-40B0-E304-3569-3C890AEBB532">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>6BE9322B-4FED-2D25-7BC7-A65291EA01A0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>07B6F4D3-6B26-4F6B-B1FC-E855DAD92476</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="compania_id" id="6DA7C088-2253-BB44-A49E-1BB99E3E1135">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>08E4ACB9-4F42-A952-D6A4-54F675FBC67A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F8C2EFF-D976-6006-0032-356F497102D7" referredColumn="758452DE-7AAC-8CF1-9245-8F8345C2C19D"/>
+</associations>
+</Column>
+<Column name="usuario_id" id="4358BD92-F0A4-912B-5917-FFAF3374A58C">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>7118436A-4235-EB4A-41F7-26341BBB6499</importedID>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F27C75DE-2F24-E0E0-5925-87D1250A2BA5" referredColumn="A4F5ECD1-7E32-87AF-6882-D31094C17517"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87855A5C-87D5-8431-FDC6-B5D30991B7F0" name="pk_importacion_lote">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>ED802EB9-7D45-4F68-F47E-7ABC93F8A6BF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6082356-937B-9E13-9C71-ADE2DFD0BD3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB00A5D3-5BA2-9D6A-99CB-8DEBC4E416B8" name="ix_import_lote_compania">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>F6361F4B-E865-0CDC-0111-89CF13FC5A2C</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DA7C088-2253-BB44-A49E-1BB99E3E1135"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEFFA9F3-1783-77E7-D256-1F53AD7191B7" name="ix_import_lote_usuario">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>E1E16C87-6FF8-B094-DF0B-8BBFD16B268D</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4358BD92-F0A4-912B-5917-FFAF3374A58C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="06700AAB-9006-3D2C-E06F-0582687961CB" name="fk_import_lote_compania">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DA7C088-2253-BB44-A49E-1BB99E3E1135"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EA7F2EC-2951-C2EB-F8FE-EB49F5036488" name="fk_import_lote_usuario">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4358BD92-F0A4-912B-5917-FFAF3374A58C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_import_lote_total" directorySegmentName="seg_2" id="D5C48080-7DB2-0478-8469-8992C32DE8B8">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>FDEC580D-7F04-B28D-FEB2-F8CC98338277</importedID>
+<rule><![CDATA["total_registros" >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_import_lote_exitos" directorySegmentName="seg_2" id="7A27157D-4E32-93FB-F43A-BEF123630818">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>310F9D10-3DF0-2A19-7374-39E9FB4C5404</importedID>
+<rule><![CDATA["registros_exitosos" >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_import_lote_fallos" directorySegmentName="seg_2" id="D373A12D-0678-5C4E-9E31-24F74F9B6F8E">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>EBB71A1B-42FD-4FDF-E359-907EEF0FABAF</importedID>
+<rule><![CDATA["registros_fallidos" >= 0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_import_lote_resumen" directorySegmentName="seg_2" id="5B19FE47-A5B8-9CA9-97F9-6E0408C6D25F">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>3CE01819-AA7F-62E9-8664-4DBB97825768</importedID>
+<rule><![CDATA["resumen" IS JSON]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

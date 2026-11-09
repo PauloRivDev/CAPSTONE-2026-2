@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="atributo_opcion" directorySegmentName="seg_0" id="8F9E6DFE-0D81-B5B9-8CAB-E9BDF47BC917">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="activo" id="2F8AAE22-802D-8E12-18FB-9430DC35D2DF">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<defaultValue>1</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="valor_normalizado" id="41376FAC-570E-8D9E-D3CB-D2886C1796BF">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="id" id="62D5597D-886C-3DA7-56E1-1706C5A07799">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="atributo_id" id="7225ED80-9F2C-7E13-69DE-D872A71A09A4">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="valor" id="8EB233C4-DC1C-A2DF-A84A-2E0C634E57B9">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_atributo_opcion_atributo_id" id="46B5D6AD-BE02-3072-7266-121BA66E0F7D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_atributo_opcion_id" id="CD849FD7-D385-AA82-30FF-8D616ADD1D6C">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="ck_atributo_opcion_1" id="646BB6CC-C2EA-3599-787D-087E7498939C">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_atributo_opcion_atributo_id_valor_normalizado" id="1AFA95DB-D159-3C28-7C39-CCD6CB6D5202">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:24 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

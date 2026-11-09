@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="5BC18838-15DC-1FD9-14D2-902C717C56F9" containerWithKeyObject="3B52D06D-83C1-F5D3-A4F9-92A2F9C0FAC7" localFKIndex="47596C82-AF7E-9942-996F-84A3A452AA57" name="fk_alerta_mantenimiento_cierre">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>E6FA021A-31F2-9DE2-F4E8-304B66BAE751</importedID>
+<referredTableLongName>mantenimiento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E9C36FE-377C-838D-D9AA-137242949331</referredTableID>
+<keyObject>F676AED1-CEF0-0B98-6139-7A8E7EACDC55</keyObject>
+<referredKeyID>F676AED1-CEF0-0B98-6139-7A8E7EACDC55</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

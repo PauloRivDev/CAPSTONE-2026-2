@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CF28803-A6E3-578B-8015-A53D340AAB0A" name="autorizacion_conduccion">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>875DA856-76B0-1935-0456-6A44F5158536</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="BFD7D81A-0992-B9A2-4C58-ACEF38267A92">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>D3F73880-6E79-EB0F-1456-3AEC397CBCA8</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conductor_id" id="4D338B71-23C6-6523-20DE-C432E6CE70ED">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>ECC469AA-D94E-1F8E-E027-A2D1AD72B087</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<referedAttribute>7FC095ED-1BDC-36E5-8F8B-E786A490560E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unidad_id" id="732201B9-F9FE-CBE6-9503-6B8A744CC496">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>6C5EB0A5-D916-6B0D-504B-BEB06E1A9FAA</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C1802191-A6C1-78B8-1E19-C5511D00EA54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clase_licencia" id="BBDACE47-241C-F905-602A-F217E9152724">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>0C476C6D-42F9-1869-218C-C4EC956A9BB9</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C9A1BF78-8929-EA67-C9FD-74770361EEAE</domain>
+<defaultValue>&apos;F&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_vencimiento_licencia" id="327C1B61-E758-56C5-C067-A9B5291A8F8C">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>5009F8CB-18E4-B332-88AF-D7745D1AECC6</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>553952CE-0D93-57BA-7089-CA0FF69D6D26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_autorizacion" id="8A3A6302-ECD7-C34A-2891-172307C818D3">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>2478BF6A-3225-D841-2188-6A3B7FFBC930</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>553952CE-0D93-57BA-7089-CA0FF69D6D26</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="activo" id="E4FB4A54-5339-3B5D-5E0E-9E96731152BD">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>37D0F47B-21AE-4064-A694-0E6EFCCD090F</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B3048878-A987-503C-2BBC-6038190D32D0</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observaciones" id="499AB587-8982-8E62-A86B-415A818F4543">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>861AB856-6BEF-C76C-91C2-DB891E8842E2</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<domain>57EC8072-19E4-4520-0CE1-950A7A9ABF5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creado_en" id="67FFE2C7-8514-1621-7946-1F455080E090">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>F277B041-2E65-D7BA-F72A-99216DE00361</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>07B6F4D3-6B26-4F6B-B1FC-E855DAD92476</domain>
+<defaultValue>SYSTIMESTAMP</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06157328-D168-0CA2-0B3F-EBB6C895C341" name="pk_autorizacion_conduccion">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>187304FB-8569-4BB8-ABC7-9831D13437A3</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFD7D81A-0992-B9A2-4C58-ACEF38267A92</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_alerta_mantenimiento_cierre" directorySegmentName="seg_1" id="0C7B9CDB-69B1-FC5C-16C1-45EB3D3ED6F0">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>5BC18838-15DC-1FD9-14D2-902C717C56F9</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>9EE0D2AA-CB9F-EF84-1639-D995799145B3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>96B4D776-179B-09D0-5DEA-ACB725218520</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8860395-ED6D-0597-EC7B-7BA8AA8B8F56</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

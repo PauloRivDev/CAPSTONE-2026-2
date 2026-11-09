@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA9590DF-A99B-4D29-264A-643DD366AA03" name="usuario_roles">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>F5F33D00-3B96-CE54-7748-F88DAFD7C022</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6E93A40C-6B42-AD59-3C7C-978293BB4594">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>5D29B907-9CAE-3EBD-7705-A100617A3EC9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="usuario_id" id="95406B64-B50D-319C-0107-09B44AD55282">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>3EE7C5AA-F9BD-DB5E-7D9B-112CE88CA450</importedID>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86F2E9DB-6316-6384-7224-6978B7F2F539" referredColumn="A4F5ECD1-7E32-87AF-6882-D31094C17517"/>
+</associations>
+</Column>
+<Column name="rol_id" id="44F4B61D-13F4-6780-004F-A924354807C2">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>D4064C12-E3CD-F0E9-C688-5B3FB62AF7DF</importedID>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92ACDAC5-BF60-D9FB-F2AF-93A30C19B081" referredColumn="D0D1F622-0221-7DD6-3D0B-55A56249AE88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="689DCFE8-E8A6-0812-C92B-F326F8386025" name="pk_usuario_roles">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>099373B7-F7FB-2514-11B4-66F6A5CD2299</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E93A40C-6B42-AD59-3C7C-978293BB4594"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3389E108-BFA2-730A-3718-2598D0E0AAEB" name="uq_usuario_roles_par">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>E90F895B-A814-F668-FF06-9495E8485228</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95406B64-B50D-319C-0107-09B44AD55282"/>
+<colUsage columnID="44F4B61D-13F4-6780-004F-A924354807C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A144297C-962A-35CB-8C54-5683E9F27D01" name="ix_usuario_roles_usuario">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>C3C56C13-B017-6CC6-E1E7-981E95848033</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95406B64-B50D-319C-0107-09B44AD55282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0A2B072-2052-9159-0D4F-8706F6F046CD" name="ix_usuario_roles_rol">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>7B9E8A53-3267-1DAF-2A7B-BEB8783591CA</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44F4B61D-13F4-6780-004F-A924354807C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9FB16A5-20EA-9451-C305-82A06D871CA7" name="fk_usuario_roles_rol">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44F4B61D-13F4-6780-004F-A924354807C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B84ACE1D-60E5-DC75-D2C5-562715E4B70F" name="fk_usuario_roles_usuario">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95406B64-B50D-319C-0107-09B44AD55282"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

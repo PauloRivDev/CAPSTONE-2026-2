@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="CD8AEA29-1EC5-80B4-4A9B-3F11542460A3" containerWithKeyObject="F15933B3-8497-44A0-7B5E-3F639A3662DA" localFKIndex="EFDAE76E-25BD-D5B7-7E79-A77164DD00B9" name="fk_destinatario_regla">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>17960213-19F9-2C7F-C4B9-479C7F961355</importedID>
+<referredTableLongName>regla_control</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5BC01DA3-706A-B775-C541-B65E3D5AB044</referredTableID>
+<keyObject>1FC3F882-500F-1E5F-8E8A-E952B3955B8C</keyObject>
+<referredKeyID>1FC3F882-500F-1E5F-8E8A-E952B3955B8C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

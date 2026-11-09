@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_import_lote_compania" directorySegmentName="seg_1" id="0F489C6B-3E0A-3526-82C6-EA3634E04BE4">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:54 UTC</createdTime>
+<generatorID>1F8C2EFF-D976-6006-0032-356F497102D7</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>58ACEAF2-73B9-95E9-7775-BE1F33257ADF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6FA4FE9B-EA8F-963B-F256-9CD87E627030</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60C0CB8E-55F7-C9BD-A5CF-AB6165000A52</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

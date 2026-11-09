@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="63340350-EC70-D5CA-145B-ED6A5C9DBC19" containerWithKeyObject="7CA40193-DA28-EBD2-09C5-28F4BFB8C2A1" localFKIndex="8765652D-EB5C-D5DF-D1A9-45066D601350" name="fk_checkin_conductor">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>19E7D37E-32D3-FACE-2C7F-532F2C6FF368</importedID>
+<referredTableLongName>usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A86DC019-5489-0872-1F45-6936B2F89A1D</referredTableID>
+<keyObject>22796707-75DA-1F23-44E1-CF3DBC9BA5C2</keyObject>
+<referredKeyID>22796707-75DA-1F23-44E1-CF3DBC9BA5C2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

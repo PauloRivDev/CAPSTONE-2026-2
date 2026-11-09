@@ -1,3 +1,7 @@
+-- CBSB. Modelo de negocio Oracle 21c, 41 tablas. Base Django del commit 14c3658.
+-- 09/11/2026: se aclara el alcance vigente de mantenimiento. Se conserva el esquema.
+
+-- Actualizacion 29/10/2026: color de identificacion y ruta del escudo en compania.
 -- Generado por Oracle SQL Developer Data Modeler 23.1.0.087.0806
 --   en:        2026-10-25 19:01:03 CLST
 --   sitio:      Oracle Database 21c
@@ -19,7 +23,16 @@ CREATE TABLE "alerta_control" (
     "resuelta_en"      TIMESTAMP,
     "resuelta_por_id"  NUMBER(19),
     "motivo_cierre"    CLOB,
-    "observaciones"    CLOB
+    "observaciones"    CLOB,
+    "fecha_disparo" DATE,
+    "fecha_referencia" DATE,
+    "fecha_umbral" DATE,
+    "mantenimiento_cierre_id" NUMBER(19),
+    "motivo" CLOB,
+    "proxima_fecha_proyectada" DATE,
+    "proximo_control_proyectado" NUMBER(16,3),
+    "umbral_disparo" NUMBER(16,3),
+    "valor_referencia" NUMBER(16,3)
 );
 
 ALTER TABLE "alerta_control"
@@ -186,6 +199,7 @@ CREATE TABLE "catalogo_valor" (
     "dominio"                VARCHAR2(32) NOT NULL,
     "codigo"                 VARCHAR2(50) NOT NULL,
     "nombre"                 VARCHAR2(150) NOT NULL,
+    "categoria_articulo_id"   NUMBER(19),
     "permite_disponibilidad" NUMBER(1) DEFAULT 0,
     "activo"                 NUMBER(1) DEFAULT 1
 );
@@ -213,6 +227,15 @@ ALTER TABLE "catalogo_valor"
 
 ALTER TABLE "catalogo_valor" ADD CONSTRAINT "PK_catalogo_valor_id" PRIMARY KEY ( "id" );
 
+COMMENT ON COLUMN "catalogo_valor"."categoria_articulo_id" IS
+    'Categoría a la que pertenece un tipo de artículo. La relación se administra desde el catálogo.';
+
+ALTER TABLE "catalogo_valor"
+    ADD CONSTRAINT ck_catalogo_categoria_tipo CHECK ( "categoria_articulo_id" IS NULL OR "dominio" = 'TIPO_ARTICULO' );
+
+ALTER TABLE "catalogo_valor"
+    ADD CONSTRAINT fk_catalogo_categoria_articulo FOREIGN KEY ( "categoria_articulo_id" ) REFERENCES "catalogo_valor" ( "id" );
+
 ALTER TABLE "catalogo_valor" ADD CONSTRAINT "UQ_catalogo_valor_dominio_codigo" UNIQUE ( "dominio",
                                                                                         "codigo" );
 
@@ -225,13 +248,19 @@ CREATE TABLE "checkin" (
     "estado_general_id"      NUMBER(19) NOT NULL,
     "fallas_resumen"         CLOB,
     "observaciones"          CLOB,
-    "estado_registro"        VARCHAR2(20) DEFAULT 'CONFIRMADO'
+    "regla_cumplimiento"     CLOB DEFAULT '{}' NOT NULL,
+    "estado_registro"        VARCHAR2(20) DEFAULT 'CONFIRMADO',
+    "conductor_id" NUMBER(19)
 );
 
 ALTER TABLE "checkin"
     ADD CONSTRAINT ck_checkin_1 CHECK ( "estado_registro" IN ( 'BORRADOR', 'CONFIRMADO' ) );
 
 ALTER TABLE "checkin" ADD CONSTRAINT "PK_checkin_id" PRIMARY KEY ( "id" );
+
+ALTER TABLE "checkin" ADD CONSTRAINT ck_checkin_regla_json CHECK ( "regla_cumplimiento" IS JSON );
+COMMENT ON COLUMN "checkin"."regla_cumplimiento" IS
+    'Criterio de frecuencia, turno y horario conservado al registrar la revision.';
 
 CREATE TABLE checkin_respuesta (
     id                          NUMBER(19) NOT NULL,
@@ -262,6 +291,7 @@ CREATE TABLE checklist_item (
     unidad_id      NUMBER(19),
     tipo_unidad_id NUMBER(19),
     orden_visual   NUMBER(5),
+    obligatorio    NUMBER(1) DEFAULT 0 NOT NULL,
     activo         NUMBER(1) DEFAULT 1,
     creado_en      TIMESTAMP DEFAULT systimestamp
 );
@@ -273,6 +303,9 @@ COMMENT ON TABLE checklist_item IS
 ALTER TABLE checklist_item
     ADD CONSTRAINT ck_checklist_item_activo CHECK ( activo IN ( 0, 1 ) );
 
+ALTER TABLE checklist_item
+    ADD CONSTRAINT ck_checklist_item_obligatorio CHECK ( obligatorio IN ( 0, 1 ) );
+
 ALTER TABLE checklist_item ADD CONSTRAINT pk_checklist_item PRIMARY KEY ( id );
 
 ALTER TABLE checklist_item ADD CONSTRAINT uq_checklist_item_codigo UNIQUE ( codigo );
@@ -282,13 +315,20 @@ CREATE TABLE "compania" (
     "codigo"         VARCHAR2(30) NOT NULL,
     "nombre"         VARCHAR2(150) NOT NULL,
     "estado"         VARCHAR2(20) DEFAULT 'ACTIVA',
-    "fecha_creacion" TIMESTAMP DEFAULT systimestamp
+    "fecha_creacion" TIMESTAMP DEFAULT systimestamp,
+    "color_compania"          VARCHAR2(7),
+    "escudo_compania"         VARCHAR2(255),
+    "configuracion_checkin"   CLOB DEFAULT '[]' NOT NULL
 );
 
 ALTER TABLE "compania"
     ADD CONSTRAINT ck_compania_1 CHECK ( "estado" IN ( 'ACTIVA', 'INACTIVA' ) );
 
 ALTER TABLE "compania" ADD CONSTRAINT "PK_compania_id" PRIMARY KEY ( "id" );
+
+ALTER TABLE "compania" ADD CONSTRAINT ck_compania_config_checkin_json CHECK ( "configuracion_checkin" IS JSON );
+COMMENT ON COLUMN "compania"."configuracion_checkin" IS
+    'Calendario base de revisiones de sus vehiculos, con frecuencia, dias, horarios y fecha de vigencia.';
 
 ALTER TABLE "compania" ADD CONSTRAINT index_1v3 UNIQUE ( "codigo" );
 
@@ -305,6 +345,12 @@ CREATE TABLE "componente_unidad" (
     "posicion"           VARCHAR2(100),
     "fecha_instalacion"  DATE,
     "fecha_retiro"       DATE,
+    "valor_adquisicion"  NUMBER(18, 2),
+    "tipo_valor"         VARCHAR2(16),
+    "moneda"             VARCHAR2(3),
+    "fecha_adquisicion"  DATE,
+    "documento_adquisicion" VARCHAR2(250),
+    "proveedor_nombre"   VARCHAR2(200),
     "vida_util_valor"    NUMBER(14, 2),
     "vida_util_unidad"   VARCHAR2(10),
     "fecha_inicio_uso"   DATE,
@@ -347,6 +393,22 @@ COMMENT ON COLUMN "componente_unidad"."fecha_vencimiento" IS
 
 ALTER TABLE "componente_unidad"
     ADD CONSTRAINT ck_componente_unidad_1 CHECK ( "activo" IN ( 0, 1 ) );
+
+COMMENT ON COLUMN "componente_unidad"."valor_adquisicion" IS
+    'Precio de compra o valor referencial del componente. Un valor desconocido permanece vacío, no se registra como cero.';
+
+COMMENT ON COLUMN "componente_unidad"."tipo_valor" IS
+    'ADQUISICION o REFERENCIAL. La moneda, el tipo y el valor se informan conjuntamente.';
+
+ALTER TABLE "componente_unidad"
+    ADD CONSTRAINT ck_comp_valor CHECK ( "valor_adquisicion" IS NULL OR "valor_adquisicion" >= 0 );
+
+ALTER TABLE "componente_unidad"
+    ADD CONSTRAINT ck_comp_moneda CHECK (
+        ( "valor_adquisicion" IS NULL AND "tipo_valor" IS NULL AND "moneda" IS NULL )
+        OR ( "valor_adquisicion" IS NOT NULL AND "tipo_valor" IS NOT NULL
+             AND "tipo_valor" IN ( 'ADQUISICION', 'REFERENCIAL' )
+             AND "moneda" IS NOT NULL AND REGEXP_LIKE("moneda", '^[A-Z]{3}$') ) );
 
 ALTER TABLE "componente_unidad"
     ADD CONSTRAINT ck_comp_vida CHECK ( ( "vida_util_valor" IS NULL
@@ -489,7 +551,9 @@ CREATE TABLE "lectura_unidad" (
     "fecha_lectura"        TIMESTAMP DEFAULT systimestamp,
     "registrado_por_id"    NUMBER(19) NOT NULL,
     "reemplaza_lectura_id" NUMBER(19),
-    "motivo_correccion"    CLOB
+    "maquinista_responsable_id" NUMBER(19),
+    "motivo_correccion"    CLOB,
+    "comentario"           CLOB
 );
 
 ALTER TABLE "lectura_unidad"
@@ -682,8 +746,13 @@ CREATE TABLE "mantenimiento" (
     "tipo_costo"            VARCHAR2(10),
     "moneda_costo"          VARCHAR2(3),
     "fecha_costo"           DATE,
-    "documento_costo"       VARCHAR2(250)
+    "documento_costo"       VARCHAR2(250),
+    "fotografias_seleccionadas" CLOB DEFAULT '{}' NOT NULL
 );
+
+ALTER TABLE "mantenimiento" ADD CONSTRAINT ck_mant_fotos_json CHECK ( "fotografias_seleccionadas" IS JSON );
+COMMENT ON COLUMN "mantenimiento"."fotografias_seleccionadas" IS
+    'Campo reservado por compatibilidad con el esquema existente. El flujo vigente de mantenimiento no lo utiliza.';
 
 COMMENT ON COLUMN "mantenimiento"."costo_intervencion" IS
     'Costo total documentado de la intervención o estimación, según tipo_costo. No se calcula una suma contable automáticamente.';
@@ -745,11 +814,14 @@ CREATE TABLE mantenimiento_evidencia (
     tipo_mime           VARCHAR2(120),
     tamano_bytes        NUMBER(19),
     creado_en           TIMESTAMP DEFAULT systimestamp,
-    observaciones       CLOB
+    observaciones       CLOB,
+    retencion_desde     TIMESTAMP,
+    papelera_en         TIMESTAMP,
+    eliminada_en        TIMESTAMP
 );
 
 COMMENT ON TABLE mantenimiento_evidencia IS
-    'RF-017, RF-018; RNF-008, RNF-017. Reunion CBSB 18-10-2026. Multiples evidencias por mantenimiento. Referencia interna de archivo, no URL publica. No sobrescribir historia. Almacenamiento y restauracion de archivos pendientes de validar. Etapas pendientes, sin CHECK cerrado.'
+    'Tabla conservada por compatibilidad con el esquema existente. El flujo vigente de mantenimiento no carga ni consulta archivos en esta tabla.'
     ;
 
 ALTER TABLE mantenimiento_evidencia ADD CONSTRAINT ck_mant_evidencia_tamano CHECK ( tamano_bytes >= 0 );
@@ -900,7 +972,9 @@ CREATE TABLE "regla_control" (
     "proximo_umbral"     NUMBER(16, 3),
     "proxima_fecha"      DATE,
     "activo"             NUMBER(1) DEFAULT 1,
-    "actualizado_en"     TIMESTAMP DEFAULT systimestamp
+    "actualizado_en"     TIMESTAMP DEFAULT systimestamp,
+    "fecha_referencia" DATE,
+    "valor_referencia" NUMBER(16,3)
 );
 
 ALTER TABLE "regla_control"
@@ -1092,7 +1166,8 @@ ALTER TABLE "ubicacion" ADD CONSTRAINT "UQ_ubicacion_compania_id_codigo" UNIQUE 
 
 CREATE TABLE "unidad" (
     "id"                                 NUMBER(19) NOT NULL,
-    "compania_id"                        NUMBER(19) NOT NULL,
+    "compania_id"                        NUMBER(19),
+    "es_comandancia"                     NUMBER(1) DEFAULT 0 NOT NULL,
     "codigo"                             VARCHAR2(40) NOT NULL,
     "codigo_institucional"               VARCHAR2(60),
     "tipo_unidad_id"                     NUMBER(19) NOT NULL,
@@ -1107,6 +1182,7 @@ CREATE TABLE "unidad" (
     "fecha_vencimiento_revision_tecnica" DATE,
     "fecha_fuera_servicio"               DATE,
     "motivo_fuera_servicio"              CLOB,
+    "configuracion_checkin"              CLOB DEFAULT '[]' NOT NULL,
     "activo"                             NUMBER(1) DEFAULT 1,
     "valor_adquisicion"                  NUMBER(18, 2),
     "tipo_valor"                         VARCHAR2(16),
@@ -1123,6 +1199,10 @@ CREATE TABLE "unidad" (
 
 COMMENT ON COLUMN "unidad"."valor_adquisicion" IS
     'Valor unitario de adquisición o de referencia. No se sustituye un importe desconocido por cero.';
+
+ALTER TABLE "unidad" ADD CONSTRAINT ck_unidad_config_checkin_json CHECK ( "configuracion_checkin" IS JSON );
+COMMENT ON COLUMN "unidad"."configuracion_checkin" IS
+    'Versiones de frecuencia diaria o por turnos y horarios de revision, con fecha de vigencia y auditoria.';
 
 COMMENT ON COLUMN "unidad"."tipo_valor" IS
     'Indica si el valor registrado corresponde a ADQUISICION o REFERENCIAL.';
@@ -1156,6 +1236,11 @@ COMMENT ON COLUMN "unidad"."fecha_vencimiento" IS
 
 ALTER TABLE "unidad"
     ADD CONSTRAINT ck_unidad_1 CHECK ( "activo" IN ( 0, 1 ) );
+
+ALTER TABLE "unidad"
+    ADD CONSTRAINT ck_unidad_ambito CHECK (
+        ( "es_comandancia" = 1 AND "compania_id" IS NULL )
+        OR ( "es_comandancia" = 0 AND "compania_id" IS NOT NULL ) );
 
 ALTER TABLE "unidad"
     ADD CONSTRAINT ck_unidad_2 CHECK ( "anio" IS NULL
@@ -1204,6 +1289,9 @@ ALTER TABLE "unidad" ADD CONSTRAINT index_3 UNIQUE ( "patente" );
 ALTER TABLE "unidad" ADD CONSTRAINT "UQ_unidad_compania_id_codigo" UNIQUE ( "compania_id",
                                                                             "codigo" );
 
+CREATE UNIQUE INDEX uq_unidad_comandancia_codigo ON "unidad"
+    ( CASE WHEN "es_comandancia" = 1 THEN "codigo" ELSE NULL END );
+
 CREATE TABLE unidad_capacidad (
     id            NUMBER(19) NOT NULL,
     unidad_id     NUMBER(19) NOT NULL,
@@ -1231,8 +1319,9 @@ CREATE TABLE "usuario" (
     "first_name"   VARCHAR2(150),
     "last_name"    VARCHAR2(150),
     "email"        VARCHAR2(254),
-    "rol_id"       NUMBER(19) NOT NULL,
+    "rol_id"       NUMBER(19),
     "compania_id"  NUMBER(19),
+    "bombero_id"   NUMBER(19),
     "is_active"    NUMBER(1) DEFAULT 1,
     "is_staff"     NUMBER(1) DEFAULT 0,
     "is_superuser" NUMBER(1) DEFAULT 0,
@@ -1252,6 +1341,8 @@ ALTER TABLE "usuario"
 ALTER TABLE "usuario" ADD CONSTRAINT "PK_usuario_id" PRIMARY KEY ( "id" );
 
 ALTER TABLE "usuario" ADD CONSTRAINT index_1v7 UNIQUE ( "username" );
+
+ALTER TABLE "usuario" ADD CONSTRAINT uq_usuario_bombero UNIQUE ( "bombero_id" );
 
 CREATE TABLE "variante_atributo" (
     "id"          NUMBER(19) NOT NULL,
@@ -1446,6 +1537,10 @@ ALTER TABLE "lectura_unidad"
 
 ALTER TABLE "lectura_unidad"
     ADD CONSTRAINT "FK_lectura_unidad_registrado_por_id" FOREIGN KEY ( "registrado_por_id" )
+        REFERENCES "usuario" ( "id" );
+
+ALTER TABLE "lectura_unidad"
+    ADD CONSTRAINT fk_lectura_maquinista FOREIGN KEY ( "maquinista_responsable_id" )
         REFERENCES "usuario" ( "id" );
 
 ALTER TABLE "lectura_unidad"
@@ -1697,6 +1792,10 @@ ALTER TABLE "usuario"
         REFERENCES "compania" ( "id" );
 
 ALTER TABLE "usuario"
+    ADD CONSTRAINT fk_usuario_bombero FOREIGN KEY ( "bombero_id" )
+        REFERENCES "bombero" ( "id" ) ON DELETE SET NULL;
+
+ALTER TABLE "usuario"
     ADD CONSTRAINT "FK_usuario_rol_id" FOREIGN KEY ( "rol_id" )
         REFERENCES "rol" ( "id" );
 
@@ -1712,47 +1811,114 @@ ALTER TABLE "variante_atributo"
     ADD CONSTRAINT "FK_variante_atributo_variante_id" FOREIGN KEY ( "variante_id" )
         REFERENCES "articulo_variante" ( "id" );
 
+CREATE TABLE "autorizacion_conduccion" (
+    "id" NUMBER(19) GENERATED BY DEFAULT AS IDENTITY NOT NULL,
+    "conductor_id" NUMBER(19) NOT NULL,
+    "unidad_id" NUMBER(19),
+    "clase_licencia" VARCHAR2(20) DEFAULT 'F' NOT NULL,
+    "fecha_vencimiento_licencia" DATE,
+    "fecha_autorizacion" DATE,
+    "activo" NUMBER(1) DEFAULT 1 NOT NULL,
+    "observaciones" CLOB,
+    "creado_en" TIMESTAMP(6) DEFAULT SYSTIMESTAMP NOT NULL,
+    CONSTRAINT pk_autorizacion_conduccion PRIMARY KEY ("id"),
+    CONSTRAINT ck_aut_conduccion_activo CHECK ("activo" IN (0, 1))
+);
 
+CREATE TABLE "importacion_lote" (
+    "id" NUMBER(19) GENERATED BY DEFAULT AS IDENTITY NOT NULL,
+    "nombre_archivo" VARCHAR2(255) NOT NULL,
+    "total_registros" NUMBER(11) DEFAULT 0 NOT NULL,
+    "registros_exitosos" NUMBER(11) DEFAULT 0 NOT NULL,
+    "registros_fallidos" NUMBER(11) DEFAULT 0 NOT NULL,
+    "estado" VARCHAR2(20) DEFAULT 'PENDIENTE' NOT NULL,
+    "resumen" CLOB DEFAULT '{}' NOT NULL,
+    "observaciones" CLOB,
+    "creado_en" TIMESTAMP(6) DEFAULT SYSTIMESTAMP NOT NULL,
+    "compania_id" NUMBER(19),
+    "usuario_id" NUMBER(19) NOT NULL,
+    CONSTRAINT pk_importacion_lote PRIMARY KEY ("id"),
+    CONSTRAINT ck_import_lote_total CHECK ("total_registros" >= 0),
+    CONSTRAINT ck_import_lote_exitos CHECK ("registros_exitosos" >= 0),
+    CONSTRAINT ck_import_lote_fallos CHECK ("registros_fallidos" >= 0),
+    CONSTRAINT ck_import_lote_resumen CHECK ("resumen" IS JSON)
+);
 
--- Informe de Resumen de Oracle SQL Developer Data Modeler:
---
--- CREATE TABLE                            37
--- CREATE INDEX                             2
--- ALTER TABLE                            259
--- CREATE VIEW                              0
--- ALTER VIEW                               0
--- CREATE PACKAGE                           0
--- CREATE PACKAGE BODY                      0
--- CREATE PROCEDURE                         0
--- CREATE FUNCTION                          0
--- CREATE TRIGGER                           0
--- ALTER TRIGGER                            0
--- CREATE COLLECTION TYPE                   0
--- CREATE STRUCTURED TYPE                   0
--- CREATE STRUCTURED TYPE BODY              0
--- CREATE CLUSTER                           0
--- CREATE CONTEXT                           0
--- CREATE DATABASE                          0
--- CREATE DIMENSION                         0
--- CREATE DIRECTORY                         0
--- CREATE DISK GROUP                        0
--- CREATE ROLE                              0
--- CREATE ROLLBACK SEGMENT                  0
--- CREATE SEQUENCE                          0
--- CREATE MATERIALIZED VIEW                 0
--- CREATE MATERIALIZED VIEW LOG             0
--- CREATE SYNONYM                           0
--- CREATE TABLESPACE                        0
--- CREATE USER                              0
---
--- DROP TABLESPACE                          0
--- DROP DATABASE                            0
---
--- REDACTION POLICY                         0
---
--- ORDS DROP SCHEMA                         0
--- ORDS ENABLE SCHEMA                       0
--- ORDS ENABLE OBJECT                       0
---
--- ERRORS                                   0
--- WARNINGS                                 0
+CREATE TABLE "regla_destinatario" (
+    "id" NUMBER(19) GENERATED BY DEFAULT AS IDENTITY NOT NULL,
+    "regla_control_id" NUMBER(19) NOT NULL,
+    "rol_id" NUMBER(19),
+    "usuario_id" NUMBER(19),
+    "notificar_proximo" NUMBER(1) DEFAULT 1 NOT NULL,
+    "notificar_vencido" NUMBER(1) DEFAULT 1 NOT NULL,
+    CONSTRAINT pk_regla_destinatario PRIMARY KEY ("id"),
+    CONSTRAINT ck_destinatario_rol_o_usuario CHECK ("rol_id" IS NOT NULL OR "usuario_id" IS NOT NULL),
+    CONSTRAINT ck_destinatario_proximo CHECK ("notificar_proximo" IN (0, 1)),
+    CONSTRAINT ck_destinatario_vencido CHECK ("notificar_vencido" IN (0, 1))
+);
+
+CREATE TABLE "usuario_roles" (
+    "id" NUMBER(19) GENERATED BY DEFAULT AS IDENTITY NOT NULL,
+    "usuario_id" NUMBER(19) NOT NULL,
+    "rol_id" NUMBER(19) NOT NULL,
+    CONSTRAINT pk_usuario_roles PRIMARY KEY ("id"),
+    CONSTRAINT uq_usuario_roles_par UNIQUE ("usuario_id", "rol_id")
+);
+
+ALTER TABLE "alerta_control" ADD CONSTRAINT fk_alerta_mantenimiento_cierre
+    FOREIGN KEY ("mantenimiento_cierre_id") REFERENCES "mantenimiento" ("id");
+CREATE INDEX ix_alerta_mantenimiento_cierre ON "alerta_control" ("mantenimiento_cierre_id");
+
+ALTER TABLE "autorizacion_conduccion" ADD CONSTRAINT fk_aut_conduccion_conductor
+    FOREIGN KEY ("conductor_id") REFERENCES "usuario" ("id");
+CREATE INDEX ix_aut_conduccion_conductor ON "autorizacion_conduccion" ("conductor_id");
+
+ALTER TABLE "autorizacion_conduccion" ADD CONSTRAINT fk_aut_conduccion_unidad
+    FOREIGN KEY ("unidad_id") REFERENCES "unidad" ("id");
+CREATE INDEX ix_aut_conduccion_unidad ON "autorizacion_conduccion" ("unidad_id");
+
+ALTER TABLE "checkin" ADD CONSTRAINT fk_checkin_conductor
+    FOREIGN KEY ("conductor_id") REFERENCES "usuario" ("id");
+CREATE INDEX ix_checkin_conductor ON "checkin" ("conductor_id");
+
+ALTER TABLE "importacion_lote" ADD CONSTRAINT fk_import_lote_compania
+    FOREIGN KEY ("compania_id") REFERENCES "compania" ("id");
+CREATE INDEX ix_import_lote_compania ON "importacion_lote" ("compania_id");
+
+ALTER TABLE "importacion_lote" ADD CONSTRAINT fk_import_lote_usuario
+    FOREIGN KEY ("usuario_id") REFERENCES "usuario" ("id");
+CREATE INDEX ix_import_lote_usuario ON "importacion_lote" ("usuario_id");
+
+ALTER TABLE "regla_destinatario" ADD CONSTRAINT fk_destinatario_regla
+    FOREIGN KEY ("regla_control_id") REFERENCES "regla_control" ("id");
+CREATE INDEX ix_destinatario_regla ON "regla_destinatario" ("regla_control_id");
+
+ALTER TABLE "regla_destinatario" ADD CONSTRAINT fk_destinatario_rol
+    FOREIGN KEY ("rol_id") REFERENCES "rol" ("id");
+CREATE INDEX ix_destinatario_rol ON "regla_destinatario" ("rol_id");
+
+ALTER TABLE "regla_destinatario" ADD CONSTRAINT fk_destinatario_usuario
+    FOREIGN KEY ("usuario_id") REFERENCES "usuario" ("id");
+CREATE INDEX ix_destinatario_usuario ON "regla_destinatario" ("usuario_id");
+
+ALTER TABLE "usuario_roles" ADD CONSTRAINT fk_usuario_roles_usuario
+    FOREIGN KEY ("usuario_id") REFERENCES "usuario" ("id");
+CREATE INDEX ix_usuario_roles_usuario ON "usuario_roles" ("usuario_id");
+
+ALTER TABLE "usuario_roles" ADD CONSTRAINT fk_usuario_roles_rol
+    FOREIGN KEY ("rol_id") REFERENCES "rol" ("id");
+CREATE INDEX ix_usuario_roles_rol ON "usuario_roles" ("rol_id");
+
+ALTER TABLE "regla_control" ADD CONSTRAINT ck_regla_anticipacion_intervalo
+    CHECK ("anticipacion_valor" <= "intervalo_valor");
+
+CREATE UNIQUE INDEX uq_alerta_activa_por_regla ON "alerta_control"
+    (CASE WHEN "estado" = 'ACTIVA' THEN "regla_control_id" END);
+
+CREATE UNIQUE INDEX uq_regla_destinatario_rol ON "regla_destinatario"
+    (CASE WHEN "rol_id" IS NOT NULL THEN "regla_control_id" END,
+     CASE WHEN "rol_id" IS NOT NULL THEN "rol_id" END);
+
+CREATE UNIQUE INDEX uq_regla_destinatario_usuario ON "regla_destinatario"
+    (CASE WHEN "usuario_id" IS NOT NULL THEN "regla_control_id" END,
+     CASE WHEN "usuario_id" IS NOT NULL THEN "usuario_id" END);

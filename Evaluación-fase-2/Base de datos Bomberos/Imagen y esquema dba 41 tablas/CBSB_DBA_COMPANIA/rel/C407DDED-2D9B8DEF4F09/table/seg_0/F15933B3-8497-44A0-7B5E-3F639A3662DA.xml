@@ -1,0 +1,238 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F15933B3-8497-44A0-7B5E-3F639A3662DA" name="regla_destinatario">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>C081CAF6-EBE7-7FAF-076E-8010A2861779</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="07C1CE71-AA58-4A73-32EC-7FA911E23EBD">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>B50CFE27-05D9-A821-0979-C98DB497806C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="regla_control_id" id="C35277E5-EC1E-2B0A-5962-856D0B8783F9">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>69640A83-9C57-DC53-5BA7-B5BD5364ED5C</importedID>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD8AEA29-1EC5-80B4-4A9B-3F11542460A3" referredColumn="9C4C114C-7AEE-8147-844B-F3007E2BDFF0"/>
+</associations>
+</Column>
+<Column name="rol_id" id="FC0B42F3-A90C-E8D5-1FD2-B9E2D54AB1E3">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>E72B8DCA-784B-EBB0-CD1D-DA89E2FABD42</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E79DBB87-B053-89E5-EAAE-9B51DABB84A8" referredColumn="D0D1F622-0221-7DD6-3D0B-55A56249AE88"/>
+</associations>
+</Column>
+<Column name="usuario_id" id="55DFF4C6-114F-47AD-C5B0-803877014721">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>1CBEBB1C-F83E-4E2F-35C0-3B8A2A84BAC6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA6E09FB-E840-E7BC-DA52-081761CE759B" referredColumn="A4F5ECD1-7E32-87AF-6882-D31094C17517"/>
+</associations>
+</Column>
+<Column name="notificar_proximo" id="BA4E1182-1DD7-CDDA-9A0F-4B65D77FCA95">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>9EB7C629-8A5A-A253-ED1F-FE93CD102998</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B3048878-A987-503C-2BBC-6038190D32D0</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="notificar_vencido" id="238FA7A4-A409-3365-45B6-826E191BCCD9">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>9F76EDC4-B20C-B37E-71BB-ECB4BF806B11</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>B3048878-A987-503C-2BBC-6038190D32D0</domain>
+<defaultValue>1</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC5A3B57-D131-DD50-3B0E-DB7CC9CCEB6E" name="pk_regla_destinatario">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>9EE281FF-4256-C27F-8C67-08E6419D6C9D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07C1CE71-AA58-4A73-32EC-7FA911E23EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0021907-4A22-9D0A-56BC-13C927019BE0" name="ix_destinatario_regla">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>6A55D53C-E06B-5404-C48F-B35A2A56EAED</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C35277E5-EC1E-2B0A-5962-856D0B8783F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC4E54E1-C78A-2EC2-B394-96BE80515FCB" name="ix_destinatario_rol">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>EEBFFA8D-BB80-5A7B-5B77-95778B298EE8</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0B42F3-A90C-E8D5-1FD2-B9E2D54AB1E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB3DAEE6-B95F-9F28-E708-FB31759713D8" name="ix_destinatario_usuario">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>2F61304F-631E-8947-BF0F-19BAFB7E9DB2</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55DFF4C6-114F-47AD-C5B0-803877014721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D9673D9-6766-A2D6-C534-37644C4FCE20" name="uq_regla_destinatario_rol">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>4372AD54-C417-5D76-1EA4-F53629385D71</importedID>
+<indexExpression>CASE WHEN &quot;rol_id&quot; IS NOT NULL THEN &quot;regla_control_id&quot; END, CASE WHEN &quot;rol_id&quot; IS NOT NULL THEN &quot;rol_id&quot; END</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="712A677D-DBBE-0B5B-4524-17C580B739E6" name="uq_regla_destinatario_usuario">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>8B90E258-F6A4-FCAB-97F4-80EFE307EF85</importedID>
+<indexExpression>CASE WHEN &quot;usuario_id&quot; IS NOT NULL THEN &quot;regla_control_id&quot; END, CASE WHEN &quot;usuario_id&quot; IS NOT NULL THEN &quot;usuario_id&quot; END</indexExpression>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="EFDAE76E-25BD-D5B7-7E79-A77164DD00B9" name="fk_destinatario_regla">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C35277E5-EC1E-2B0A-5962-856D0B8783F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BB94458-5502-A98F-F6E7-82F8138E6110" name="fk_destinatario_rol">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0B42F3-A90C-E8D5-1FD2-B9E2D54AB1E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53A58C64-B59E-F5AB-6AC7-0A66A0E82DAE" name="fk_destinatario_usuario">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55DFF4C6-114F-47AD-C5B0-803877014721"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_destinatario_rol_o_usuario" directorySegmentName="seg_2" id="4FCF63D2-F087-B58F-2D76-2755611E243B">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>51ADC0F8-F7C8-BA6E-A6BA-B71C192FF239</importedID>
+<rule><![CDATA["rol_id" IS NOT NULL OR "usuario_id" IS NOT NULL]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_destinatario_proximo" directorySegmentName="seg_2" id="877A8E48-5F7B-06B8-B4EC-DF24FEB52859">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>A3824231-3C8A-8674-0321-36D3137B9114</importedID>
+<rule><![CDATA["notificar_proximo" IN (0, 1)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ck_destinatario_vencido" directorySegmentName="seg_2" id="CC09DFCD-3328-03DB-AE27-FC9FC7A3F805">
+<sourceDDLFile>CBSB_DBA_COMPANIA.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-09 04:51:32 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>639F4B19-4958-3361-607B-443ABB08763E</importedID>
+<rule><![CDATA["notificar_vencido" IN (0, 1)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
