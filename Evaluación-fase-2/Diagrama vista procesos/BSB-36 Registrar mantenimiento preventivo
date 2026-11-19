@@ -28,7 +28,7 @@
         <mxCell id="start" parent="1" style="ellipse;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;" value="" vertex="1">
           <mxGeometry height="28" width="28" x="263" y="222" as="geometry" />
         </mxCell>
-        <mxCell id="task_1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Seleccionar unidad y intervencion preventiva" vertex="1">
+        <mxCell id="task_1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Seleccionar unidad y controles atendidos" vertex="1">
           <mxGeometry height="84" width="315" x="119.5" y="324" as="geometry" />
         </mxCell>
         <mxCell id="task_2" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Registrar fecha, trabajo, piezas y observacion inicial" vertex="1">
@@ -37,7 +37,7 @@
         <mxCell id="task_3" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Indicar lecturas, observacion final y resultados de pruebas" vertex="1">
           <mxGeometry height="84" width="315" x="119.5" y="592" as="geometry" />
         </mxCell>
-        <mxCell id="task_4" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Agregar taller y fotos antes/despues sin sustituir historicas" vertex="1">
+        <mxCell id="task_4" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Agregar taller o proveedor cuando corresponda" vertex="1">
           <mxGeometry height="84" width="315" x="119.5" y="726" as="geometry" />
         </mxCell>
         <mxCell id="task_5" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Comprobar unidad y campos obligatorios" vertex="1">
@@ -49,10 +49,10 @@
         <mxCell id="error_6" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Solicitar completar o corregir antecedentes" vertex="1">
           <mxGeometry height="84" width="315" x="119.5" y="1115" as="geometry" />
         </mxCell>
-        <mxCell id="task_7" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Guardar intervencion, evidencias y responsable" vertex="1">
+        <mxCell id="task_7" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Guardar intervención, resultados, responsable y controles atendidos" vertex="1">
           <mxGeometry height="75" width="315" x="1105.5" y="1295" as="geometry" />
         </mxCell>
-        <mxCell id="task_8" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Conservar historial tecnico y evidencias anteriores" vertex="1">
+        <mxCell id="task_8" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Conservar el historial de trabajos y pruebas" vertex="1">
           <mxGeometry height="84" width="315" x="1105.5" y="1420" as="geometry" />
         </mxCell>
         <mxCell id="task_9" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Presentar antecedentes para revision y recepcion" vertex="1">

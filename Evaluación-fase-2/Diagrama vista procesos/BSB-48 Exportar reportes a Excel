@@ -28,7 +28,7 @@
         <mxCell id="start" parent="1" style="ellipse;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;" value="" vertex="1">
           <mxGeometry height="28" width="28" x="263" y="222" as="geometry" />
         </mxCell>
-        <mxCell id="task_1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Seleccionar reporte y filtros de fecha o rango" vertex="1">
+        <mxCell id="task_1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Elegir un área o todas las autorizadas y las fechas" vertex="1">
           <mxGeometry height="84" width="315" x="119.5" y="324" as="geometry" />
         </mxCell>
         <mxCell id="task_2" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Elegir ambito propio o consolidado autorizado" vertex="1">
@@ -43,7 +43,7 @@
         <mxCell id="error_4" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Denegar consulta consolidada no autorizada" vertex="1">
           <mxGeometry height="84" width="315" x="119.5" y="856" as="geometry" />
         </mxCell>
-        <mxCell id="task_5" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Consultar inventario o cumplimiento con filtros autorizados" vertex="1">
+        <mxCell id="task_5" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Consultar las áreas elegidas con los filtros y permisos de la cuenta" vertex="1">
           <mxGeometry height="84" width="315" x="1105.5" y="1036" as="geometry" />
         </mxCell>
         <mxCell id="task_6" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Construir filas sin duplicar stock ni confundir control y operatividad" vertex="1">
@@ -52,7 +52,7 @@
         <mxCell id="task_7" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Verificar correspondencia con el reporte seleccionado" vertex="1">
           <mxGeometry height="84" width="340" x="600" y="1304" as="geometry" />
         </mxCell>
-        <mxCell id="task_8" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Generar archivo Excel sin modificar registros" vertex="1">
+        <mxCell id="task_8" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Generar Excel. Si se eligen todas las áreas, usar una hoja por área." vertex="1">
           <mxGeometry height="84" width="340" x="600" y="1438" as="geometry" />
         </mxCell>
         <mxCell id="task_9" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=0;strokeColor=#202020;strokeWidth=1.5;fillColor=#FFFFFF;fontFamily=Arial;fontSize=17;align=center;verticalAlign=middle;spacingLeft=7;spacingRight=7;" value="Descargar archivo .xlsx del periodo solicitado" vertex="1">

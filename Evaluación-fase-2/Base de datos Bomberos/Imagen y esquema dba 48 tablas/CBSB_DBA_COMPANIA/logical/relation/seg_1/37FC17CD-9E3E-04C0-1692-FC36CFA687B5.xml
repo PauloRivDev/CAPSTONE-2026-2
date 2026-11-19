@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_mca_mantenimiento" directorySegmentName="seg_1" id="37FC17CD-9E3E-04C0-1692-FC36CFA687B5">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:39 UTC</createdTime>
+<generatorID>F2636839-3462-2A45-2244-81A9CAA825B0</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>9EE0D2AA-CB9F-EF84-1639-D995799145B3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>96B4D776-179B-09D0-5DEA-ACB725218520</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>79F9506F-695C-9E32-8505-7BB073D77BCE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

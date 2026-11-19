@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="87558D91-22BA-30C8-531D-6FAEE8345414" containerWithKeyObject="228ED3E5-FA13-34AA-CA62-0D119C3A1040" localFKIndex="AA940706-43CA-D294-87A1-2928080A413B" name="fk_sol_prest_solicitante">
+<sourceDDLFile>CBSB_actual.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:06 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>D627C2E0-9F06-B598-577A-30976B0774B0</importedID>
+<referredTableLongName>compania</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>918EF0AC-623E-12FF-52FF-09B6AAD68E57</referredTableID>
+<keyObject>82F5DF66-DF90-7B9F-3D1B-2EE04C2CF096</keyObject>
+<referredKeyID>82F5DF66-DF90-7B9F-3D1B-2EE04C2CF096</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

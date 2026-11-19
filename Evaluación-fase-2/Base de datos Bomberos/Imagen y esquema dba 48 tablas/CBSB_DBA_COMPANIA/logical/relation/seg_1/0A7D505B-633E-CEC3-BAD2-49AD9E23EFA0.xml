@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_sol_prest_solicitante" directorySegmentName="seg_1" id="0A7D505B-633E-CEC3-BAD2-49AD9E23EFA0">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:40 UTC</createdTime>
+<generatorID>87558D91-22BA-30C8-531D-6FAEE8345414</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>58ACEAF2-73B9-95E9-7775-BE1F33257ADF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6FA4FE9B-EA8F-963B-F256-9CD87E627030</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE70B6AC-A488-176B-3DCC-5192F73DF559</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

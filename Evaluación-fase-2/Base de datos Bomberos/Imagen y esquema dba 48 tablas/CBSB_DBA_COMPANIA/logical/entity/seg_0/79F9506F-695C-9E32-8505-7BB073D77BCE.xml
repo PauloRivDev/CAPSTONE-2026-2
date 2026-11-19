@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79F9506F-695C-9E32-8505-7BB073D77BCE" name="mantenimiento_controles_atendidos">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Vincula una intervención de mantenimiento con cada plan de control atendido.]]></commentInRDBMS>
+<generatorID>A7FC7B83-21CB-16A1-8810-185536BE3146</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="46863011-175F-5527-94B8-10C17B5C2126">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:39 UTC</createdTime>
+<generatorID>0ABF3297-7455-9FC3-182F-E49233FDD86D</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>CBE2BF8A-B26D-A5F3-A118-49C271C4937B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mantenimiento_id" id="E5F2F4FE-1D78-FE19-78E4-A54A700A6F22">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:39 UTC</createdTime>
+<generatorID>37FC17CD-9E3E-04C0-1692-FC36CFA687B5</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<referedAttribute>A8343D79-3240-FD6E-B9CB-F36CEC895D23</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plancontrol_id" id="B1FD8A66-2C95-023D-5AFD-BB6C9172878F">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:39 UTC</createdTime>
+<generatorID>71BAB391-834B-C7CC-98A8-926173927358</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<referedAttribute>70214BCD-C473-8E28-79CF-A70444B83B45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>19</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96D2EB8C-69CE-6206-F8DD-34C5C6192844" name="pk_mant_control_atendido">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:39 UTC</createdTime>
+<generatorID>D97E387C-6BE2-514F-5B2F-368A1BDADCAB</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>46863011-175F-5527-94B8-10C17B5C2126</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BEC060E2-C386-107D-FF00-3B84C49142CD" name="uq_mant_control_atendido">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:39 UTC</createdTime>
+<generatorID>0E201CA7-E3EE-14AA-D650-2F16792AEBEA</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>E5F2F4FE-1D78-FE19-78E4-A54A700A6F22</attributeRef>
+<attributeRef>B1FD8A66-2C95-023D-5AFD-BB6C9172878F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_prest_det_stock_propuesto" directorySegmentName="seg_1" id="DBBC73AE-9B00-AE49-7FBE-60346086F2D4">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:39 UTC</createdTime>
+<generatorID>4CDBF4C7-A61B-AC89-04B6-6479DB104267</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>0FA9CD65-AA3F-5ACB-3E0D-AC3894209B85</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6A895D8B-3E24-9C66-8FDE-90759D7B76F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>947A9C4B-EABE-50CA-F0B5-B56376D77248</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

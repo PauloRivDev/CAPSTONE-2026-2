@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_sol_prest_cancelada" directorySegmentName="seg_1" id="D3F24F31-4EC9-D3B5-CF5D-89175E10DD9D">
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:40 UTC</createdTime>
+<generatorID>9B7B7B34-FE1F-CD43-2DB9-3BEE082B70C7</generatorID>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<engineerTo>
+<item key="C407DDED-AE0D-5589-40A6-2D9B8DEF4F09" value="true"/>
+</engineerTo>
+<sourcePk>B5B61194-35A5-8F90-1A4E-FA6DC54453B0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>15812F42-144A-6944-2E5F-CB93A45692BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DE70B6AC-A488-176B-3DCC-5192F73DF559</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

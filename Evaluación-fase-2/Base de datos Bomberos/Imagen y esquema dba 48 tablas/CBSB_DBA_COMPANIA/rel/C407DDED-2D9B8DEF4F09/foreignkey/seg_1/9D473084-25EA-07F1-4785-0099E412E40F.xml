@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="9D473084-25EA-07F1-4785-0099E412E40F" containerWithKeyObject="5B1F0899-B9C9-0EDA-B322-D4E152253504" localFKIndex="5D2D7A33-648C-C1A9-30DB-9E2387B5C73B" name="fk_prest_det_ubic_propuesta">
+<sourceDDLFile>CBSB_actual.sql</sourceDDLFile>
+<createdBy>mauri</createdBy>
+<createdTime>2026-11-15 18:36:06 UTC</createdTime>
+<ownerDesignName>CBSB_DBA_COMPANIA</ownerDesignName>
+<importedID>DD776F42-3F5F-628C-ECF5-297E8CE733CA</importedID>
+<referredTableLongName>ubicacion</referredTableLongName>
+<deleteRule>SET NULL</deleteRule>
+<referredTableID>F511FA0C-DCD7-7B3F-A066-E56A25EC7313</referredTableID>
+<keyObject>707F83C9-FAEE-F453-EB43-8E68647BCE5D</keyObject>
+<referredKeyID>707F83C9-FAEE-F453-EB43-8E68647BCE5D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
